@@ -1,0 +1,83 @@
+$cor-destaque: #fff;
+$cor-destaque-hover: #222;
+.box{
+    min-height: 100%;     
+    width: 100%;
+    height:100%; 
+    margin: auto;
+    display:table;    
+    background-color: #3393A1;
+    div{
+        //background: red!important;
+        min-height: 100%;     
+        width: 100%;
+        height:100%; 
+        vertical-align:middle;
+        display:table-cell; 
+    }
+    h1 {
+        margin-top: -70px;
+        text-align: left;                
+        color: $cor-destaque;
+        font-weight: 600;
+        font-size: 1.8em;        
+        padding: 1.8em;
+        line-height: 1.5em;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+        span{
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+        }
+    }
+}
+.button-skip{
+    z-index:100;
+    color: $cor-destaque!important;
+    font-size: 0.9em;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    bottom: 40px;
+    &:hover{
+        color: $cor-destaque-hover!important;
+    }
+}
+.swiper-container-horizontal > .swiper-pagination {
+    bottom: 50px;
+}
+.swiper-pagination-bullet-active {
+    background-color: $cor-destaque;
+}
+.first:before{   
+    content: " "; 
+    position: absolute;
+    background-image: url(../assets/images/bg_splash_party.jpg);
+    left: 0;
+    top: 0;
+    opacity: .10;
+    height:100%;  
+    width: 100%;  
+}
+
+.second:before{
+    content: " "; 
+    position: absolute;
+    background-image: url(../assets/images/bg_splash_party_2.jpg);
+    left: 0;
+    top: 0;
+    opacity: .10;
+    height:100%;  
+    width: 100%;     
+}
+
+.third:before{
+    content: " "; 
+    position: absolute;
+    background-image: url(../assets/images/bg_splash_land.jpg);
+    left: 0;
+    top: 0;
+    opacity: .10;
+    height:100%;  
+    width: 100%;   
+}

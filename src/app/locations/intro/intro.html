@@ -1,0 +1,43 @@
+<ion-view view-title="intro">
+        <button class="button button-clear button-skip bottom-right" ng-click="introCtrl.startApp()">
+            SKIP
+        </button>  
+    <ion-slides options="introCtrl.options" pager="" slider="introCtrl.data.slider">  
+        <ion-slide-page class="box first">
+            <div>
+                <h1>
+                    <span>
+                        LATINCOUVER
+                    </span>
+                    HELPS YOU TO CONNECT AND GROW THROUGH CULTURE AND BUSINESS.
+                </h1>
+            </div>
+        </ion-slide-page>
+        <ion-slide-page class="box second">
+            <div>
+                <h1>
+                    WE ARE THE SQUARE ONE FOR 100,000
+                    <span>
+                        LATIN AMERICANS
+                    </span>
+                    MAKING BRITISH COLUMBIA THEIR NEW HOME.
+                </h1>
+            </div>
+        </ion-slide-page>
+        <ion-slide-page class="box third">
+            <div>
+                <h1>
+                    REGARDLESS OF WHERE YOU ARE FROM,
+                    <span>
+                        LATINCOUVER
+                    </span>
+                    IS HERE TO HELP BRIDGE THE GAP.
+                </h1>
+            <button class="button button-full button-energized"  ng-click="introCtrl.startApp()">
+              Start the magic
+            </button>                  
+            </div>
+
+        </ion-slide-page>
+    </ion-slides>
+</ion-view>
