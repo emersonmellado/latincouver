@@ -1,11 +1,10 @@
-#Ionic Gulp boilerplate
-Ionic application boilerplate for Gulp and ES6
+#Latincouver App
+Version 0.1.3 of the app.
 
-![Ionic and Angular](http://moduscreate.com/wp-content/uploads/2014/01/ionic-angular-opti.png)
 
 ##Features
-* ES6 instead of ES5
-* SCSS instead of CSS
+* ES6
+* SCSS
 * Automatic compilation
 * Livereload
 * Development build with source maps
@@ -48,12 +47,17 @@ One more interesting feature Ionic has: Ionic View. It's amazing thing and I rec
 ionic upload
 ```
 
+Another option is to send package to Ionic
+```sh
+ionic package build android --profile dev
+```
+
 ##Directory layout
 
 ### Source
 
 ```sh
-angular-gulp-ionic-boilerplate
+latincouver
 └── src
     ├── app                  # application folder
     │   ├── components       # components folder
@@ -71,9 +75,6 @@ angular-gulp-ionic-boilerplate
 
 ##Build pack
 
-![Ionic](http://dndigital.net/wp-content/uploads/2015/03/ionic-logo-blog-767x355.png)
-![Angular](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/695px-AngularJS_logo.svg.png)
-![Gulp](https://avatars0.githubusercontent.com/u/6200624?v=3&s=400)
-![Babel](https://avatars0.githubusercontent.com/u/9637642?v=3&s=400)
-![SCSS](http://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg)
-
+## Stack
+* Ionic application boilerplate for Gulp and ES6
+![Ionic and Angular](http://moduscreate.com/wp-content/uploads/2014/01/ionic-angular-opti.png)
