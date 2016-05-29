@@ -1,50 +1,46 @@
 <ion-view view-title="main" class="no-padding">
-
-
-<ion-side-menus>
-  <ion-side-menu side="left">
-  <div class="list">
-    <div class="item item-divider">
-      Latincouver App
-    </div>
-    <a class="item">
-      Versão: v0.1.03
-    </a>
-  </div>    
-
-  </ion-side-menu>
-
-  <ion-side-menu-content>
-
-    <div class="bar bar-header bar-positive bar-positive-main">
-      <button class="button icon ion-navicon" ng-click="mainCtrl.toggleLeft()"></button>
-      <h1 class="title">
-        <img class="title-image title-image-main" align="center" src="assets/images/logo-white.png"/>
-      </h1>
-      <button class="button icon ion-ios-information-outline" ng-click="mainCtrl.toIntro()"></button>
-    </div>   
-    <ion-content class="content no-padding main-content">
-        <div class="list card">
-          <div ui-sref="event({eventName: 'Carnaval del Sol'})" class="item item-image no-padding grow">
-            <img src="assets/images/carnaval_delsol.png">
-          </div>
-          <div ui-sref="event({eventName: 'Expo Plaza Latina'})" class="item item-image no-padding grow">
-            <img src="assets/images/expoplaza_latina.png">
-          </div>
-          <div ui-sref="event({eventName: 'Carnaval del Sol'})" class="item item-image no-padding grow">
-            <img src="assets/images/carnaval_delsol.png">
-          </div>   
-          <div ui-sref="event({eventName: 'Latin Events BC'})" class="item item-image no-padding grow">
-            <img src="assets/images/latin_events_bc.png">
-          </div>   
-        </div>                      
-    </ion-content>
-
-  </ion-side-menu-content>
-
-  <!-- Right menu -->
-  <ion-side-menu side="right">
-  </ion-side-menu>
-
-</ion-side-menus>    
+    <ion-side-menus>
+        <ion-side-menu side="left">
+            <ion-content class="side-menu-list">
+                <div class="row item-header">
+                    <div class="col col-40">
+                        <img  class="title-image title-image-main" src="assets/images/logo-green.png" alt="">
+                    </div>
+                    <div class="col col-60">
+                        <h5 class="title">Latin Couver</h5>
+                        <h6 class="action-links">App | 2016</h6>
+                    </div>
+                </div>
+                <a href="#" ng-repeat="sm in mainCtrl.sideMenu" ui-sref={{sm.sref}} class="item item-list">{{sm.title}}</a>
+            </ion-content>
+        </ion-side-menu>
+        <ion-side-menu-content>
+            <div class="bar bar-header bar-positive bar-positive-main">
+                <button class="button icon ion-navicon" ng-click="mainCtrl.toggleLeft()"></button>
+                <h1 class="title">
+                  <img class="title-image title-image-main" align="center" src="assets/images/logo-white.png"/>
+                </h1>
+                <button class="button icon ion-ios-information-outline" ng-click="mainCtrl.toIntro()"></button>
+            </div>
+            <ion-content class="content no-padding main-content">
+                <div class="list card main-list">
+                    <div ui-sref="event({eventName: 'Carnaval del Sol'})">
+                        <img src="assets/images/carnaval_delsol.png">
+                    </div>
+                    <div ui-sref="event({eventName: 'Expo Plaza Latina'})">
+                        <img src="assets/images/expoplaza_latina.png">
+                    </div>
+                    <div ui-sref="event({eventName: 'Carnaval del Sol'})">
+                        <img src="assets/images/carnaval_delsol.png">
+                    </div>
+                    <div ui-sref="event({eventName: 'Latin Events BC'})">
+                        <img src="assets/images/latin_events_bc.png">
+                    </div>
+                </div>
+            </ion-content>
+        </ion-side-menu-content>
+        <!-- Right menu -->
+        <ion-side-menu side="right">
+        </ion-side-menu>
+    </ion-side-menus>
 </ion-view>

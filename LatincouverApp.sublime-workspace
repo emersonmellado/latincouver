@@ -124,10 +124,10 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Emerson/AppData/Roaming/Sublime Text 3/Packages/Terminal/Default (Windows).sublime-keymap",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 139,
+				"buffer_size": 1973,
 				"line_ending": "Unix"
 			}
 		}
@@ -215,10 +215,34 @@
 	},
 	"expanded_folders":
 	[
-		"/E/Projetos/VanHack/LatinCouver/Code"
+		"/E/Projetos/VanHack/LatinCouver/Code",
+		"/E/Projetos/VanHack/LatinCouver/Code/.tmp/partials",
+		"/E/Projetos/VanHack/LatinCouver/Code/.tmp/serve",
+		"/E/Projetos/VanHack/LatinCouver/Code/gulp",
+		"/E/Projetos/VanHack/LatinCouver/Code/src",
+		"/E/Projetos/VanHack/LatinCouver/Code/src/app",
+		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/main"
 	],
 	"file_history":
 	[
+		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/main/main.html",
+		"/E/Projetos/VanHack/LatinCouver/Code/src/app/index.scss",
+		"/E/Projetos/VanHack/VHP/src/app/index.scss",
+		"/E/Projetos/VanHack/LatinCouver/Code/www/index.html",
+		"/E/Projetos/VanHack/LatinCouver/Code/ionic.project",
+		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/intro/intro.html",
+		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/event/event.html",
+		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/intro/intro.controller.js",
+		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/main/main.controller.js",
+		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/splash/splash.controller.js",
+		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/main/main.scss",
+		"/E/Projetos/VanHack/LatinCouver/Code/src/app/index.run.js",
+		"/E/Projetos/VanHack/LatinCouver/Code/gulp/build.js",
+		"/E/Projetos/VanHack/LatinCouver/Code/src/index.html",
+		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/event/event.controller.js",
+		"/E/Projetos/VanHack/LatinCouver/Code/src/app/index.route.js",
+		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/event/event.scss",
+		"/C/Users/Emerson/AppData/Roaming/Sublime Text 3/Packages/Terminal/Default (Windows).sublime-keymap",
 		"/C/Users/Emerson/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
 		"/C/Users/Emerson/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
 		"/C/Users/Emerson/AppData/Roaming/Sublime Text 3/Packages/User/Terminal (Windows).sublime-settings",
@@ -241,22 +265,11 @@
 		"/E/Projetos/emersonmellado.com/Palestras/Flisol/presentation/master/index.html",
 		"/E/Projetos/emersonmellado.com/Palestras/Flisol/presentation/master/Gruntfile.js",
 		"/E/Projetos/emersonmellado.com/Palestras/Flisol/presentation/master/package.json",
-		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/intro/intro.html",
-		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/intro/intro.controller.js",
-		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/main/main.controller.js",
-		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/splash/splash.controller.js",
-		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/main/main.html",
-		"/E/Projetos/VanHack/LatinCouver/Code/ionic.project",
 		"/E/Projetos/VanHack/LatinCouver/Code/.io-config.json",
 		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/splash/splash.html",
-		"/E/Projetos/VanHack/LatinCouver/Code/src/app/index.scss",
 		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/splash/splash.scss",
-		"/E/Projetos/VanHack/LatinCouver/Code/src/app/index.route.js",
 		"/E/Projetos/VanHack/LatinCouver/Code/src/app/index.module.js",
-		"/E/Projetos/VanHack/LatinCouver/Code/src/index.html",
-		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/main/main.scss",
 		"/E/Projetos/VanHack/LatinCouver/ExampleApp/tumblr/ionic-tumblr/ionic.tumblr.scss",
-		"/E/Projetos/VanHack/LatinCouver/Code/gulp/build.js",
 		"/E/Projetos/VanHack/LatinCouver/Code/bower.json",
 		"/E/Projetos/VanHack/LatinCouver/Code/.tmp/serve/index.html",
 		"/E/Projetos/VanHack/LatinCouver/Code/.tmp/serve/app/index.module.js",
@@ -282,9 +295,6 @@
 		"/E/Projetos/VanHack/LatinCouver/Code/gulp/server.js",
 		"/E/Projetos/VanHack/LatinCouver/Code/gulp/unit-tests.js",
 		"/E/Projetos/VanHack/LatinCouver/Code/gulp/watch.js",
-		"/E/Projetos/VanHack/LatinCouver/Code/www/index.html",
-		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/event/event.html",
-		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/event/event.controller.js",
 		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/browse/browse.scss",
 		"/E/Projetos/VanHack/LatinCouver/Code/src/app/locations/browse/browse.html",
 		"/E/Projetos/VanHack/LatinCouver/Code/bower_components/ionic/scss/ionicons/_ionicons-variables.scss",
@@ -342,21 +352,18 @@
 		"/E/Projetos/emersonmellado.com/laf/poc_angularfs/server/api/interest/index.js",
 		"/E/Projetos/emersonmellado.com/laf/poc_angularfs/server/api/interest/interest.controller.js",
 		"/E/Projetos/emersonmellado.com/laf/poc_angularfs/server/api/interest/interest.integration.js",
-		"/C/Users/Emerson/AppData/Roaming/Sublime Text 3/Packages/CodeFormatter/README.md",
-		"/C/Users/Emerson/AppData/Roaming/Sublime Text 3/Packages/CodeFormatter/CodeFormatter.sublime-settings",
-		"/E/Projetos/emersonmellado.com/laf/poc_angularfs/client/app/interests/interests.directive.spec.js",
-		"/E/Projetos/emersonmellado.com/laf/poc_angularfs/client/app/interests/interests.directive.js",
-		"/C/Users/Emerson/AppData/Roaming/Sublime Text 3/Packages/ArcticTypescript/CHANGES.txt"
+		"/C/Users/Emerson/AppData/Roaming/Sublime Text 3/Packages/CodeFormatter/README.md"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
 		"height": 160.0,
 		"where_history":
 		[
+			"E:\\Projetos\\UV\\KMC-SocialHub\\Sprint_2",
 			"E:\\Projetos\\VanHack\\LatinCouver\\Code\\",
 			"E:\\Projetos\\VanHack\\LatinCouver\\Code\\src",
 			"E:\\Projetos\\VanHack\\LatinCouver\\Code",
@@ -381,6 +388,13 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"bg-gradient",
+			"AppInitializer",
+			"useref",
+			"index-",
+			"\"index-\"",
+			"index",
+			">\n",
 			"data",
 			"content",
 			"eu",
@@ -501,14 +515,7 @@
 			"User",
 			"createCollection",
 			"collection",
-			"Pickup",
-			"User",
-			"bower:css",
-			"escola",
-			"estado",
-			"white",
-			"blog",
-			"font-size"
+			"Pickup"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -546,24 +553,26 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Emerson/AppData/Roaming/Sublime Text 3/Packages/Terminal/Default (Windows).sublime-keymap",
+					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 139,
+						"buffer_size": 1973,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								237,
+								237
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -668,7 +677,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 251.0,
+	"side_bar_width": 245.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
