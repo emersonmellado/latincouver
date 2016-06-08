@@ -5,7 +5,7 @@ function routerConfig ($stateProvider, $urlRouterProvider) {
     .state('intro', {
       url: '/intro',
       views: {
-        main: {
+        home: {
           templateUrl: 'app/locations/intro/intro.html',
           controller: 'IntroController as introCtrl'
         }
@@ -14,30 +14,12 @@ function routerConfig ($stateProvider, $urlRouterProvider) {
     .state('splash', {
       url: '/splash',
       views: {
-        main: {
+        home: {
           templateUrl: 'app/locations/splash/splash.html',
           controller: 'SplashController as splCtrl'
         }
       }
-    })  
-    .state('main', {
-      url: '/main',
-      views: {
-        main: {
-          templateUrl: 'app/locations/main/main.html',
-          controller: 'MainController as mainCtrl'
-        }
-      }
-    })
-    .state('event', {
-      url: '/event/:eventName',
-      views: {
-        main: {
-          templateUrl: 'app/locations/event/event.html',
-          controller: 'EventController as eventCtrl'
-        }
-      }
-    })    
+    }) 
     .state('help', {
       url: '/help',
       views: {
@@ -46,7 +28,44 @@ function routerConfig ($stateProvider, $urlRouterProvider) {
           controller: 'HelpController as helpCtrl'
         }
       }
-    });
+    })     
+    .state('home', {
+      url: '/home',
+      views: {
+        home: {
+          templateUrl: 'app/locations/home/home.html',
+          controller: 'HomeController as homeCtrl'
+        }
+      }
+    })
+    .state('event', {
+      url: '/event/:eventName',
+      views: {
+        home: {
+          templateUrl: 'app/locations/event/event.html',
+          controller: 'EventController as eventCtrl'
+        }
+      }
+    })
+    .state('mainStage', {
+      url: '/mainstage',
+      views: {
+        home: {
+          templateUrl: 'app/locations/mainstage/mainstage.html',
+          controller: 'MainstageController as mainstageCtrl'
+        }
+      }
+    })
+    .state('mainStage.detail', {
+      url: '/detail/:id',
+      views: {
+        mainstage: {
+          templateUrl: 'app/locations/mainstage/detail.html'
+        }
+      }
+    });     
+
+    
 
   $urlRouterProvider.otherwise('/splash');
 }

@@ -6,27 +6,45 @@ i.icon.icon-button-event::before {
     font-size: 60px;
 }
 
-.event-buttons-page{
+.event-buttons-page {
     padding: 0px;
     //background: green!important;
 }
-.event-button{
+
+.event-header-button {
+    padding: 0;
+    height: 60px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 20px;
+    font-weight: 700;
+    &:hover {
+        color: #A5A5A5;
+        background: $bg-app;
+    }
+}
+
+.event-button {
     padding: 30;
     height: 165px;
     margin: 0;
     color: #A5A5A5;
     text-align: center;
     line-height: 2.5em;
-    font-size: 20px;  
+    font-size: 20px;
     font-weight: 700;
-    &:hover{
+    &:hover {
         color: #fff;
         background: $bg-app;
-    }       
+    }
 }
-.odd{
+
+.odd {
     background: #D0D0D0;
 }
-.even{
+
+.even {
     background: #D7D7D7;
-}   
+}

@@ -1,20 +1,30 @@
 .grow:hover {
-  -webkit-box-shadow: 1px 1px 7px rgba(0,0,0,0.9);
-  box-shadow: 1px 1px 7px rgba(0,0,0,0.9);
-  -webkit-transform: scale(1.05,1.05);
-  -moz-transform: scale(1.05,1.05);
-  -o-transform: scale(1.05,1.05);
-  -ms-transform: scale(1.05,1.05);
-  transform: scale(1.05,1.05);
+    -webkit-box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.9);
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.9);
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
 }
 
 .main-list {
     margin-top: 50px;
+    .main-bigger {
+        height: 25%;
+    }
     div {
+        h2 {
+            color: #000;
+            margin: 0 auto;
+            font-size: 30px;
+            text-align: center;
+            text-shadow: 1px 1px black;
+        }
         @extend .item;
         @extend .item-image;
         @extend .no-padding;
-        @extend .grow;
+        //@extend .grow;
         img {
             height: 20%;
             object-fit: cover;

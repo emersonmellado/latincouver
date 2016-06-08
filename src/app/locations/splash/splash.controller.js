@@ -12,7 +12,7 @@ class SplashController {
         showDelay: 0
     });
     if (window.localStorage.didTutorial === "true") {
-        this.$state.go('main');
+        this.$state.go('home');
         $ionicLoading.hide();
     } else {
         this.$state.go('intro');
