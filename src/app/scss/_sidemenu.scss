@@ -2,7 +2,7 @@
     background: $bg-app;
     .item-header {
         background: white;
-        color: $bg-app;
+        color: $primaryDark;
         padding: 10px 10px;
         margin: 0px 0;
         .title{
@@ -14,16 +14,19 @@
             text-align: right;
         }
     }
+    .item-note{
+        color: $accent;
+    }
     img{
         width: 70px;
         height: 70px;
     }
     a {
         border: 1px #f5f5f5 solid;
-        background: $bg-app;
-        color: $bg-app-inverse;
+        background: $primaryLight;
+        color: #fff;
         &:hover {
-            background: lighten($bg-app, 20%);
+            background: lighten($primaryDark, 20%);
             //color: darken($bg-app-inverse, 20%);
         }
     }

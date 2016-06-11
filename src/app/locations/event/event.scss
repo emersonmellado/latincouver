@@ -21,8 +21,8 @@ i.icon.icon-button-event::before {
     font-size: 20px;
     font-weight: 700;
     &:hover {
-        color: #A5A5A5;
-        background: $bg-app;
+        color: $accent;
+        background: $primaryLight;
     }
 }
 
@@ -37,7 +37,7 @@ i.icon.icon-button-event::before {
     font-weight: 700;
     &:hover {
         color: #fff;
-        background: $bg-app;
+        background: $primaryLight;
     }
 }
 
@@ -46,5 +46,5 @@ i.icon.icon-button-event::before {
 }
 
 .even {
-    background: #D7D7D7;
+    background: #D9D9D9;
 }

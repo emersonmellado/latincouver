@@ -19,15 +19,6 @@ function routerConfig ($stateProvider, $urlRouterProvider) {
           controller: 'SplashController as splCtrl'
         }
       }
-    }) 
-    .state('help', {
-      url: '/help',
-      views: {
-        help: {
-          templateUrl: 'app/locations/help/help.html',
-          controller: 'HelpController as helpCtrl'
-        }
-      }
     })     
     .state('home', {
       url: '/home',
@@ -39,11 +30,11 @@ function routerConfig ($stateProvider, $urlRouterProvider) {
       }
     })
     .state('event', {
-      url: '/event/:eventName',
+      url: '/event',
       views: {
         home: {
           templateUrl: 'app/locations/event/event.html',
-          controller: 'EventController as eventCtrl'
+          controller: 'EventController as event'
         }
       }
     })

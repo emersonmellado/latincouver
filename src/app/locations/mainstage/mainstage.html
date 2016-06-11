@@ -1,6 +1,6 @@
 <ion-view class="no-padding" hide-nav-bar="true" view-title="Events">
     <div class="bar bar-header bar-positive">
-        <button ui-sref="home" class="button icon ion-android-arrow-back">
+        <button ui-sref="event" class="button icon ion-android-arrow-back">
         </button>
         <h1 class="title">
             CARNAVAL DEL SOL
@@ -21,7 +21,10 @@
                     Carnaval de Sol is the biggest Latin festival in the Pacific Northwest. It will be 2 days of live music, art, dance, sports, and poetry in celebration of Latin American Culture. For 2016, Carnaval del Sol will bring together more than 350 artists from different Latin American countries.
                 </p>
             </div>
-            <div class="row">
+            <div class="row" ng-repeat="artist in mainstageCtrl.artists">
+                    {{artist.name}}
+            </div>
+<!--             <div class="row">
                 <a href="#" ui-sref=".detail({id: 1})">
                     <h2>Entangados</h2>
                 </a>
@@ -31,7 +34,7 @@
             </div>
             <div class="row">
                 <h2>Paul Bray Drumming Workshop </h2>
-            </div>
+            </div> -->
         </div>
         <div ui-view="mainstage"></div>
     </ion-content>

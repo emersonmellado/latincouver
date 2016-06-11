@@ -1,117 +1,176 @@
 <ion-view class="no-padding" hide-nav-bar="true" view-title="Events">
-    <div class="bar bar-header bar-positive">
-        <button ui-sref="home" class="button icon ion-android-arrow-back">
-        </button>
-        <h1 class="title">
-            <!-- CARNAVAL DEL SOL -->
-            {{$stateParams.eventName}}
-        </h1>
-    </div>
-    <ion-content class="has-header content no-padding" overflow-scroll="false">
-        <div class="button-bar">
-            <div class="button col col-33 event-header-button">
-                <div>
-                    EAT
+    <ion-side-menus>
+        <ion-side-menu side="left">
+            <ion-content class="side-menu-list">
+                <div class="row item-header">
+                    <div class="col col-40">
+                        <img class="title-image title-image-main" src="assets/images/logo-green.png" alt="">
+                    </div>
+                    <div class="col col-60">
+                        <h5 class="title">Latin Couver</h5>
+                        <h6 class="action-links">App | 2016</h6>
+                    </div>
                 </div>
+                <div class="list">
+                    <div class="item item-divider">
+                        Event data
+                    </div>
+                    <a ui-sref="mainStage" class="item item-list item-icon-left">
+                        <i class="icon ion-heart"></i> Main Stage
+                    </a>
+                    <a ui-sref="plazas" class="item item-list item-icon-left">
+                        <i class="icon ion-beer"></i> Plazas
+                    </a>
+                    <a ui-sref="vendors" class="item item-list item-icon-left">
+                        <i class="icon ion-pricetags"></i> Vendors
+                    </a>
+                    <a ui-sref="map" class="item item-list item-icon-left">
+                        <i class="icon ion-ios-location-outline"></i> Map
+                    </a>
+                    <a ui-sref="faq" class="item item-list item-icon-left">
+                        <i class="icon ion-ios-checkmark-outline"></i> FAQ
+                    </a>
+                    <a ui-sref="contest" class="item item-list item-icon-left">
+                        <i class="icon ion-happy-outline"></i> Contest
+                    </a>
+                    <div class="item item-divider">
+                        Community
+                    </div>
+                    <a ui-sref="donate" class="item item-list item-icon-left">
+                        <i class="icon ion-cash"></i> Donate
+                    </a>
+                    <a ui-sref="media" class="item item-list item-icon-left">
+                        <i class="icon ion-pound"></i> Media
+                        <span class="item-note">#shinetogether</span>
+                    </a>
+                    <a ui-sref="sponsors" class="item item-list item-icon-left">
+                        <i class="icon ion-android-contacts "></i> Sponsors and Partners
+                    </a>
+                    <a ui-sref="home" ng-click="event.toggleLeft()" " class="item item-list item-icon-left ">
+                    <i class="icon ion-arrow-return-right "></i> Latin Couver Main Menu
+                </a>  
+                </div>                              
+            </ion-content>
+        </ion-side-menu>
+        <ion-side-menu-content>
+            <div class="bar bar-header bar-positive ">
+                <button class="button icon ion-navicon " ng-click="event.toggleLeft() "></button>
+                <h1 class="title ">
+                  <img class="title-image title-image-main " align="center " src="assets/images/logo-white.png "/>
+                </h1>
             </div>
-            <div class="button col col-33 event-header-button">
-                <div>
-                    PLAY
-                </div>
+            <div class="bar bar-subheader bar-positive ">
+                <h2 class="title ">
+                    CARNAVAL DEL SOL            
+                </h2>
             </div>
-            <div class="button col col-33 event-header-button">
-                <div>
-                    LIVE
+            <ion-content class="has-subheader content " overflow-scroll="false ">
+                <div class="button-bar ">
+                    <div class="button col col-33 event-header-button ">
+                        <div>                            
+                            EAT
+                        </div>
+                    </div>
+                    <div class="button col col-33 event-header-button ">
+                        <div>
+                            PLAY
+                        </div>
+                    </div>
+                    <div class="button col col-33 event-header-button ">
+                        <div>
+                            LIVE
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="item event-buttons-page">
-            <div class="item item-body">
-                <!-- <img class="full-image" src="assets/images/carnaval_delsol.png"/> -->
-                <p>
-                    Carnaval de Sol is the biggest Latin festival in the Pacific Northwest. It will be 2 days of live music, art, dance, sports, and poetry in celebration of Latin American Culture. For 2016, Carnaval del Sol will bring together more than 350 artists from different Latin American countries.
-                </p>
-            </div>
-            <div class="row">
-                <div class="button col col-50 event-button odd">
-                    <div>
-                        <i class="icon ion-ios-cart-outline icon-button-event">
+                <div class="item event-buttons-page ">
+                    <div class="item item-body ">
+                        <!-- <img class="full-image" src="assets/images/carnaval_delsol.png "/> -->
+                        <p>
+                            Carnaval de Sol is the biggest Latin festival in the Pacific Northwest. It will be 2 days of live music, art, dance, sports, and poetry in celebration of Latin American Culture. For 2016, Carnaval del Sol will bring together more than 350 artists from different Latin American countries.
+                        </p>
+                    </div>
+                    <div class="row ">
+                        <div class="button col col-50 event-button odd ">
+                            <div>
+                                <i class="icon ion-ios-cart-outline icon-button-event ">
                         </i>
-                    </div>
-                    <div>
-                        TICKETS
-                    </div>
-                </div>
-                <div class="button col col-50 event-button even">
-                    <div>
-                        <i class="icon ion-ios-list-outline icon-button-event">
+                            </div>
+                            <div>
+                                TICKETS
+                            </div>
+                        </div>
+                        <div class="button col col-50 event-button even ">
+                            <div>
+                                <i class="icon ion-ios-list-outline icon-button-event ">
                         </i>
+                            </div>
+                            <div>
+                                SCHEDULE
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        SCHEDULE
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="button col col-50  event-button even">
-                    <div>
-                        <i class="icon ion-social-buffer-outline icon-button-event">
+                    <div class="row ">
+                        <div class="button col col-50 event-button even ">
+                            <div>
+                                <i class="icon ion-social-buffer-outline icon-button-event ">
                         </i>
-                    </div>
-                    <div>
-                        SOCIAL
-                    </div>
-                </div>
-                <div class="button col col-50 event-button odd">
-                    <div>
-                        <i class="icon ion-ios-paperplane-outline icon-button-event">
+                            </div>
+                            <div>
+                                SOCIAL
+                            </div>
+                        </div>
+                        <div class="button col col-50 event-button odd ">
+                            <div>
+                                <i class="icon ion-ios-paperplane-outline icon-button-event ">
                         </i>
+                            </div>
+                            <div>
+                                VENUES
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        VENUES
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="button col col-50 event-button odd">
-                    <div>
-                        <i class="icon ion-ios-cart-outline icon-button-event">
+                    <div class="row ">
+                        <div class="button col col-50 event-button odd ">
+                            <div>
+                                <i class="icon ion-ios-cart-outline icon-button-event ">
                         </i>
-                    </div>
-                    <div>
-                        PHOTO BOOK
-                    </div>
-                </div>
-                <div class="button col col-50 event-button even">
-                    <div>
-                        <i class="icon ion-ios-list-outline icon-button-event">
+                            </div>
+                            <div>
+                                PHOTO BOOK
+                            </div>
+                        </div>
+                        <div class="button col col-50 event-button even ">
+                            <div>
+                                <i class="icon ion-ios-list-outline icon-button-event ">
                         </i>
+                            </div>
+                            <div>
+                                SPONSOR
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        SPONSOR
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="button col col-50 event-button even">
-                    <div>
-                        <i class="icon ion-ios-cart-outline icon-button-event">
+                    <div class="row ">
+                        <div class="button col col-50 event-button even ">
+                            <div>
+                                <i class="icon ion-ios-cart-outline icon-button-event ">
                         </i>
-                    </div>
-                    <div>
-                        INFO
-                    </div>
-                </div>
-                <div class="button col col-50 event-button odd">
-                    <div>
-                        <i class="icon ion-android-pin icon-button-event">
+                            </div>
+                            <div>
+                                INFO
+                            </div>
+                        </div>
+                        <div class="button col col-50 event-button odd ">
+                            <div>
+                                <i class="icon ion-android-pin icon-button-event ">
                         </i>
-                    </div>
-                    <div>
-                        MAPS
+                            </div>
+                            <div>
+                                MAPS
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </ion-content>
+            </ion-content>
+        </ion-side-menu-content>
+    </ion-side-menus>
 </ion-view>

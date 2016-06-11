@@ -3,13 +3,19 @@
 // bower:scss
 // endbower
 
-$bg-app:                           #3393A1 !default;
-$bg-app-inverse:                    #FFF;
+$bg-app:                          #4f97a1 !default;
+$bg-app-inverse:                  #FFF;
 
-$positive:                        #3393A1 !default;
+$primaryLight:                    #7DBCC5;
+$primaryMid:                      #4f97a1;
+$primaryDark:                     #1A6D79;
+
+$accent:                          #FF5722;
+
+$positive:                        #4f97a1 !default;
 $button-font-size:                30px    !default;
-$start-colour:#fff;
-$end-colour:#000;
+$start-colour:                    #fff;
+$end-colour:                      #000;
 
 // Include all of Ionic
 @import "../../bower_components/ionic/scss/ionic.scss";
@@ -21,11 +27,11 @@ html, body {
 }
 .content{
     //background: $bg-app!important;
-        //border-color: $bg-app!important;  
-        @include bg-gradient-t2b($bg-app, lighten($bg-app, 30%));       
+    //border-color: $bg-app!important;  
+    @include bg-gradient-t2b($primaryDark, $primaryLight);       
 }
 .tabs-positive, .tab-nav, .tabs{
-    border-color: $bg-app!important;
+    border-color: $primaryMid!important;
 }
 .no-padding {
     padding: 0px !important;

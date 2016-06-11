@@ -1,14 +1,9 @@
 class IntroController {
-    //constructor($scope, $state, $ionicSlideBoxDelegate) {
     constructor($state) {
         this.$state = $state;
         if (window.localStorage.didTutorial === "true") {
             console.log('Skip intro');
             this.startApp();
-        // } else {
-        //     setTimeout(function() {
-        //         navigator.splashscreen.hide();
-        //     }, 750);
         }
     }
     toIntro() {
@@ -17,7 +12,7 @@ class IntroController {
         this.$state.go('intro');
     }
     startApp() {
-        this.$state.go('main');
+        this.$state.go('home');
         window.localStorage.didTutorial = true;
     }
 }

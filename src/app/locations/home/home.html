@@ -1,50 +1,26 @@
 <ion-view view-title="main" class="no-padding">
-    <ion-side-menus>
-        <ion-side-menu side="left">
-            <ion-content class="side-menu-list">
-                <div class="row item-header">
-                    <div class="col col-40">
-                        <img class="title-image title-image-main" src="assets/images/logo-green.png" alt="">
-                    </div>
-                    <div class="col col-60">
-                        <h5 class="title">Latin Couver</h5>
-                        <h6 class="action-links">App | 2016</h6>
-                    </div>
-                </div>
-                <a href="#" ng-repeat="sm in homeCtrl.sideMenu" ui-sref={{sm.sref}} class="item item-list item-icon-left">
-                    <i class="icon {{sm.icon}}"></i> {{sm.title}}
-                    <span class="item-note">
-                         {{sm.subtitle}}
-                    </span>
-                </a>
-            </ion-content>
-        </ion-side-menu>
-        <ion-side-menu-content>
-            <div class="bar bar-header bar-positive bar-positive-main">
-                <button class="button icon ion-navicon" ng-click="homeCtrl.toggleLeft()"></button>
-                <h1 class="title">
-                  <img class="title-image title-image-main" align="center" src="assets/images/logo-white.png"/>
-                </h1>
+    <div class="bar bar-header bar-positive bar-positive-main">
+        <h1 class="title">
+          <img class="title-image title-image-main" align="center" src="assets/images/logo-white.png"/>
+        </h1>
+    </div>
+    <ion-content class="content no-padding main-content">
+        <div class="list card main-list">
+            <div ui-sref="event" class="button main-bigger">
+                <h2>Carnaval del Sol</h2>
             </div>
-            <ion-content class="content no-padding main-content">
-                <div class="list card main-list">
-                    <div ui-sref="event({eventName: 'Latin America Week'})" class="button main-bigger">
-                        <h2>Latin America Week</h2>
-                    </div>
-                    <div ui-sref="event({eventName: 'Carnaval del Sol'})" class="button main-bigger">
-                        <h2>Carnaval del Sol</h2>
-                    </div>
-                    <div class="button item" href="#" onclick="window.open('http://www.google.com', '_system', 'location=yes'); return false;">
-                        <h2>ExpoPlaza Latina</h2>
-                    </div>
-                    <div class="button item" href="#" onclick="window.open('http://www.google.com', '_system', 'location=yes'); return false;">
-                        <h2>LCPN</h2>
-                    </div>
-                    <div class="button item" href="#" onclick="window.open('http://www.google.com', '_system', 'location=yes'); return false;">
-                        <h2>Latin Events in BC</h2>
-                    </div>
-                </div>
-            </ion-content>
-        </ion-side-menu-content>
-    </ion-side-menus>
+            <div class="button main-bigger" href="#" onclick="window.open('http://www.latincouver.ca', '_system', 'location=yes'); return false;">
+                <h2>Latin America Week</h2>
+            </div>
+            <div class="button item" href="#" onclick="window.open('http://www.latincouver.ca', '_system', 'location=yes'); return false;">
+                <h2>ExpoPlaza Latina</h2>
+            </div>
+            <div class="button item" href="#" onclick="window.open('http://www.latincouver.ca', '_system', 'location=yes'); return false;">
+                <h2>LCPN</h2>
+            </div>
+            <div class="button item" href="#" onclick="window.open('http://www.latincouver.ca', '_system', 'location=yes'); return false;">
+                <h2>Latin Events in BC</h2>
+            </div>
+        </div>
+    </ion-content>
 </ion-view>
