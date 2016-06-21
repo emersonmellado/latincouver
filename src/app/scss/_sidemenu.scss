@@ -1,5 +1,5 @@
 .side-menu-list {
-    background: $bg-app;
+    //background: $bg-app;
     .item-header {
         background: white;
         color: $primaryDark;
@@ -18,16 +18,15 @@
         color: $accent;
     }
     img{
-        width: 70px;
-        height: 70px;
+        width: 90%;
     }
     a {
+        text-transform: uppercase;
         border: 1px #f5f5f5 solid;
-        background: $primaryLight;
-        color: #fff;
+        //background: $primaryLight;
+        color: #6d7278;
         &:hover {
             background: lighten($primaryDark, 20%);
-            //color: darken($bg-app-inverse, 20%);
         }
     }
 }

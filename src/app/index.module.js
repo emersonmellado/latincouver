@@ -12,7 +12,7 @@ import HelpController from './locations/help/help.controller';
 import EventController from './locations/event/event.controller';
 import MainstageController from './locations/mainstage/mainstage.controller';
 
-angular.module('latincouver', ['ionic', 'ui.router'])
+angular.module('latincouver', ['ionic', 'ui.router', 'webicon'])
   .config(config)
 
   .config(routerConfig)

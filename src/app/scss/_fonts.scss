@@ -1,0 +1,29 @@
+@font-face {
+ font-family: "AvenirNext";
+ src:url("#{$ionicons-font-path}/AvenirNext-Regular.ttf") format("truetype");
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: "AvenirNext-mid";
+ src:url("#{$ionicons-font-path}/AvenirNext-Medium.ttf") format("truetype");
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: "AvenirNext-bold";
+ src:url("#{$ionicons-font-path}/AvenirNext-Bold.ttf") format("truetype");
+ font-weight: normal;
+ font-style: normal;
+}
+
+
+.mid{
+    font-family: "AvenirNext-mid"!important;
+}
+
+.bold{
+    font-family: "AvenirNext-bold"!important;
+}

@@ -3,39 +3,33 @@
 // bower:scss
 // endbower
 
-$bg-app:                          #4f97a1 !default;
-$bg-app-inverse:                  #FFF;
-
-$primaryLight:                    #7DBCC5;
-$primaryMid:                      #4f97a1;
-$primaryDark:                     #1A6D79;
-
-$accent:                          #FF5722;
-
-$positive:                        #4f97a1 !default;
-$button-font-size:                30px    !default;
-$start-colour:                    #fff;
-$end-colour:                      #000;
+@import "scss/_variables";
 
 // Include all of Ionic
 @import "../../bower_components/ionic/scss/ionic.scss";
 @import "scss/_mixins.scss";
+@import "scss/_fonts.scss";
 
-html, body {
+*{ font-family: "AvenirNext"!important; }
+html, body {    
     height: 100%;
     margin: 0;
 }
-.content{
-    //background: $bg-app!important;
-    //border-color: $bg-app!important;  
-    @include bg-gradient-t2b($primaryDark, $primaryLight);       
+.content{    
+    background: $primaryMid;
 }
-.tabs-positive, .tab-nav, .tabs{
-    border-color: $primaryMid!important;
+.bar.bar-positive{
+    border: 0px;
 }
 .no-padding {
     padding: 0px !important;
 }
+
+
+.tabs-positive, .tab-nav, .tabs{
+    border-color: $primaryMid!important;
+}
+
 
 /* Do not remove this comments bellow. It's the markers used by gulp-inject to inject
    all your sass files automatically */

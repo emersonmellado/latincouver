@@ -1,0 +1,179 @@
+
+.title-image-menu {
+    //height: 100%;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+}
+.event-buttons-page {
+    padding: 0px;
+}
+
+.event-active {
+    border-bottom: 6px $primaryLight solid!important;
+}
+
+.button-bar {
+    height: 45px;
+}
+
+.event-header-button {
+    padding: 0;
+    margin: 0;
+    color: $primaryMid;
+    text-align: center;
+    background: #fff;
+    &:hover {
+        color: $primaryMid;
+        border-bottom: 6px $primaryLight solid!important;
+    }
+    div {
+        @extend .mid;
+        font-size: 16px;
+        vertical-align: middle;
+        //BugFix for the i
+        .button .icon:before,
+        .button.icon:before,
+        .button.icon-left:before,
+        .button.icon-right:before {
+            margin-top: -5px!important;
+        }
+        img {
+            margin-top: -5px!important;
+            height: 20px;
+            vertical-align: middle;
+        }
+    }
+}
+
+.event-slides {
+    height: 250px!important;
+}
+.event-navigation{
+    button{
+        z-index: 100; 
+        min-width: 30px;
+        padding: 0px;
+        margin: 0px;
+        position: absolute!important;
+        top: 120px!important;
+        background-color:rgba(0, 0, 0, 0.2);        
+        height: 30px;  
+        color: #fff;                             
+    }
+    .button-next {                
+        right: 0;              
+        &:hover {
+            color: #fff;
+        }                 
+    }
+
+    .button-prev {
+        left: 0; 
+        &:hover {
+            color: #fff;
+        }         
+    }       
+}
+.event-button {
+    padding: 30;
+    height: 165px;
+    margin: 0;
+    color: #A5A5A5;
+    text-align: center;
+    line-height: 2.5em;
+    font-size: 20px;
+    font-weight: 700;
+    &:hover {
+        color: #fff;
+        background: $primaryLight;
+    }
+}
+
+
+/* Slides*/
+
+$cor-destaque: #fff;
+$cor-destaque-hover: #222;
+.swiper-container {
+    top: 0px;
+    height: 250px;
+}
+
+.swiper-container-horizontal > .swiper-pagination {
+    bottom: 20px!important;
+}
+
+.swiper-pagination-bullet {
+    background-color: #fff;
+}
+
+.event-slide-box {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    img {
+        //margin-top: 60px;
+        object-fit: cover;
+        width: 100%;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+.button-next {
+    z-index: 100;
+    color: $cor-destaque!important;
+    font-size: 0.9em;
+    padding: 10px;
+    position: absolute;
+    vertical-align: middle;
+    right: 0;
+    margin: auto;
+    bottom: 40px;
+    &:hover {
+        color: $cor-destaque-hover!important;
+    }
+}
+
+
+/* List*/
+
+.event-list {
+    min-height: 350px;
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+    div {
+        padding: 0px;
+        margin: 0px;
+        div {
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+            div {
+                //position: absolute;
+                width: 100%;
+                height: 40px;
+                bottom: 0;
+                border: 0;
+                h5 {
+                    @extend .mid;
+                    color: #fff;
+                    padding: 13px 0 5px 20px;
+                    text-align: left;
+                    margin: 0px;
+                }
+            }
+            @extend .item;
+            @extend .item-image;
+            @extend .no-padding;
+        }
+    }
+    img {
+        object-fit: fill;
+        width: 100%;
+        text-align: center;
+        vertical-align: middle;
+    }
+}

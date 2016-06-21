@@ -2,13 +2,11 @@ class IntroController {
     constructor($state) {
         this.$state = $state;
         if (window.localStorage.didTutorial === "true") {
-            console.log('Skip intro');
             this.startApp();
         }
     }
     toIntro() {
         window.localStorage.didTutorial = "false";
-        console.log("intro");
         this.$state.go('intro');
     }
     startApp() {
