@@ -7,25 +7,7 @@
     -ms-transform: scale(1.01, 1.01);
     transform: scale(1.01, 1.01);
 }
-.title{
-    @extend .bold;
-}
-.icon-accent{
-    color: #fff;
-}
-.yellow{
-    @include bg-gradient-l2r(#f39b40, #ffd300);
-}
 
-.blue{
-    @include bg-gradient-l2r(#156893, #1aaccc);
-}
-.red{
-    @include bg-gradient-l2r(#93323a, #e74a59);
-}
-.green{
-    @include bg-gradient-l2r(#5f872e, #a9d168);
-}
 .main-list {
     margin-top: 50px;
     min-height: 200px;
@@ -67,14 +49,6 @@
             width: 100%;
             text-align: center;
             vertical-align: middle;
-        }
-    }
-}
-
-.side-menu-list {
-    a {
-        &:hover {
-            background: #f2f2f2;
         }
     }
 }

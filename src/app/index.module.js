@@ -10,20 +10,30 @@ import IntroController from './locations/intro/intro.controller';
 import HelpController from './locations/help/help.controller';
 
 import EventController from './locations/event/event.controller';
+import PlazasController from './locations/plazas/plazas.controller';
+import PlazaService from './locations/plazas/plazas.service';
+import EatController from './locations/event/eat.controller';
+import VendorsController from './locations/vendors/vendors.controller';
 import MainstageController from './locations/mainstage/mainstage.controller';
 
-angular.module('latincouver', ['ionic', 'ui.router', 'webicon'])
-  .config(config)
+angular.module('latincouver', ['ionic', 'ui.router'])
+    .config(config)
 
-  .config(routerConfig)
+.config(routerConfig)
 
-  .run(runBlock)
+.run(runBlock)
 
 
-  .controller('SplashController', SplashController)
-  .controller('IntroController', IntroController)
-  .controller('HelpController', HelpController)
+.controller('SplashController', SplashController)
+    .controller('IntroController', IntroController)
+    .controller('HelpController', HelpController)
 
-  .controller('HomeController', HomeController)
-  .controller('EventController', EventController)
-  .controller('MainstageController', MainstageController); 
+.controller('HomeController', HomeController)
+    .controller('EventController', EventController)
+    .controller('PlazasController', PlazasController)
+    .controller('EatController', EatController)
+    .controller('VendorsController', VendorsController)
+    .controller('MainstageController', MainstageController)
+
+
+.service('PlazaService', PlazaService);

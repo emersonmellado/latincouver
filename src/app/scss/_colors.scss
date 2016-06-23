@@ -1,0 +1,29 @@
+.icon-accent{
+    color: #fff;
+}
+.yellow{
+    @include bg-gradient-l2r(#f39b40, #ffd300);
+}
+
+.blue{
+    @include bg-gradient-l2r(#156893, #1aaccc);
+}
+.red{
+    @include bg-gradient-l2r(#93323a, #e74a59);
+}
+.green{
+    @include bg-gradient-l2r(#5f872e, #a9d168);
+}
+.yellow-flat{
+    background: #fabf23!important;
+}
+
+.blue-flat{
+    background: #09aed3!important;
+}
+.red-flat{
+    background: #e7384a!important;
+}
+.green-flat{
+    background: #69bb0f!important;
+}

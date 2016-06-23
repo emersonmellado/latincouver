@@ -1,0 +1,59 @@
+<ion-view class="no-padding" hide-nav-bar="true" view-title="Events">
+    <ion-side-menus>
+        <ion-side-menu side="left">
+            <ion-content class="side-menu-list">
+                <div class="row item-header">
+                    <img class="title-image title-image-menu" src="assets/images/logo.png" alt="">
+                </div>
+                <div class="list">
+                    <a ui-sref="mainStage" class="item item-list item-icon-left">
+                        <i class="icon ion-calendar"></i> Next Events
+                    </a>
+                    <div class="item item-divider">
+                        Event data
+                    </div>
+                    <a ui-sref="plazas" class="item item-list item-icon-left">
+                        <i class="icon ion-beer"></i> Plazas
+                    </a>
+                    <a ui-sref="vendors" class="item item-list item-icon-left">
+                        <i class="icon ion-pricetags"></i> Vendors
+                    </a>
+                    <a ui-sref="map" class="item item-list item-icon-left">
+                        <i class="icon ion-ios-location-outline"></i> Map
+                    </a>
+                    <a ui-sref="faq" class="item item-list item-icon-left">
+                        <i class="icon ion-ios-checkmark-outline"></i> FAQ
+                    </a>
+                    <a ui-sref="contest" class="item item-list item-icon-left">
+                        <i class="icon ion-happy-outline"></i> Contest
+                    </a>
+                    <div class="item item-divider">
+                        Community
+                    </div>
+                    <a ui-sref="media" class="item item-list item-icon-left">
+                        <i class="icon ion-pound"></i> Media
+                        <span class="item-note">#shinetogether</span>
+                    </a>
+                    <a ui-sref="sponsors" class="item item-list item-icon-left">
+                        <i class="icon ion-android-contacts "></i> Sponsors
+                    </a>
+                    <a ui-sref="donate" class="item item-list item-icon-left">
+                        <i class="icon ion-cash"></i> Donate
+                    </a>
+                </div>
+            </ion-content>
+        </ion-side-menu>
+        <ion-side-menu-content>
+            <div class="bar bar-header bar-positive ">
+                <button class="button icon ion-navicon " ng-click="event.toggleLeft() "></button>
+                <span class="title ">
+                  CARNAVAL DEL SOL
+                </span>
+            </div>
+            <ion-content>
+                <div ui-view>
+                </div>
+            </ion-content>
+        </ion-side-menu-content>
+    </ion-side-menus>
+</ion-view>

@@ -1,13 +1,14 @@
-function config($logProvider, $webiconProvider) {
+function config($logProvider, $ionicConfigProvider) {
     'ngInject';
 
     $logProvider.debugEnabled(true);
-
-    $webiconProvider
-        .svgSet('flat-color-icons', '//cdn.rawgit.com/icons8/flat-color-icons/v1.0.2/icon-set/icons.svg')
-        .alias('flat-color-icons', 'fci')
-        .icon('clock', '//cdn.rawgit.com/icons8/flat-color-icons/v1.0.2/svg/clock.svg')
-        .font('f', 'custom-iconic-font custom-iconic-font-?');
+    // $ionicConfigProvider.views.maxCache(10);
+    $ionicConfigProvider.views.transition('platform');
+    // $ionicConfigProvider.views.forwardCache(false);
+    // $ionicConfigProvider.backButton.icon('ion-ios-arrow-back');
+    // $ionicConfigProvider.backButton.text('');                  // default is 'Back'
+    // $ionicConfigProvider.backButton.previousTitleText(false);  // hides the 'Back' text
+    // $ionicConfigProvider.templates.maxPrefetch(20);
 }
 
 export default config;

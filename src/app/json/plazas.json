@@ -1,0 +1,43 @@
+[{
+    "id": "1",
+    "name": "Main Stage",
+    "image": "assets/images/plazas/main-stage.jpg",
+    "color": "yellow-flat"
+},{
+    "id": "2",
+    "name": "Food Plaza",
+    "image": "assets/images/plazas/food-plaza.jpg",
+    "color": "red-flat"
+},{
+    "id": "3",
+    "name": "Beer Plaza",
+    "image": "assets/images/plazas/beer-plaza.jpg",
+    "color": "blue-flat"
+},{
+    "id": "4",
+    "name": "Travel Plaza",
+    "complement": "YVR",
+    "image": "assets/images/plazas/yvrtravelplaza.png",
+    "color": "green-flat"
+},{
+    "id": "5",
+    "name": "Sports Plaza",
+    "image": "assets/images/plazas/sports-plazanew.jpg",
+    "color": "yellow-flat"
+},{
+    "id": "6",
+    "name": "Urban Plaza",
+    "image": "assets/images/plazas/urbanlabart.png",
+    "color": "red-flat"
+},{
+    "id": "7",
+    "name": "Travel Plaza",
+    "complement": "Mercedes Bens Vans",
+    "image": "assets/images/plazas/mercedesbenzvans.png",
+    "color": "blue-flat"
+},{
+    "id": "8",
+    "name": "Kids Plaza",
+    "image": "assets/images/plazas/kids-plazanew.jpg",
+    "color": "green-flat"
+}]

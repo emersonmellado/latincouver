@@ -15,7 +15,14 @@ html, body {
     height: 100%;
     margin: 0;
 }
+.title{
+    @extend .bold;
+    text-transform: uppercase;
+}
+
 .content{    
+    padding: 0;
+    margin: 0;
     background: $primaryMid;
 }
 .bar.bar-positive{

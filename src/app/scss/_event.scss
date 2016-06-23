@@ -1,20 +1,13 @@
-
-.title-image-menu {
-    //height: 100%;
-    width: 150px;
-    text-align: center;
-    margin: auto;
-}
 .event-buttons-page {
     padding: 0px;
 }
 
 .event-active {
-    border-bottom: 6px $primaryLight solid!important;
+    border-bottom: 4px $primaryLight solid!important;
 }
 
 .button-bar {
-    height: 45px;
+    height: 43px;
 }
 
 .event-header-button {
@@ -38,6 +31,11 @@
         .button.icon-right:before {
             margin-top: -5px!important;
         }
+        i {
+            &:before {
+                line-height: 32px!important;
+            }
+        }
         img {
             margin-top: -5px!important;
             height: 20px;
@@ -49,32 +47,33 @@
 .event-slides {
     height: 250px!important;
 }
-.event-navigation{
-    button{
-        z-index: 100; 
+
+.event-navigation {
+    button {
+        z-index: 100;
         min-width: 30px;
         padding: 0px;
         margin: 0px;
         position: absolute!important;
         top: 120px!important;
-        background-color:rgba(0, 0, 0, 0.2);        
-        height: 30px;  
-        color: #fff;                             
+        background-color: rgba(0, 0, 0, 0.2);
+        height: 30px;
+        color: #fff;
     }
-    .button-next {                
-        right: 0;              
+    .button-next {
+        right: 0;
         &:hover {
             color: #fff;
-        }                 
+        }
     }
-
     .button-prev {
-        left: 0; 
+        left: 0;
         &:hover {
             color: #fff;
-        }         
-    }       
+        }
+    }
 }
+
 .event-button {
     padding: 30;
     height: 165px;
@@ -136,9 +135,6 @@ $cor-destaque-hover: #222;
     }
 }
 
-
-/* List*/
-
 .event-list {
     min-height: 350px;
     top: 0px;
@@ -163,6 +159,88 @@ $cor-destaque-hover: #222;
                     padding: 13px 0 5px 20px;
                     text-align: left;
                     margin: 0px;
+                }
+            }
+            @extend .item;
+            @extend .item-image;
+            @extend .no-padding;
+        }
+    }
+    img {
+        object-fit: cover;
+        min-height: 150px;
+        max-height: 150px;
+        width: 100%;
+        text-align: center;
+        top: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+}
+
+.event-contest-button {
+    z-index: 1001;
+    width: 30%;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #188eaf;
+    border: 0px;
+    border-radius: 25px;
+    font-size: 10px;
+    color: #fff;
+    span {
+        line-height: 16px;
+        .hash {
+            @extend .mid;
+            font-size: 12px;
+        }
+    }
+    &:hover{
+        color: darken(#fff, 20%);
+    }
+}
+
+.event-sub-list {
+    min-height: 350px;
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+    div {
+        padding: 0px;
+        margin: 0px;
+        div {
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+            div {
+                //position: absolute;
+                width: 100%;
+                height: 50%;
+                bottom: 0;
+                border: 0;
+                h1 {
+                    //position: absolute;
+                    //float: center; /* If you want it to be centered */
+                    padding-top: 50%;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                    font-size: 23px;
+                    text-transform: uppercase;
+                    white-space: normal;
+                    @extend .mid;
+                    color: #fff;
+                    //padding: 55% 10%;
+                    //text-align: center;
+                    //margin: auto;
+                    // margin: 0px;
+                    //vertical-align: middle;
                 }
             }
             @extend .item;

@@ -1,0 +1,55 @@
+.plaza-list{
+    cursor: pointer;
+    div {
+        padding: 0px;
+        margin: 0px;
+        //display: table;
+        div {
+            @extend .item;
+            @extend .item-image;
+            @extend .no-padding;
+            &:nth-child(1) {
+                @extend .col-25;
+            }
+            &:nth-child(2) {
+                @extend .col-75;
+            }
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+            width: 100%;
+            height: 15%;
+            bottom: 0;
+            border: 0;
+            h5 {
+                color: #fff;
+                text-align: center;
+                margin: 0px;
+                padding: 0px;
+                padding-top: 35px;
+            }
+            p {
+                text-transform: uppercase;
+                @extend .bold;
+                color: #fff;
+                text-align: center;
+                margin: 0px;
+                padding-top: 35px;
+            }
+            h5+p{
+                padding-top: 0;
+            }
+            i{
+                position: absolute;
+                margin-top: -23px;
+                color: #fff;
+                right: 10px;
+            }
+        }
+    }
+    img {
+        object-fit: cover;
+        width: 100%;
+        min-height: 100%;
+    }
+}

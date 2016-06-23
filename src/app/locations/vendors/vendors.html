@@ -1,0 +1,47 @@
+<ion-view class="no-padding" hide-nav-bar="true" view-title="Events">
+    <div class="bar bar-header bar-positive">
+        <button ui-sref="vendors" class="button icon ion-android-arrow-back">
+        </button>
+        <p class="title">
+            Vendors
+        </p>
+    </div>
+    <ion-content class="has-header content" overflow-scroll="false">
+        <div class="button-bar event-bar">
+            <div class="button col col-33 event-header-button" data-ng-class="{'plaza-active' : $state.is('detail')}" ui-sref="detail">
+                <div>
+                    FOOD
+                </div>
+            </div>
+            <div class="button col col-33 event-header-button" ui-sref=".products" data-ng-class="{'plaza-active' : $state.is('detail.day1')}">
+                <div>
+                    PRODUCTS
+                </div>
+            </div>
+            <div class="button col col-33 event-header-button" ui-sref=".nonprofit" data-ng-class="{'plaza-active' : $state.is('detail.day2')}">
+                <div>
+                    NON PROFIT
+                </div>
+            </div>
+        </div>
+        <div ui-view>
+            <div class="list">
+                <a class="item item-thumbnail-left" href="#">
+                    <img src="assets/images/chefs/jonathan.png">
+                    <h2>Pretty Hate Machine</h2>
+                    <p>Nine Inch Nails</p>
+                </a>
+                <a class="item item-thumbnail-left" href="#">
+                    <img src="assets/images/chefs/jonathan.png">
+                    <h2>Pretty Hate Machine</h2>
+                    <p>Nine Inch Nails</p>
+                </a>
+                <a class="item item-thumbnail-left" href="#">
+                    <img src="assets/images/chefs/jonathan.png">
+                    <h2>Pretty Hate Machine</h2>
+                    <p>Nine Inch Nails</p>
+                </a>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

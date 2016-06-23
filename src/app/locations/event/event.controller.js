@@ -1,8 +1,7 @@
 class EventController {
     constructor($scope, $ionicSideMenuDelegate) {
         Object.assign(this, { $scope, $ionicSideMenuDelegate});
-        this.setupSlider();  
-
+        this.setupSlider();
     }
     prevSlide(){
         this.slider.sliderDelegate._slidePrev();
@@ -11,11 +10,10 @@ class EventController {
         this.slider.sliderDelegate._slideNext();
     }
     setupSlider(){
-        this.$ionicSideMenuDelegate.toggleLeft();          
+        //this.$ionicSideMenuDelegate.toggleLeft();
         this.slider = {};
         this.slider.images = [];
         this.slider.currentPage = 0;
-
         
         this.slider.images = [ 
             { 
@@ -31,6 +29,7 @@ class EventController {
             
         //some options to pass to our slider
         this.slider.sliderOptions = {
+            effect: 'slide',
             initialSlide: 0,
             direction: 'horizontal',
             speed: 500,
@@ -42,19 +41,30 @@ class EventController {
         //watch our sliderDelegate reference, and use it when it becomes available
         this.$scope.$watch('data.sliderDelegate', function(newVal, oldVal) {
             if (newVal != null) {
+                //console.log("data.sliderDelegate", data.sliderDelegate);
                 this.slider.sliderDelegate.on('slideChangeEnd', function() {
                     this.slider.currentPage = this.slider.sliderDelegate.activeIndex;
-                    //use this.$apply() to refresh any content external to the slider
                     this.$apply();
                 });                                
             }
         });
+
+        // $scope.swiperOptions = {
+        //     /* Whatever options */
+        //     effect: 'slide',
+        //     initialSlide: 0,
+        //     /* Initialize a scope variable with the swiper */
+        //     onInit: function(swiper){
+        //         $scope.swiper = swiper;
+        //     },
+        //     onSlideChangeEnd: function(swiper){
+        //         console.log('The active index is ' + swiper.activeIndex);
+        //     }
+        // };
     }
     toggleLeft() {
         this.$ionicSideMenuDelegate.toggleLeft();
     }
-
-
 }
 EventController.$inject = ['$scope', '$ionicSideMenuDelegate'];
 export default EventController;
