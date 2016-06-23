@@ -1,6 +1,6 @@
 <ion-view class="no-padding" hide-nav-bar="true" view-title="Events">
     <div class="bar bar-header bar-positive">
-        <button ui-sref="vendors" class="button icon ion-android-arrow-back">
+        <button ui-sref="event" class="button icon ion-android-arrow-back">
         </button>
         <p class="title">
             Vendors
@@ -8,17 +8,17 @@
     </div>
     <ion-content class="has-header content" overflow-scroll="false">
         <div class="button-bar event-bar">
-            <div class="button col col-33 event-header-button" data-ng-class="{'plaza-active' : $state.is('detail')}" ui-sref="detail">
+            <div class="button col col-33 event-header-button" data-ng-class="{'event-active' : $state.is('vendors')}" ui-sref="vendors">
                 <div>
                     FOOD
                 </div>
             </div>
-            <div class="button col col-33 event-header-button" ui-sref=".products" data-ng-class="{'plaza-active' : $state.is('detail.day1')}">
+            <div class="button col col-33 event-header-button" ui-sref=".products" data-ng-class="{'event-active' : $state.is('vendors.products')}">
                 <div>
                     PRODUCTS
                 </div>
             </div>
-            <div class="button col col-33 event-header-button" ui-sref=".nonprofit" data-ng-class="{'plaza-active' : $state.is('detail.day2')}">
+            <div class="button col col-33 event-header-button" ui-sref=".nonprofit" data-ng-class="{'event-active' : $state.is('vendors.nonprofit')}">
                 <div>
                     NON PROFIT
                 </div>
