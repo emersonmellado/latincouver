@@ -8,7 +8,7 @@
     </div>
     <ion-content class="has-header content" overflow-scroll="false">
         <div class="plaza-list">
-            <div class="row" data-ng-repeat="p in plaza.list" ui-sref="detail({name:p.name})">
+            <div class="row" data-ng-repeat="p in plaza.list" ui-sref="detail({id:p.id})">
                 <div>
                     <img data-ng-src="{{p.image}}">
                 </div>
@@ -17,82 +17,6 @@
                     <i class="ion ion-chevron-right"></i>
                 </div>
             </div>
-            <!--
-            <div class="row" ui-sref="detail({name:'Main Stage'})">
-                <div>
-                    <img src="assets/images/plazas/main-stage.jpg">
-                </div>
-                <div class="yellow-flat">
-                    <p>Main Stage</p>
-                    <i class="ion ion-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div>
-                    <img src="assets/images/plazas/food-plaza.jpg">
-                </div>
-                <div class="red-flat">
-                    <p>Food Plaza</p>
-                    <i class="ion ion-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div>
-                    <img src="assets/images/plazas/beer-plaza.jpg">
-                </div>
-                <div class="blue-flat">
-                    <p>Beer Plaza</p>
-                    <i class="ion ion-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row" ui-sref="detail({name:'YVR - Travel Plaza'})">
-                <div>
-                    <img src="assets/images/plazas/yvrtravelplaza.png">
-                </div>
-                <div class="green-flat">
-                    <h5>YVR</h5>
-                    <p>Travel Plaza</p>
-                    <i class="ion ion-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div>
-                    <img src="assets/images/plazas/sports-plazanew.jpg">
-                </div>
-                <div class="yellow-flat">
-                    <p>Sports Plaza</p>
-                    <i class="ion ion-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div>
-                    <img src="assets/images/plazas/urbanlabart.png">
-                </div>
-                <div class="red-flat">
-                    <p>Urban Plaza</p>
-                    <i class="ion ion-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div>
-                    <img src="assets/images/plazas/mercedesbenzvans.png">
-                </div>
-                <div class="blue-flat">
-                    <h5>Mercedes Bens Vans</h5>
-                    <p>Family Plaza</p>
-                    <i class="ion ion-chevron-right"></i>
-                </div>
-            </div>
-            <div class="row">
-                <div>
-                    <img src="assets/images/plazas/kids-plazanew.jpg">
-                </div>
-                <div class="green-flat">
-                    <p>Kids Plaza</p>
-                    <i class="ion ion-chevron-right"></i>
-                </div>
-            </div>
-            -->
         </div>
     </ion-content>
 </ion-view>

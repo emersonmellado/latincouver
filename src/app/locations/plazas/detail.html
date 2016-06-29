@@ -3,12 +3,12 @@
         <button ui-sref="plazas" class="button icon ion-android-arrow-back">
         </button>
         <p class="title">
-            {{$stateParams.name}}
+            {{plaza.selected.name}}
         </p>
     </div>
     <ion-content class="has-header content" overflow-scroll="false">
         <div>
-            <img class="full-image" src="assets/images/plazas/main-stage.jpg">
+            <img class="full-image" ng-src={{plaza.selected.image}}>
         </div>
         <div class="button-bar plaza-bar">
             <div class="button col col-25 detail-plaza-button" data-ng-class="{'plaza-active' : $state.is('detail')}" ui-sref="detail">
@@ -35,44 +35,25 @@
         <div ui-view>
             <div class="plaza-content">
                 <div class="list">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                    <hr/>
-                    <h3>CHEFS DEL SOL</h3>
+                    <span ng-bind-html='plaza.selected.info'></span>
                     <button class="button plaza-map-button button-positive">
                         <i class="ion ion-map"></i>
                         <span class="hash">Map</span>
                     </button>
-                    <p>
-                        This is a "Facebook" styled Card. The header is created from a Thumbnail List item, the content is from a card-body consisting of an image and paragraph text. The footer consists of tabs, icons aligned left, within the card-footer.
-                    </p>
                 </div>
             </div>
             <div class="list event-list">
-                <div class="row">
+                <div class="row" data-ng-repeat="p in plaza.vendorsList" ng-if="$index % 2 == 0">
                     <div class="col col-50">
-                        <img src="assets/images/chefs/jonathan.png">
-                        <div class="red-flat">
-                            <h5>Chef Jonathan Chui</h5>
+                        <img data-ng-src="{{plaza.vendorsList[$index].image}}">
+                        <div class="{{plaza.vendorsList[$index].color}}">
+                            <h5>{{plaza.vendorsList[$index].id}} - {{plaza.vendorsList[$index].name}}</h5>
                         </div>
                     </div>
-                    <div class="col col-50">
-                        <img src="assets/images/chefs/sid.png">
-                        <div class="green-flat">
-                            <h5>Chef Sid Choudary</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col col-50">
-                        <img src="assets/images/chefs/han.png">
-                        <div class="yellow-flat">
-                            <h5>Chef Han</h5>
-                        </div>
-                    </div>
-                    <div class="col col-50">
-                        <img src="assets/images/chefs/pedro.png">
-                        <div class="blue-flat">
-                            <h5>Chef Pedro Guillen</h5>
+                    <div class="col col-50" ng-show="plaza.vendorsList[$index+1]">
+                        <img data-ng-src="{{plaza.vendorsList[$index+1].image}}">
+                        <div class="{{plaza.vendorsList[$index+1].color}}">
+                            <h5>{{plaza.vendorsList[$index+1].id}} - {{plaza.vendorsList[$index+1].name}}</h5>
                         </div>
                     </div>
                 </div>

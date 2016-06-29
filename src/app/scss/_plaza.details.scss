@@ -1,35 +1,31 @@
-.plaza-map-button{
+.plaza-map-button {
     z-index: 1001;
     width: 30%;
     height: 10px;
-    position: absolute;
-    top: 0;
+    //position: absolute;
     bottom: 0;
-    left: 0;
-    right: -70%;
-    margin: auto;
     background: red;
     border: 0px;
     border-radius: 25px;
     color: #fff;
     padding: 0;
     font-size: 16px;
-    &:hover{
+    &:hover {
         color: darken(#fff, 20%);
     }
 }
 
-.plaza-content{
+.plaza-content {
     background: #fff;
     padding: 20px 20px 0px 20px;
-    h3{
+    h3 {
         @extend .bold;
     }
 }
 
 .plaza-bar {
     height: 43px;
-    .button{
+    .button {
         background: #d8d8d8;
     }
 }
@@ -51,10 +47,7 @@
     }
 }
 
-
-
-
-.detail-schedule-list{
+.detail-schedule-list {
     div {
         padding: 0px;
         margin: 0px;
@@ -81,17 +74,17 @@
                 text-align: center;
                 padding-top: 20px;
             }
-            h3+h3{
+            h3+h3 {
                 padding-top: 0;
             }
-            h4{
+            h4 {
                 padding-left: 10px;
                 padding-top: 20px;
                 padding-bottom: 0;
                 margin: 0;
                 font-weight: 700;
             }
-            p{
+            p {
                 margin: 0;
                 padding-bottom: 0;
                 padding-left: 10px;

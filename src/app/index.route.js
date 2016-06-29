@@ -42,7 +42,7 @@ function routerConfig($stateProvider, $urlRouterProvider) {
             }
         })
         .state('detail', {
-            url: '/plazas/detail/:name',
+            url: '/plazas/detail/:id',
             views: {
                 home: {
                     templateUrl: 'app/locations/plazas/detail.html',
@@ -54,14 +54,17 @@ function routerConfig($stateProvider, $urlRouterProvider) {
     .state('detail.day1', {
             url: '/day1',
             templateUrl: 'app/locations/plazas/detail.day1.html',
+            controller: 'ScheduleController as schedule'
         })
         .state('detail.day2', {
             url: '/day2',
             templateUrl: 'app/locations/plazas/detail.day2.html',
+            controller: 'ScheduleController as schedule'
         })
         .state('detail.biz', {
             url: '/biz',
             templateUrl: 'app/locations/plazas/detail.biz.html',
+            controller: 'ScheduleController as schedule'
         })
 
 

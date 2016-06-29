@@ -1,6 +1,6 @@
 [{
-    "id": "1",
-    "order": "1",
+    "id": 1,
+    "order": 1,
     "name": "Wil Campa",
     "datetime": "Sat 07/09, 8:30 pm - 10:00 pm",
     "description": "<p>Recording several albums with Cumbre and Maraca, Wil is best recognized internationally for his Grammy Nominated contribution to the CD ‘Tremenda Rumba’ in 2002. In 2005 Wil formed what is known today as one of Cuba elite groups ‘Wil Campa Y Su Orquesta,’ releasing two albums: ‘Es Tiempo’ in 2006 and ‘Todo Es Posible’ in 2011, winning him a Nomination for Best Album 2012 at the Cubadisco (Cuba’s equivalent of the Grammy’s). Wil Campa Y Su Orquesta have been touring extensively nationally (e.g. Havana Jazz Festival) and internationally, inspiring and introducing thousands of audiences to Cuba’s musical royalty.</p><p>Wil’ s childhood was spent in Pinar del Rio, Cuba, where he grew up amidst streets filled with joyful traditional Cuban music.Wil’ s vision, musical talent, and chorographical direction have placed this Orchestra, Wil Campa Y Su Orquesta, as one of the most exciting touring groups! < /p>",
@@ -25,7 +25,7 @@
     }, {
         "name": "Facebook",
         "href": "https://www.facebook.com/Samba-Fusion-217416471623486"
-    }]    
+    }]
 }, {
     "id": "3",
     "order": "3",
@@ -59,7 +59,7 @@
     }, {
         "name": "Youtube",
         "href": "https://www.youtube.com/channel/UCrfT9cEkXIIrx60isCMnC-g"
-    }]    
+    }]
 }, {
     "id": "5",
     "order": "5",
@@ -76,7 +76,7 @@
     }, {
         "name": "Youtube",
         "href": "https://www.youtube.com/playlist?list=PLB41C9574D25267C0"
-    }]    
+    }]
 }, {
     "id": "6",
     "order": "6",
@@ -93,7 +93,7 @@
     }, {
         "name": "Youtube",
         "href": "https://www.youtube.com/channel/UC4MvB19UJyLf2afr6bUbalQ"
-    }]    
+    }]
 }, {
     "id": "7",
     "order": "7",
@@ -135,7 +135,7 @@
     }, {
         "name": "Youtube",
         "href": "https://www.youtube.com/user/Entangados"
-    }]    
+    }]
 }, {
     "id": "10",
     "order": "10",
@@ -160,7 +160,7 @@
     }, {
         "name": "Web",
         "href": "http://www.myspace.com/zazueiraband"
-    }]    
+    }]
 }, {
     "id": "12",
     "order": "12",
@@ -174,7 +174,7 @@
     }, {
         "name": "Facebook",
         "href": "https://www.facebook.com/AlmaChevere"
-    }]    
+    }]
 }, {
     "id": "13",
     "order": "13",
@@ -205,7 +205,7 @@
     }, {
         "name": "Facebook",
         "href": "https://www.facebook.com/pages/Flamenco-Rosario/201862698652"
-    }] 
+    }]
 }, {
     "id": "15",
     "order": "15",
@@ -213,7 +213,7 @@
     "datetime": "Sun 07/10, 12:30 pm - 1:00 pm",
     "description": "<p>Originally known as “Las Cortadoras“ in PEI (for 6 years), the Salvadoran Folklore Group Maquilishuat aims to promote and share its culture and heritage with the Latin American and Canadian community through its dance and customs.</p>",
     "image": "",
-    "links": []         
+    "links": []
 }, {
     "id": "16",
     "order": "16",
@@ -280,7 +280,7 @@
     "datetime": "Sun 09/10, 11:30 am - 12:30 pm",
     "description": "<p>http://www.zumbavancouver.ca/</p>",
     "image": "",
-    "links": []      
+    "links": []
 }, {
     "id": "21",
     "order": "21",
@@ -289,7 +289,7 @@
     "description": "",
     "image": "",
     "links": []
-},{
+}, {
     "id": "22",
     "order": "22",
     "name": "African Peruvian",

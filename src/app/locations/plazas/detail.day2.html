@@ -1,47 +1,13 @@
 <div class="detail-schedule-list">
-    <div class="row">
-        <div class="green-flat">
-            <h3>2:30pm</h3>
-            <h3>2:50pm</h3>
+    <div class="row" data-ng-repeat="s in schedule.list_2">
+        <div class="{{s.color}}">
+            <h3>{{s.from}}</h3>
+            <h3>{{s.to}}</h3>
         </div>
         <div>
-            <h4>Chef Jonathan Chui - Mexico</h4>
-            <p>La Taqueria</p>
-            <p>Mexican Ceviche</p>
+            <h4>{{s.name}}</h4>
+            <p>{{s.description}}</p>
+            <p>{{s.type}}</p>
         </div>
     </div>
-    <div class="row">
-        <div class="blue-flat">
-            <h3>2:50pm</h3>
-            <h3>3:10pm</h3>
-        </div>
-        <div>
-            <h4>Chef Jonathan Chui - Mexico</h4>
-            <p>La Taqueria</p>
-            <p>Mexican Ceviche</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="red-flat">
-            <h3>4:00pm</h3>
-            <h3>4:20pm</h3>
-        </div>
-        <div>
-            <h4>Chef Jonathan Chui - Mexico</h4>
-            <p>La Taqueria</p>
-            <p>Mexican Ceviche</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="yellow-flat">
-            <h3>2:30pm</h3>
-            <h3>2:50pm</h3>
-        </div>
-        <div>
-            <h4>Chef Jonathan Chui - Mexico</h4>
-            <p>La Taqueria</p>
-            <p>Mexican Ceviche</p>
-        </div>
-    </div>
-
 </div>

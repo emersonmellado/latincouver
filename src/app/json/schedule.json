@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "day": 1,
+        "from": "2:30pm",
+        "to": "2:50pm",
+        "name": "11111",
+        "description": "La Taqueria",
+        "type": "Mexican Ceviche",
+        "color": "red-flat"
+    }, {
+        "id": 2,
+        "day": 1,
+        "from": "4:30pm",
+        "to": "5:50pm",
+        "name": "2222222",
+        "description": "La Taqueria",
+        "type": "Mexican Ceviche",
+        "color": "blue-flat"
+    }, {
+        "id": 3,
+        "day": 2,
+        "from": "2:30pm",
+        "to": "2:50pm",
+        "name": "33333",
+        "description": "La Taqueria",
+        "type": "Mexican Ceviche",
+        "color": "red-flat"
+    }, {
+        "id": 4,
+        "day": 2,
+        "from": "4:30pm",
+        "to": "5:50pm",
+        "name": "4444",
+        "description": "La Taqueria",
+        "type": "Mexican Ceviche",
+        "color": "blue-flat"
+    }
+]
