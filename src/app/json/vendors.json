@@ -13,87 +13,62 @@
         }]
     }, {
         "id": 2,
-        "plaza_id": 2,
-        "name": "Colombian Food",
+        "plaza_id": 1,
+        "name": "11111",
         "products": "Beef Stuffed Patties, Beef Roast, Smoked Ribs, Beans, Rice, Plantain Stuffed with Cheese",
-        "description": "<p><strong>Colombian Food</strong> takes you through the bustling and vibrant streets of Latin American countries overflowing with culture and history. Through the mouth watering foods you will get to know the people and how the land and the customs fuel their culinary passion. Come enjoy Beef Patties bursting with seasoned meats, slow roasted Beef Roasts, Smoky barbequed Ribs, Beans, Rice, and Plantains Stuffed with Cheese.</p>",
+        "description": "<p><strong>Colombian Food</strong> takes you through the bustling and vibrant streets of Latin American countries overflowing with culture and history. Through the mouth-watering foods you will get to know the people and how the land and the customs fuel their culinary passion. Come enjoy Beef Patties bursting with seasoned meats, slow roasted Beef Roasts, Smoky barbequed Ribs, Beans, Rice, and Plantains Stuffed with Cheese.</p>",
         "image": "assets/images/vendors/colombia_cultural_club.png",
-        "color": "green-flat",
+        "color": "yellow-flat",
         "links": [{
             "name": "facebook",
             "href": "https://www.facebook.com/ColombiaCulturalClub"
         }]
     }, {
         "id": 3,
-        "plaza_id": 2,
-        "name": "Colombian Food",
-        "products": "Beef Stuffed Patties, Beef Roast, Smoked Ribs, Beans, Rice, Plantain Stuffed with Cheese",
-        "description": "<p><strong>Colombian Food</strong> takes you through the bustling and vibrant streets of Latin American countries overflowing with culture and history. Through the mouth­watering foods you will get to know the people and how the land and the customs fuel their culinary passion. Come enjoy Beef Patties bursting with seasoned meats, slow roasted Beef Roasts, Smoky barbequed Ribs, Beans, Rice, and Plantains Stuffed with Cheese.</p>",
-        "image": "assets/images/vendors/colombia_cultural_club.png",
-        "color": "blue-flat",
-        "links": [{
-            "name": "facebook",
-            "href": "https://www.facebook.com/ColombiaCulturalClub"
-        }]
+        "plaza_id": 3,
+        "name": "Sol-Cerveza",
+        "products": "",
+        "description": "<p>The legend of the name of this beer is that one morning in 1899, inside a small brewery near Mexico City a German brewmaster noted a ray of sunshine falling on the cooking pot; the phenomenon caught his attention and in honour of that experience, and in honour of the working class people whose symbol was that of the sun, the name Sol was born. Sol-Cerveza is a light refreshing lager that honours its true Mexican heritage, and is still loved by all across the world especially those of you with free spirits and adventurous souls.</p>",
+        "image": "assets/images/vendors/sol.png",
+        "color": "yellow-flat",
+        "links": []
     }, {
         "id": 4,
-        "plaza_id": 2,
-        "name": "Colombian Food",
-        "products": "Beef Stuffed Patties, Beef Roast, Smoked Ribs, Beans, Rice, Plantain Stuffed with Cheese",
-        "description": "<p><strong>Colombian Food</strong> takes you through the bustling and vibrant streets of Latin American countries overflowing with culture and history. Through the mouth watering foods you will get to know the people and how the land and the customs fuel their culinary passion. Come enjoy Beef Patties bursting with seasoned meats, slow roasted Beef Roasts, Smoky barbequed Ribs, Beans, Rice, and Plantains Stuffed with Cheese.</p>",
-        "image": "assets/images/vendors/colombia_cultural_club.png",
-        "color": "yellow-flat",
-        "links": [{
-            "name": "facebook",
-            "href": "https://www.facebook.com/ColombiaCulturalClub"
-        }]
+        "plaza_id": 3,
+        "name": "Dos Equis",
+        "products": "",
+        "description": "<p>Dos Equis stands for the kinds of things that are worth doing more than once because it taste so darn good.</p><p> <strong>Dos Equis</strong> (‘XX’ in Spanish) Amber came first, followed by Dos Equis Lager Especial. They were the first to introduce the amber ale of beer drinking that’s still going strong today. Dos Equis Special Lager is a refreshingly crisp golden lager-style beer imported from Mexico. Made with roasted malts, choice hops, purified water and a unique strain of yeast, this distinctive brew is known simply as 'Lager' all across Latin America.</p><p>The next time you have a Dos Equis, raise a glass to the Mexican brewing legend that stayed thirsty.</p>",
+        "image": "assets/images/vendors/xx.png",
+        "color": "red-flat",
+        "links": []
     }, {
         "id": 5,
-        "plaza_id": 2,
-        "name": "Colombian Food",
-        "products": "Beef Stuffed Patties, Beef Roast, Smoked Ribs, Beans, Rice, Plantain Stuffed with Cheese",
-        "description": "<p><strong>Colombian Food</strong> takes you through the bustling and vibrant streets of Latin American countries overflowing with culture and history. Through the mouth watering foods you will get to know the people and how the land and the customs fuel their culinary passion. Come enjoy Beef Patties bursting with seasoned meats, slow roasted Beef Roasts, Smoky barbequed Ribs, Beans, Rice, and Plantains Stuffed with Cheese.</p>",
-        "image": "assets/images/vendors/colombia_cultural_club.png",
-        "color": "yellow-flat",
-        "links": [{
-            "name": "facebook",
-            "href": "https://www.facebook.com/ColombiaCulturalClub"
-        }]
+        "plaza_id": 3,
+        "name": "Strongbow Apple Cider",
+        "products": "",
+        "description": "<p><strong>Strongbow Apple Cider</strong> comes from a single brewery that started in Amsterdam 150 years. A brewery that has grown into the world’s most international brewery - <strong>Heineken</strong>, the brand we all know and love. Strongbow Apple Ciders range has a crisp and accessible taste that is inclusive to both guys and girls. The innovative range offers a wide variety with many modern craft-like flavours, always based on apples. Gold Apple, Honey, Red Berries, Elderflower, Dark Fruit and more! The palate is light clear gold in colour with a thin head, lively carbonation and subtle sweetness that leaves lingering aromas of apple, brown sugar, and cinnamon on the nose.</p>",
+        "image": "assets/images/vendors/strongbow.png",
+        "color": "blue-flat",
+        "links": []
     }, {
         "id": 6,
-        "plaza_id": 1,
-        "name": "11111",
-        "products": "Beef Stuffed Patties, Beef Roast, Smoked Ribs, Beans, Rice, Plantain Stuffed with Cheese",
-        "description": "<p><strong>Colombian Food</strong> takes you through the bustling and vibrant streets of Latin American countries overflowing with culture and history. Through the mouth­watering foods you will get to know the people and how the land and the customs fuel their culinary passion. Come enjoy Beef Patties bursting with seasoned meats, slow roasted Beef Roasts, Smoky barbequed Ribs, Beans, Rice, and Plantains Stuffed with Cheese.</p>",
-        "image": "assets/images/vendors/colombia_cultural_club.png",
-        "color": "yellow-flat",
-        "links": [{
-            "name": "facebook",
-            "href": "https://www.facebook.com/ColombiaCulturalClub"
-        }]
-    }, {
-        "id": 6,
-        "plaza_id": 1,
-        "name": "22222",
-        "products": "Beef Stuffed Patties, Beef Roast, Smoked Ribs, Beans, Rice, Plantain Stuffed with Cheese",
-        "description": "<p><strong>Colombian Food</strong> takes you through the bustling and vibrant streets of Latin American countries overflowing with culture and history. Through the mouth watering foods you will get to know the people and how the land and the customs fuel their culinary passion. Come enjoy Beef Patties bursting with seasoned meats, slow roasted Beef Roasts, Smoky barbequed Ribs, Beans, Rice, and Plantains Stuffed with Cheese.</p>",
-        "image": "assets/images/vendors/colombia_cultural_club.png",
-        "color": "yellow-flat",
-        "links": [{
-            "name": "facebook",
-            "href": "https://www.facebook.com/ColombiaCulturalClub"
-        }]
+        "plaza_id": 3,
+        "name": "Asi-Somos",
+        "products": "",
+        "description": "<p>The <strong>Asi-Somos</strong> quartet was established in Vancouver in April, 2014. The Quartet mainly performs songs and music taken from the vast Venezuelan folk traditions that encompass Spanish, European, and African influences, providing a style of music that is engaging yet unpredictable and haunting. Last year the troupe participated in several local events such as the International Festival in Langley, Carnaval del Sol, Make Music Vancouver in Gastown, Canada Day celebration at Canada Place, Surrey and Richmond night markets, Metamorfest Festival in Mount Pleasant and Granville Island, Cultural Nights in Salteñas, and various VLAFF events. The band members are Carlos Cortes, Richard Villalobos, Jose Villaroel, and Elizabeth Baena. ‘Asi somos’ means ‘the way we are.’ It is the way we talk, the way we express ourselves, the way we sing, and through our music we share a little bit of our culture.</p>",
+        "image": "assets/images/vendors/asi-somos.png",
+        "color": "green-flat",
+        "links": []
     }, {
         "id": 7,
-        "plaza_id": 1,
-        "name": "33333",
-        "products": "Beef Stuffed Patties, Beef Roast, Smoked Ribs, Beans, Rice, Plantain Stuffed with Cheese",
-        "description": "<p><strong>Colombian Food</strong> takes you through the bustling and vibrant streets of Latin American countries overflowing with culture and history. Through the mouth watering foods you will get to know the people and how the land and the customs fuel their culinary passion. Come enjoy Beef Patties bursting with seasoned meats, slow roasted Beef Roasts, Smoky barbequed Ribs, Beans, Rice, and Plantains Stuffed with Cheese.</p>",
-        "image": "assets/images/vendors/colombia_cultural_club.png",
+        "plaza_id": 3,
+        "name": "Breaking Boundaries",
+        "products": "",
+        "description": "<p><strong>Breaking Boundaries</strong> is the brain-child of John Gonzalez who began playing accordion at the age of eight and came to Vancouver in 2014 to study music at VCC. He formed the band in 2015 with Colombian and Canadian musicians with the purpose of sharing and exploring new ideas within the traditional forms of Vallenato and Cumbia. John is passionate about the possibility of music to act as a bridge between cultures. He and his bandmates, all accomplished musicians, are excited to perform and explore traditional Colombian music in way that breaks down boundaries and brings people together in a celebratory atmosphere.</p>",
         "color": "yellow-flat",
         "links": [{
-            "name": "facebook",
-            "href": "https://www.facebook.com/ColombiaCulturalClub"
+            "name": "Blog",
+            "href": "https://johngonzalezmusic.wordpress.com/"
         }]
     }
 ]

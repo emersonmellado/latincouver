@@ -16,17 +16,17 @@
                     Info
                 </div>
             </div>
-            <div class="button col col-25 detail-plaza-button" ui-sref=".day1" data-ng-class="{'plaza-active' : $state.is('detail.day1')}">
+            <div class="button col col-25 detail-plaza-button" ui-sref=".day1" data-ng-class="{'plaza-active' : $state.is('detail.day1')}" data-ng-show="plaza.selected.list_1">
                 <div>
                     Sat 9 Jul
                 </div>
             </div>
-            <div class="button col col-25 detail-plaza-button" ui-sref=".day2" data-ng-class="{'plaza-active' : $state.is('detail.day2')}">
+            <div class="button col col-25 detail-plaza-button" ui-sref=".day2" data-ng-class="{'plaza-active' : $state.is('detail.day2')}" data-ng-show="plaza.selected.list_2">
                 <div>
                     Sat 10 Jul
                 </div>
             </div>
-            <div class="button col col-25 detail-plaza-button" ui-sref=".biz" data-ng-class="{'plaza-active' : $state.is('detail.biz')}">
+            <div class="button col col-25 detail-plaza-button" ui-sref=".biz" data-ng-class="{'plaza-active' : $state.is('detail.biz')}" data-ng-show="plaza.selected.biz">
                 <div>
                     Business
                 </div>
@@ -45,15 +45,15 @@
             <div class="list event-list">
                 <div class="row" data-ng-repeat="p in plaza.vendorsList" ng-if="$index % 2 == 0">
                     <div class="col col-50">
-                        <img data-ng-src="{{plaza.vendorsList[$index].image}}">
+                        <img data-ng-src="{{plaza.vendorsList[$index].image}}" data-ng-show="plaza.vendorsList[$index].image">
                         <div class="{{plaza.vendorsList[$index].color}}">
-                            <h5>{{plaza.vendorsList[$index].id}} - {{plaza.vendorsList[$index].name}}</h5>
+                            <h5>{{plaza.vendorsList[$index].name}}</h5>
                         </div>
                     </div>
                     <div class="col col-50" ng-show="plaza.vendorsList[$index+1]">
-                        <img data-ng-src="{{plaza.vendorsList[$index+1].image}}">
+                        <img data-ng-src="{{plaza.vendorsList[$index+1].image}}" data-ng-show="plaza.vendorsList[$index+1].image">
                         <div class="{{plaza.vendorsList[$index+1].color}}">
-                            <h5>{{plaza.vendorsList[$index+1].id}} - {{plaza.vendorsList[$index+1].name}}</h5>
+                            <h5>{{plaza.vendorsList[$index+1].name}}</h5>
                         </div>
                     </div>
                 </div>

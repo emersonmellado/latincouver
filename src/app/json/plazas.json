@@ -11,9 +11,10 @@
     "info": "<p>Come <strong>Eat</strong>, <strong>Play</strong> and <strong>Live</strong> Latin America and meet our food vendors!</p><p>We welcome you to our Food Plaza! Take a gastronomic journey through Latin America and the Caribbean as you revel in the explosion of flavours.</p><p>Tap on the names of our vendors below to find out more about them:</p>"
 }, {
     "id": "3",
-    "name": "Beer Plaza 2",
+    "name": "Beer Plaza",
     "image": "assets/images/plazas/beer-plaza.jpg",
-    "color": "blue-flat"
+    "color": "blue-flat",
+    "info": "<p><strong>Carnaval del Sol</strong> is really excited to offer up Heineken's <strong>Sol Cerveza</strong>, <strong>Dos Equis</strong>, and <strong>Strongbow Apple Cider</strong> at our 400-seat <strong>Beer Garden</strong>, where folks can enjoy crisp, cold beverages and small tapas - Pinchos and Tacos by <strong>La Taqueria</strong> - as they watch the <strong>Main Stage</strong> performers.</p><p>Click on the icons below to find out more about our offerings!</p>"
 }, {
     "id": "4",
     "name": "Travel Plaza",
