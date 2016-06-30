@@ -7,7 +7,7 @@ class ScheduleController {
             this.list_2 = $filter('filter')(response.data, {
                 day: 2
             });
-        })
+        });
     }
 }
 ScheduleController.$inject = ['$filter', 'ScheduleService'];

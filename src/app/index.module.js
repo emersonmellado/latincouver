@@ -15,6 +15,7 @@ import PlazasController from './locations/plazas/plazas.controller';
 import EatController from './locations/event/eat.controller';
 import VendorsController from './locations/vendors/vendors.controller';
 import ScheduleController from './locations/schedule/schedule.controller';
+import DetailController from './locations/detail/detail.controller';
 
 
 import PlazaService from './locations/plazas/plazas.service';
@@ -43,5 +44,6 @@ angular.module('latincouver', ['ionic', 'ui.router'])
 
 
 .service('PlazaService', PlazaService)
+    .service('DetailService', DetailService)
     .service('ScheduleService', ScheduleService)
     .service('VendorsService', VendorsService);
