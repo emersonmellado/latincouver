@@ -1,0 +1,98 @@
+[{
+    "id": 400,
+    "plaza_id": 4,
+    "name": "YVR",
+    "products": "",
+    "description": "<p>Canada’s second busiest airport, is a place where millions of visitors are welcomed to BC, and where millions of residents are welcomed home! YVR not only connects passengers to over 118 non­stop destinations it is also a gateway that connects British Columbia's history and its people to the world. Inclusivity, accessibility and community are also at the core of their business and YVR is proud to support programs that empower communities, big and small, throughout Metro Vancouver and beyond. Thank you YVR for supporting us as our main Travel Plaza sponsor at this year’s Carnaval del Sol 2016!</p>",
+    "image": "assets/images/business/yvr.jpg",
+    "color": "blue-flat"
+}, {
+    "id": 401,
+    "plaza_id": 4,
+    "name": "Aerovías de México",
+    "products": "",
+    "description": "<p>Aerovías de México, S.A. de C.V., operating as Aeroméxico, is the flag carrier airline of Mexico based in Mexico City. It operates scheduled services to more than 56 destinations in Mexico; North, South, and Central America; the Caribbean, Europe, and Asia. Its main base and hub is Mexico City International Airport, with a secondary hub at Monterrey.</p><p>Aeromexico has entered a codeshare agreement with WestJet, whereby connecting service via Montreal, Toronto and Vancouver to more than 10 Canadian destinations, including Calgary, Edmonton, Winnipeg, Ottawa, Halifax, Deer Lake, St. John's, among others will be enhanced. The agreement also provides WestJet clients new connecting service from WestJet’s extensive Canadian network to Mexico City via Montreal, Toronto, and Vancouver. In addition, WestJet will also now sell non­stop flights to/from Mexico from Montreal, Toronto, and Vancouver. WestJet Rewards are available on these flights as well.</p><p>Both Aeromexico and WestJet will also sell tickets for travel on each other's entire network, including non­codeshare flights, providing their respective passengers another benefit of the enhanced relationship. </p><p>As part of their cooperation, bags checked with both Aeromexico and WestJet will continue to reach the final destination without a separate check­in at the point of transfer between the carriers. </p><p>Aeromexico's Chief Revenue Officer, Anko Van der Werff, said: 'Our airline is always looking to offer its customers the best connecting service on our partner network, and this codeshare agreement with WestJet allows us to include more destinations and flights to and from Canada to Mexico and Latin America.'</p>",
+    "image": "assets/images/business/aeromexico.png",
+    "color": "yellow-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://aeromexico.com/en/ca/"
+    }]  
+}, {
+    "id": 402,
+    "plaza_id": 4,
+    "name": "Destinos Enterprises",
+    "products": "",
+    "description": "<p>Destinos Enterprises is a Vancouver­based, full­service Tourism Marketing and Destination Management Company providing government agencies and private organizations with customized solutions to introduce and develop products and services in Latin destinations and Canada. Its primary goal is to raise public awareness of Canada, Latin America, Caribbean, and Europe as travel destinations. </p><p>Its founder, Sandra Sallovitz, is a recognized leader in Canada’s travel industry and a specialist in worldwide land and air travel programs. She has over 25 years of experience in the travel industry, with broad experience in business development and sales/marketing for companies like American Express Travel Services, Global Connections/GAP Adventures plus representation of LAN, TAM Airlines,Turkish Airlines, Aces, Frontier Airlines, Lloyd Boliviano, Harbour Air and other major airlines around the world.</p>",
+    "image": "assets/images/business/Destinos.png",
+    "color": "red-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.destinosenterprises.com/"
+    }] 
+}, {
+    "id": 403,
+    "plaza_id": 4,
+    "name": "Evo Car Share",
+    "products": "",
+    "description": "<p>Evo Car Share allows us to do more with our friends and families by making our travelling lives hassle­free. Evo Car Share is Vancouver’s only pick­up and drop­off anywhere car sharing service, they offer a full fleet of four­door, hybrid vehicles with room for five passengers and enough cargo space and ski/bike racks for everyone. Evo allows more ways for people to live our B.C. lifestyle. Since its inception Evo has met, and continues to meet, the changing mobility needs of British Columbians, whether or not we own a car. Evo supports our local communities by donating 100% of users’ $2 annual car share operator fee to local non­profit agencies. That’s an impressive contribution considering thousands of users take hundreds of thousands trips every year! Thank you Evo for caring, sharing and participating as one of the proud sponsors of YVR Travel Plaza at this year’s Carnaval del Sol.</p>",
+    "image": "assets/images/business/expoplaza-latina-2013.jpg",
+    "color": "green-flat"
+}, {
+    "id": 404,
+    "plaza_id": 4,
+    "name": "Latin America Vancouver Consulates",
+    "products": "",
+    "description": "<p>Latin America Vancouver Consulates bridges the gap between BC residents and Latin American cultures and communities. They are proud to support Latin American heritage in British Columbia! Thank you for being one of the sponsors of our YVR Travel Plaza at this Year’s Carnaval del Sol.</p>",
+    "image": "assets/images/business/evo-car-share.png",
+    "color": "blue-flat"    
+}, {
+    "id": 405,
+    "plaza_id": 4,
+    "name": "Ria Money Transfer",
+    "products": "",
+    "description": "<p>Ria Money Transfer, a subsidiary of Euronet Worldwide, Inc., specializes in money remittances. Ria initiates transfers through a network of sending agents and company­ owned stores located throughout North America, Latin America, Europe, Asia­Pacific, Africa and online. Ria participates in multiple financial services, including, electronic bill payment, mobile top ups, prepaid debit cards, check cashing, currency exchange, and money orders. The company's first store front was opened in 1987, and since then they have grown into the third largest money transfer service in the world. In 2013, Ria processed approximately 28 million money transfers with a face value of more than $9 billion through a network of 235,000 global agents, and locations in 133 countries.</p>",
+    "image": "assets/images/business/RIA.png",
+    "color": "red-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.riafinancial.com/locations/CA/home.aspx"
+    }]     
+}, {
+    "id": 406,
+    "plaza_id": 4,
+    "name": "The Today Team",
+    "products": "",
+    "description": "<p>“In today's world of constantly changing markets and upgrades to technology it is important to work with people who strive to stay ahead of the competition. This is why we call ourselves “The Today Team”. We are diligently working to remain at the top of today's wants and needs so our clients don't end up being yesterday’s news. We utilize a comprehensive, all­encompassing strategic marketing system that will assist you in a successful sale. Don't be satisfied with the industry norm, instead expect the best! It is important for you to understand the procedures involved in buying or selling a home, to recognize the significance of the documents you will encounter, and to understand the role of other people who may be involved in a purchase or sale.”</p>",
+    "image": "assets/images/business/The-Today-Team.png",
+    "color": "yellow-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.thetodayteam.com/site/index.php"
+    }]      
+}, {
+    "id": 407,
+    "plaza_id": 4,
+    "name": "University of British Columbia",
+    "products": "",
+    "description": "<p>The University of British Columbia, commonly referred to as UBC, is a public research university with campuses and facilities in British Columbia, Canada. Founded in 1908 as the McGill University College of British Columbia, the university became independent and adopted its current name in 1915. It is British Columbia's oldest institution of higher learning and has over 60,000 students at its Vancouver and Okanagan Valley campuses. UBC's admission standards are among the most rigorous in Canada, and according to the annual rankings compiled by Maclean's and U.S. News and World Report the university consistently ranks among the top three research universities nationwide. In 2015 U.S. News and World Report and Times Higher Education ranked UBC among the 20 best public universities worldwide and in the top 6 in North America. With an annual research budget valued at $564 million, UBC funds 8,442 projects as of 2014. Faculty, alumni, and researchers have received seven Nobel Prizes, 69 Rhodes Scholarships, 65 Olympic medals and 208 fellowships to the Royal Society of Canada. The university has also educated three Canadian prime ministers, most recently Justin Trudeau, the incumbent.</p>",
+    "image": "assets/images/business/UBC.png",
+    "color": "green-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://www.ubc.ca/"
+    }]     
+}, {
+    "id": 408,
+    "plaza_id": 4,
+    "name": "Vancouver English Centre",
+    "products": "",
+    "description": "<p>The primary goal of Vancouver English Centre is to provide English programs and services that fulfill the needs of students from diverse backgrounds and of different abilities. Our conscious effort to offer the best possible overall educational experience is reflected throughout our programs. We ensure that all students learn efficiently, and at their own pace, by offering 15 levels of carefully designed curriculum. All of our teachers have recognized English language teaching credentials, as well as university degrees. Our English Only policy is a fundamental aspect of the school philosophy. </p><p>Students do not have unlimited time or resources ­ we provide our students with the tools to learn intensively and efficiently. Our courses, schedules and fees are carefully designed to benefit our students as much as possible. We do everything possible to maintain an environment that supports our classroom instruction. In 2002, we built our new campus in Yaletown, in downtown Vancouver. We have 47 classrooms, four computer labs, iBT TOEFL lab, 3D Multimedia room, and a coffee shop, all in one modern, attractive building.</p>",
+    "image": "assets/images/business/vanenglishcentre.jpg",
+    "color": "blue-flat"
+}]

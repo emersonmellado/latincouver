@@ -1,6 +1,8 @@
 class DetailController {
     constructor($scope, $http, $stateParams, $filter, DetailService) {
         this.$http = $http;
+        this.selected = "";
+        this.list = "";
         //console.log("$stateParams.section", $stateParams.section);
         DetailService.getDetails($stateParams.section).then(response => {
             this.list = response.data;

@@ -1,4 +1,5 @@
 import config from './index.config';
+//import constants from './index.constants';
 
 import routerConfig from './index.route';
 
@@ -18,16 +19,19 @@ import ScheduleController from './locations/schedule/schedule.controller';
 import DetailController from './locations/detail/detail.controller';
 import MapController from './locations/map/map.controller';
 import LatinhubController from './locations/latinhub/latinhub.controller';
+import BusinessController from './locations/business/business.controller';
 
 import PlazaService from './locations/plazas/plazas.service';
 import VendorsService from './locations/vendors/vendors.service';
 import ScheduleService from './locations/schedule/schedule.service';
 import DetailService from './locations/detail/detail.service';
+import BusinessService from './locations/business/business.service';
 
 angular.module('latincouver', ['ionic', 'ui.router'])
     .config(config)
 
 .config(routerConfig)
+    //.constant(constants)
 
 .run(runBlock)
 
@@ -46,9 +50,11 @@ angular.module('latincouver', ['ionic', 'ui.router'])
     .controller('DetailController', DetailController)
     .controller('MapController', MapController)
     .controller('LatinhubController', LatinhubController)
+    .controller('BusinessController', BusinessController)
 
 
 .service('PlazaService', PlazaService)
     .service('DetailService', DetailService)
     .service('ScheduleService', ScheduleService)
-    .service('VendorsService', VendorsService);
+    .service('VendorsService', VendorsService)
+    .service('BusinessService', BusinessService);

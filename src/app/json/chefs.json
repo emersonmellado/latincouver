@@ -1,0 +1,89 @@
+[{
+    "id": 400,
+    "plaza_id": 4,
+    "name": "Chef Alain Rayé and Brigitte Rayé",
+    "products": "Café Ça Va ­ representing France",
+    "description": "<p>2 Michelin­Star Chef Alain Rayé and long­time business partner Brigitte Rayé is teaming up once again to bring real French food to Vancouver. This team brought and raised the bar way back, when they brought La Régalade’s succulent treats of traditional down­home comfort French cuisine to British Columbia. Café Ça Va, their new restaurant, scheduled for opening in a few weeks will once again raise the bar in Vancouver when it comes to French cuisine.</p><p>Expect the same highly valued quality ingredients and balanced, varied food choices, but this time around enjoy authentic evolved French cuisine. French gastronomy, known for its richness ­ dishes made with butter, cream, duck fat, lots of meat – that is belly achingly filling has been quietly going through a food revolution over the last few years in Paris. Café Ça Va will be serving healthy French food made with less richness, local and seasonal organic products.</p><p>Cooking is when Chef Alain is most happy; this is his poetry, his communication of what life means and he lives to share that with people who appreciate food.</p><p> Brigitte’s hospitality is legendary, she is most definitely French and proud of it so expect warm welcomes to old and new friends, humour, and leave well­fed and happy with your bellies filled with healthy authentic French food.</p><p>Visit Café Ça Va at 1860 Marine Dr, West Vancouver, to join the French food revolution!</p>",
+    "image": "assets/images/chefs/Alain-and-Brigitte-Rayé-1.jpg",
+    "color": "yellow-flat"
+}, {
+    "id": 401,
+    "plaza_id": 4,
+    "name": "Chef Brandon Owen",
+    "products": "Gordon Food Services ­ representing Canada",
+    "description": "<p>Born and raised in Johannesburg, South Africa, Chef Brandon Owen (CCC) did his apprenticeship with the Ritz Restaurant under renowned chef Ciro Molinaro where he developed his love and passion for food. Brandon later moved to Cape Town to join Le Quartier Francis, a world class facility ranked among the Top 50 Restaurants by the San Pellegrino Restaurant Awards.</p><p>Chef Brandon culinary journey has taken him around the world and back working with restaurants, hotels, cruise ships and Relais Château properties. Ten years ago, after a stint at The Tea House, Star Anise, and Fairmont Hotel Vancouver, Chef Brandon joined Gordon Food Services and has never looked back. His work allows him to work with hundreds of customers from all over the province where he gets a clear understanding of the individual and unique challenges the food industry faces on a daily basis. Chef Brandon Owen oversees retail division of Gordon Food Service with their large retail customers on HMR (Home Meal Replacements), ‘Grab & Go’ programs and trend innovation.</p>",
+    "image": "assets/images/chefs/Brandon-Owen.jpg",
+    "color": "yellow-flat"
+}, {
+    "id": 402,
+    "plaza_id": 4,
+    "name": "Chef Cullin David",
+    "products": "Calabash Bistro ­ representing the Caribbeans",
+    "description": "<p>Opening a bistro that serves Caribbean cuisine in his hometown had always been a dream for Chef Cullin David. The Canadian­born chef of Guyanese and Irish heritage, along with his two partners, opened their upscale Caribbean eatery and music lounge Calabash Bistro in Gastown to wide acclaim.</p><p>“My mom was a great cook. My grandma’s an amazing cook. My stepmom is an amazing cook, so it was just something that was always around me. Guyanese culture, in fact Caribbean culture on the whole, view food as national pastimes,” said Chef Cullin.</p><p>After a month­long food­adventure trip to Guyana and Barbados Chef Cullin returned home with a renewed desire to open a restaurant that would showcase Caribbean cuisine. Calabash Bistro serves traditional Caribbean dishes, such as jerk chicken and goat curry, using the chef’s French training techniques combined with fresh local products. </p><p>“You can really take an ingredient from anywhere in the world, and it will fit into Caribbean cuisine because everyone in the world has put their foot in the Caribbean,” said Chef Cullin in reference to the multicultural heritage of Guyana. </p><p><i>Aboriginal people have lived in Guyana since the dawning of time, then came the Dutch, British, Africans, Irish, Indians, Chinese and countless others. Guyanese food is also influenced by its geography ­ set in South America amid lush rainforests, fertile coastal lands and an ocean of seafood.</i></p>",
+    "image": "assets/images/chefs/Cullin-David.jpg",
+    "color": "yellow-flat"    
+}, {
+    "id": 403,
+    "plaza_id": 4,
+    "name": "Chef Jonathan Chuy",
+    "products": "La Taqueria and La Mezcaleria, representing Mexico",
+    "description": "<p>Jonathan discovered his calling to be a chef from the age of 12 years old, back when he spent his time in the family garden, and learning to make fresh pasta from his Nonna. Today he gets a lot of his inspirations from local farmers’ markets, food shows, growing his own fruits and vegetables and from cooking shows too. His best meal would be his Nonna’s lasagna, his mom’s chicken cacciatore, and his wife’s chocolate chip cookies, add a big arugula salad, Nonna’s tiramisu, and several bottles of Italian red wine and if there’s room for more he would finish with a bottle of Ca del Bosco Brut and some caviar, somewhere in the mix, he would add some prosciutto di Parma and Parmigiano­Reggiano too. Needless to say his one big big dream is to own a piece of land in the hills of Tuscany with a small restaurant, farm and bed and breakfast with my family. Word from the chef, “Join us at Carnaval del Sol and learn to make sustainable Halibut ceviche. We will be serving our signature tacos, ceviche and guacamole from the teams at La Taqueria & La Mezcaleria!” </p><p>Best advice from the chef, “Make sure your knives are sharp!”</p>",
+    "image": "assets/images/chefs/Cullin-David.jpg",
+    "color": "yellow-flat"     
+}, {
+    "id": 404,
+    "plaza_id": 4,
+    "name": "Juan Pablo Gonzalez",
+    "products": "El Coroto, representing Venezuela",
+    "description": "<p>Born in Caracas Venezuela in 1982, Juan earned a Bachelor's Degree in Journalism at Monteavila University in Caracas in 2004. In 2013 he received a Bachelor's in Fine Arts, with a major in sculpture from the Alberta College of Art and Design in Calgary. His artistic practice is currently focused in subverting the traditional Venezuelan Arepa recipes by adapting them to a <strong>vegetarian</strong>, locally sourced, organic approach.</p><p>By partnering with Alexandra Pena, also a Venezuelan national, El Coroto Venezuelan Food is born. This new venture is aiming to Infuse the Latin culture with a distinctively Canadian West Coast approach. You can find them this summer roaming the Metro Vancouver area.</p>",
+    "image": "assets/images/chefs/Juan-Pablo-González.jpg",
+    "color": "yellow-flat"         
+}, {
+    "id": 405,
+    "plaza_id": 4,
+    "name": "Mariana Gabilondo",
+    "products": "Mezcaleria, representing Mexico",
+    "description": "<p> Chef Mariana grew up in a Mexican household where her father, from Mexico, cooked, for her french mother, who did not. Around the kitchen table, food, it’s provenance, and history was in constant discussion. Everything a story, every dish attached to a person or a culture. The only requirement, that everything and anything that her father prepared was tried at least once.</p><p>Throughout the years, Mariana learned about the history of food, literature and anthropology. All which tie into one another and this can be heard anytime you have a discussion with the chef about food and culture. Chef Mariana paved her way through kitchens in Montreal, where she did her training, then continued travelling before she ended up back in Mexico. In Mexico, this is where Chef Mariana honed her skills as a great cook, and became a chef in some of the leading hotel and resort brands in the world. </p><p>In 2011, Chef Mariana took her journey to Quadra Island, BC. On Quadra, she ran several locations, but most recently spent time rebranding and building the business at Gowlland Harbour Resort as Property Manager and Executive Chef. </p><p>A few months ago, Chef Mariana joined the team at La Mezcaleria, where she is the Restaurant Chef of the Commercial Drive location. At La Mezcaleria, Chef Mariana leads her team, and teaches the rest of the culinary team to learn the basics, hone their skills, and be ready for any surprises. This is also the advice that she’d like to share with home cooks looking to advance their skills. Additionally, be patient, be flexible, and know that there is something you can always learn!</p>",
+    "image": "assets/images/chefs/Mariana-Gabilondo.jpg",
+    "color": "yellow-flat" 
+}, {
+    "id": 406,
+    "plaza_id": 4,
+    "name": "Chef Pedro Guillen",
+    "products": "representing Peru",
+    "description": "<p>Pedro Guillen was born and raised in Peru and spent his youth in Lima and Moquegua ­ a southern Peruvian region renowned for their culinary expertise, avocados, fruits, tempting desserts as well as producing some of the best Piscos in the world. Pedro’s father was a Chef so Pedro was always in the kitchen helping out when he was young and eventually started cooking. He moved from Peru to Montreal to pursue his passion to be the best he could be, there he enrolled in the Hotel and Culinary Tourism program, worked at a local Peruvian restaurant and eventually moved to Toronto where he became the sous chef at Chez Cora. </p><p>He moved out west, and in 2005 he opened his own catering business specializing in Peruvian rotisserie chicken, pollo a la brasa. In 2008 and 2011, Pedro was invited as Head Chef for Promperu at their first and second gastronomic event, Peru Mucho Gusto in Vancouver, and in 2012, Pedro was nominated for a new Latin business entrepreneur of the year in BC by Inspirational Latin Awards, hosted by Latincouver and the City of Vancouver. </p><p>Chef Pedro Guillen actively participates in local food and community events such as Eat! Vancouver Festival, Summer Latinfest, Dragon Boat Festival, and Caribbean Festival. His delicious Peruvian cuisine quickly developed a loyal following in Vancouver and also among the Peruvian and Latin communities in BC.</p>",
+    "image": "assets/images/chefs/Pedro-Guillen.jpg",
+    "color": "yellow-flat"      
+}, {
+    "id": 407,
+    "plaza_id": 4,
+    "name": "Chef Seungmin Han",
+    "products": "Kosoo Korean Kitchen + Raw Bar, representing Korea",
+    "description": "<p>Chef Han sums it up in one line, “I use my first honest mind to master the basics of every ingredient and cuisine to find new taste and I put my every effort into serving dishes that may move my guests’ minds.” </p><p>Kosoo roughly translates to “Master of the First Principle” and also means “To Sustain”. Meet Chef Han and you will quickly realize that he exemplifies the word Kosoo in all its translations. Chef Han’s fascination with food began in his early childhood when he was allowed to sit in the kitchen and watch his mom prepare family meals. It was not just the daily meal making he was enthralled with, he was intrigued by the more time­labouring ingredients like the making of kimchi, soy sauce, and chili pastes. Today Chef Han makes his own kimchi and chili pastes. The menu reflects his training in French and Japanese cuisines, and his love of his Korean roots. Chef Han describes their concept as Modern Korean food. Chef Han said he loves working with the consistency of local, fresh products and he is looking forward to wowing us at Carnaval del Sol’s <strong>Chefs del Sol.</strong></p>",
+    "image": "assets/images/chefs/seungmin-han.png",
+    "color": "yellow-flat"        
+}, {
+    "id": 408,
+    "plaza_id": 4,
+    "name": "Chef Sheldon Maloff",
+    "products": "Provence Marinaside in Yaletown, representing Canada",
+    "description": "<p>Sheldon Maloff, is a Canadian Executive Chef who takes his early experiences of cooking with his mother as his inspiration to conquer the food industry. While living in Northern Canada it was a privilege for him to have homemade Jelly and Jams in the midst of winter, a luxury made possible thanks to the team effort of himself, his mother and friends dedicating summer days to this production. This was a decisive experience for his involvement in the kitchen. Once he became a chef he guided his career with inspiration, freshness and variety. As an expert in Southern France’s cuisine chef Maloff will be bringing his expertise and positive influence to younger cooks and a whole new audience. Here he will take the opportunity to showcase Mediterranean cooking techniques. Chef Sheldon Maloff, Executive Chef of Provence Marinaside Restaurant in Yaletown offers a menu centered in seafood and breathtaking views of Vancouver’s seawall.. Creative and intriguing? Yes, also a great show to go to Carnaval del Sol on July 9 & 10 at Concord Pacific.</p>",
+    "image": "assets/images/chefs/Sheldon-Maloff.jpg",
+    "color": "yellow-flat"         
+}, {
+    "id": 409,
+    "plaza_id": 4,
+    "name": "Chef Siddhartha Choudary",
+    "products": "Siddhartha’s Indian Kitchen, representing India",
+    "description": "<p>Chef Choudary was close to completing his engineering degree when he decided to attend culinary school instead. He trained under a reputable chef known for his no­nonsense attitude. He was once told words he will never forget ­ one must do everything with heart or get out of the trade ­ and from that moment on he knew he was in the right profession. </p><p>He spent most of his career in Dublin (Ireland) where he led a fine­dining Japanese restaurant for years. During that time he perfected his skill in the art of presentation. In Europe he learnt the importance of using local, sustainable products and he has brought that philosophy here where he continues to support local farmers and producers. </p><p>Indian cuisine is not well represented when it comes to plating but he has learnt to apply his engineer’s training to breaking everything down and rebuilding it again, and his natural art to blending flavours and colours, which makes him a more methodical cook. Chef Sid feels the art within and transforms that to his dishes.</p>",
+    "image": "assets/images/chefs/sid.png",
+    "color": "yellow-flat"    
+}, {
+    "id": 410,
+    "plaza_id": 4,
+    "name": "Chef Sudarat Yuintra",
+    "products": "representing Thailand",
+    "description": "<p>“Born and raised in Bangkok Thailand until 13 years old prior in moving to Ontario, Canada. Passion for food and culinary talents run in the family, at a very young age I was often pulled away from the playing field into the kitchen to help prepare family meals where I learned to identify herbs often picked from the garden and taste the ingredients used in our cooking. </p><p>I was taught by my uncle a professional Thai Chef who specializes in International Cuisines and my aunt who specializes in Thai authentic home cooking, so it is only natural for my style of cooking to be Thai Fusion. </p><p>I thoroughly enjoy creating flavourful dishes combining international ingredients and traditional Thai flavours. Cooking is an art... I'm in my element when I play with food and create magical tasting dishes.”</p>",
+    "image": "assets/images/chefs/sudarat.jpg",
+    "color": "yellow-flat"                     
+}]

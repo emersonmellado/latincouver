@@ -1,4 +1,4 @@
-<div class="list event-list">
+<!-- <div class="list event-list">
     <div class="row">
         <div class="col col-50">
             <img src="assets/images/chefs/jonathan.png">
@@ -24,6 +24,23 @@
             <img src="assets/images/chefs/pedro.png">
             <div class="blue-flat">
                 <h5>Chef Pedro Guillen</h5>
+            </div>
+        </div>
+    </div>
+</div>
+ -->
+<div class="list event-list">
+    <div class="row" data-ng-repeat="p in plaza.selected.biz" ng-if="$index % 2 == 0">
+        <div class="col col-50" ui-sref="detailMaster({section:plaza.selected.detailMaster, id:plaza.selected.biz[$index].id})">
+            <img data-ng-src="{{plaza.selected.biz[$index].image}}" data-ng-show="plaza.selected.biz[$index].image">
+            <div class="{{plaza.selected.biz[$index].color}}">
+                <h5>{{plaza.selected.biz[$index].name}}</h5>
+            </div>
+        </div>
+        <div class="col col-50" ng-show="plaza.selected.biz[$index+1]" ui-sref="detailMaster({section:plaza.selected.detailMaster, id:plaza.selected.biz[$index+1].id})">
+            <img data-ng-src="{{plaza.selected.biz[$index+1].image}}" data-ng-show="plaza.selected.biz[$index+1].image">
+            <div class="{{plaza.selected.biz[$index+1].color}}">
+                <h5>{{plaza.selected.biz[$index+1].name}}</h5>
             </div>
         </div>
     </div>

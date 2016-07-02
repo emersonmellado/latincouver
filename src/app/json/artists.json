@@ -1,8 +1,8 @@
 [{
-    "id": 1,
+    "id": 100,
     "plaza_id": 1,
     "order": 1,
-    "name": "Wil Campa",
+    "name": "Will Campa",
     "datetime": "Sat 07/09, 8:30 pm - 10:00 pm",
     "description": "<p>Recording several albums with Cumbre and Maraca, Wil is best recognized internationally for his Grammy Nominated contribution to the CD ‘Tremenda Rumba’ in 2002. In 2005 Wil formed what is known today as one of Cuba elite groups ‘Wil Campa Y Su Orquesta,’ releasing two albums: ‘Es Tiempo’ in 2006 and ‘Todo Es Posible’ in 2011, winning him a Nomination for Best Album 2012 at the Cubadisco (Cuba’s equivalent of the Grammy’s). Wil Campa Y Su Orquesta have been touring extensively nationally (e.g. Havana Jazz Festival) and internationally, inspiring and introducing thousands of audiences to Cuba’s musical royalty.</p><p>Wil’ s childhood was spent in Pinar del Rio, Cuba, where he grew up amidst streets filled with joyful traditional Cuban music.Wil’ s vision, musical talent, and chorographical direction have placed this Orchestra, Wil Campa Y Su Orquesta, as one of the most exciting touring groups! </p>",
     "color": "red-flat",
@@ -17,7 +17,7 @@
         "href": "https://www.facebook.com/wil.campa"
     }]
 }, {
-    "id": 2,
+    "id": 101,
     "plaza_id": 1,
     "order": 2,
     "name": "Samba Fusion",
@@ -35,7 +35,7 @@
         "href": "https://www.facebook.com/Samba-Fusion-217416471623486"
     }]
 }, {
-    "id": 3,
+    "id": 102,
     "plaza_id": 1,
     "order": 3,
     "name": "Mazacote",
@@ -53,7 +53,7 @@
         "href": "https://www.youtube.com/playlist?list=PLEB036B617E011C72"
     }]
 }, {
-    "id": 4,
+    "id": 103,
     "plaza_id": 1,
     "order": 4,
     "name": "Locarno",
@@ -79,7 +79,7 @@
         "href": "https://www.youtube.com/channel/UCrfT9cEkXIIrx60isCMnC-g"
     }]
 }, {
-    "id": 5,
+    "id": 104,
     "plaza_id": 1,
     "order": 5,
     "name": "Tabasko",
@@ -101,7 +101,7 @@
         "href": "https://www.youtube.com/playlist?list=PLB41C9574D25267C0"
     }]
 }, {
-    "id": 6,
+    "id": 105,
     "plaza_id": 1,
     "order": 6,
     "name": "Bloco Energia",
@@ -123,7 +123,7 @@
         "href": "https://www.youtube.com/channel/UC4MvB19UJyLf2afr6bUbalQ"
     }]
 }, {
-    "id": 7,
+    "id": 106,
     "plaza_id": 1,
     "order": 7,
     "name": "Robin Layne Band ",
@@ -141,7 +141,7 @@
         "href": "https://www.facebook.com/robin.layne.5"
     }]
 }, {
-    "id": 8,
+    "id": 107,
     "plaza_id": 1,
     "order": 8,
     "name": "Brisas del Palmar",
@@ -159,7 +159,7 @@
         "href": "https://ja-jp.facebook.com/GrupoCubano"
     }]
 }, {
-    "id": 9,
+    "id": 108,
     "plaza_id": 1,
     "order": 9,
     "name": "Entangados",
@@ -177,7 +177,7 @@
         "href": "https://www.youtube.com/user/Entangados"
     }]
 }, {
-    "id": 10,
+    "id": 109,
     "plaza_id": 1,
     "order": 10,
     "name": "Las Estrellas de Vancouver",
@@ -191,7 +191,7 @@
         "href": "https://www.facebook.com/Las-Estrellas-de-Vancouver-1634965453407354"
     }]
 }, {
-    "id": 11,
+    "id": 110,
     "plaza_id": 1,
     "order": 11,
     "name": "Zazueira Band",
@@ -209,7 +209,7 @@
         "href": "http://www.myspace.com/zazueiraband"
     }]
 }, {
-    "id": 12,
+    "id": 111,
     "plaza_id": 1,
     "order": 12,
     "name": "Alma Chevere",
@@ -227,7 +227,7 @@
         "href": "https://www.facebook.com/AlmaChevere"
     }]
 }, {
-    "id": 13,
+    "id": 112,
     "plaza_id": 1,
     "order": 13,
     "name": "Kutapira",
@@ -245,7 +245,7 @@
         "href": "https://www.facebook.com/kutapira"
     }]
 }, {
-    "id": 14,
+    "id": 113,
     "plaza_id": 1,
     "order": 14,
     "name": "Flamenco Rosario ",
@@ -267,17 +267,16 @@
         "href": "https://www.facebook.com/pages/Flamenco-Rosario/201862698652"
     }]
 }, {
-    "id": 15,
+    "id": 114,
     "plaza_id": 1,
     "order": 15,
     "name": "Maquilishuat Folklore Dancers",
     "datetime": "Sun 07/10, 12:30 pm - 1:00 pm",
     "description": "<p>Originally known as “Las Cortadoras“ in PEI (for 6 years), the Salvadoran Folklore Group Maquilishuat aims to promote and share its culture and heritage with the Latin American and Canadian community through its dance and customs.</p>",
     "color": "yellow-flat",
-    "image": "assets/images/artists/Maquilishuat-Folklore1-1.jpg",
-    "links": []
+    "image": "assets/images/artists/Maquilishuat-Folklore1-1.jpg"
 }, {
-    "id": 16,
+    "id": 115,
     "plaza_id": 1,
     "order": 16,
     "name": "Nahualli Folklore Dancers",
@@ -299,7 +298,7 @@
         "href": "https://www.youtube.com/user/NahualliFolkloreTube"
     }]
 }, {
-    "id": 17,
+    "id": 116,
     "plaza_id": 1,
     "order": 17,
     "name": "Axé Capoeira",
@@ -325,17 +324,16 @@
         "href": "https://twitter.com/axecapoeiravan"
     }]
 }, {
-    "id": 18,
+    "id": 117,
     "plaza_id": 1,
     "order": 18,
     "name": "Paul Bray Drumming Workshop",
     "datetime": "Sat 07/09, 1:00 pm - 1:30 pm",
     "description": "<p>“Paul Bray is a dynamic and charismatic percussionist who draws on his strong classical background, Paul has devoted his attention to the study of African influenced music, specialising in Afro-Cuban and Afro-Brazilian folkloric musical styles.” </p><p> Come out and Live Latin America with Paul Bray!</p><p>Paul’ s impressive list of achievements includes studies in Cuban music and Brazilian percussion, and collaborations with Afro - Bahia Dance Productions and Yasse Afro - Arts.He also works as a studio musician as a director of Sambatá, Vancouver’ s 20 - piece Escola de Samba.Paul has also performed as a guest artist with both Jesse Cook and Tibetan multi - instrumentalist Nawang Khechog. </p><p>Paul is taking time out from his busy schedule to Play some Latin American drums at Carnaval del Sol!Currently,Paul is the percussion instructor at the Sarah McLachlan Music Outreach and is guest instructor with the Britannia World Rhythms Ensemble. </p><p>In the performing arena Paul is a member of Tambor Iroko - led by Jack Duncan Candela– and he is a regular club percussionist,collaborating with local DJ’ s in Vancouver </p>",
     "color": "blue-flat",
-    "image": "assets/images/artists/Paul-Bray-Drumming1.jpg",
-    "links": []
+    "image": "assets/images/artists/Paul-Bray-Drumming1.jpg"
 }, {
-    "id": 19,
+    "id": 118,
     "plaza_id": 1,
     "order": 19,
     "name": "Songpati",
@@ -353,39 +351,31 @@
         "href": "https://twitter.com/songpati"
     }]
 }, {
-    "id": 20,
+    "id": 119,
     "plaza_id": 1,
     "order": 20,
     "name": "Zumba",
     "datetime": "Sun 09/10, 11:30 am - 12:30 pm",
     "description": "<p>http://www.zumbavancouver.ca/</p>",
     "color": "green-flat",
-    "image": "assets/images/event/carnaval_delsol.jpg",
-    "links": []
+    "image": "assets/images/event/carnaval_delsol.jpg"
 }, {
-    "id": 21,
+    "id": 120,
     "plaza_id": 1,
     "order": 21,
     "name": "Salsa",
     "datetime": "Sat 07/09, 7:45 pm - 8:15 pm",
     "description": "",
     "color": "red-flat",
-    "image": "assets/images/event/carnaval_delsol.jpg",
-    "links": []
+    "image": "assets/images/event/carnaval_delsol.jpg"
 }, {
-    "id": 22,
+    "id": 121,
     "plaza_id": 1,
     "order": 22,
     "name": "African Peruvian",
     "datetime": "Sat 07/09, 4:15 pm - 5:45 pm",
     "description": "",
     "color": "blue-flat",
-    "image": "assets/images/event/carnaval_delsol.jpg",
-    "links": [{
-        "name": "",
-        "href": ""
-    }, {
-        "name": "",
-        "href": ""
-    }]
+    "image": "assets/images/event/carnaval_delsol.jpg" 
+
 }]

@@ -1,1 +1,17 @@
-latinhub.html
+<ion-view view-title="intro">
+  <div data-ng-show="$state.is('latinhub')">
+      <div class="event-navigation">
+          <button class="button button-next" ng-click="latinhub.nextSlide()">
+              <i class="icon ion-chevron-right"></i>
+          </button>
+          <button class="button button-prev" ng-click="latinhub.prevSlide()">
+              <i class="icon ion-chevron-left"></i>
+          </button>
+      </div>
+      <ion-slides class="event-slides" options="latinhub.slider.sliderOptions" slider="latinhub.slider.sliderDelegate">
+          <ion-slide-page class="event-slide-box" ng-repeat="slide in latinhub.slider.images">
+              <img ng-src="{{slide.image}}">
+          </ion-slide-page>
+      </ion-slides>
+  </div>
+</ion-view>
