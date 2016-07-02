@@ -2,40 +2,35 @@
     <div class="bar bar-header bar-positive">
         <button ui-sref="plazas" class="button icon ion-android-arrow-back">
         </button>
-        <p class="title">
-            {{plaza.selected.name}}
+        <p class="title">            
+            {{detail.selected.name}}            
         </p>
     </div>
     <ion-content class="has-header content" overflow-scroll="false">
         <div>
-            <img class="full-image" ng-src={{plaza.selected.image}}>
-        </div>
+            <img class="full-image" ng-src={{detail.selected.image}}>
+        </div>        
         <div ui-view>
             <div class="plaza-content">
                 <div class="list">
-                    <span ng-bind-html='plaza.selected.info'></span>
-                    <button class="button plaza-map-button button-positive">
+                    <span ng-bind-html='detail.selected.description'></span>
+                    <span ng-bind-html='detail.selected.products'></span>
+                    <button class="button plaza-map-button button-positive green-flat" ui-sref="map">
                         <i class="ion ion-map"></i>
                         <span class="hash">Map</span>
                     </button>
-                </div>
-            </div>
-            <div class="list event-list">
-                <div class="row" data-ng-repeat="p in plaza.vendorsList" ng-if="$index % 2 == 0">
-                    <div class="col col-50">
-                        <img data-ng-src="{{plaza.vendorsList[$index].image}}" data-ng-show="plaza.vendorsList[$index].image">
-                        <div class="{{plaza.vendorsList[$index].color}}">
-                            <h5>{{plaza.vendorsList[$index].name}}</h5>
-                        </div>
-                    </div>
-                    <div class="col col-50" ng-show="plaza.vendorsList[$index+1]">
-                        <img data-ng-src="{{plaza.vendorsList[$index+1].image}}" data-ng-show="plaza.vendorsList[$index+1].image">
-                        <div class="{{plaza.vendorsList[$index+1].color}}">
-                            <h5>{{plaza.vendorsList[$index+1].name}}</h5>
+                </div>            
+                <div class="list" data-ng-hide="!detail.selected.links.length">
+                    <p>More info: </p>
+                    <div class="row" ng-repeat="x in detail.selected.links" ng-if="$index % 3 == 0" ng-init="index = $index">
+                        <div ng-repeat="i in [0,1,2]" ng-if="(index + i)<detail.selected.links.length" class="col-33">
+                            <div class="button plaza-map-button button-positive blue-flat" data-ng-click="detail.launch(detail.selected.links[index+i].href)">
+                                <i class="ion {{detail.selected.links[index+i].icon}}" style="font-size: 30px; margin-top: 10px;"></i>
+                            </div>                            
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>            
         </div>
     </ion-content>
 </ion-view>

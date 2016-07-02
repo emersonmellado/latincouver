@@ -4,6 +4,12 @@
           UPCOMING EVENTS
         </span>
     </div>
+    <!--
+- Combine 'Latin American Week' with 'Latin Live Events' and call it 'Latin Live Events' - http://www.latincouver.ca/events/latin-live-events/
+- ExpoPlaza Latina - http://www.expoplazalatina.ca/
+- LCPN - http://www.latincouver.ca/lcpn/
+- Create a new tab called 'Latin Innovation Hub' and display the PDF that I'm sending you    
+    -->
     <ion-content class="content no-padding main-content">
         <div class="main-list">
             <div ui-sref="event" class="button item grow">
@@ -20,9 +26,23 @@
                 </div>
                 <img src="assets/images/home/carnaval_delsol.jpg">
             </div>
-            <div class="button item grow" href="#" onclick="window.open('http://www.latincouver.ca', '_system', 'location=yes'); return false;">
+            <div class="button item main-small grow" ui-sref="latinhub">
+                <div class="yellow">
+                    <h3>Latin Innovation Hub</h3>
+                    <h4>
+                        <i class="ion ion-calendar icon-accent"></i>
+                        July 9th & 10th | 9am - 10pm
+                    </h4>
+                    <h4>
+                        <i class="ion ion-android-pin icon-accent"></i>
+                        Concord Pacific Place  | 88 Pacific Blvd
+                    </h4>                       
+                </div>                
+                <img src="assets/images/home/latin_events.jpg">
+            </div>            
+            <div class="button item grow" href="#" onclick="window.open('http://www.latincouver.ca/events/latin-live-events/', '_system', 'location=yes'); return false;">
                 <div class="red">
-                    <h3>Latin America Week</h3>
+                    <h3>Latin Live Events</h3>
                     <h4>
                         <i class="ion ion-calendar icon-accent"></i>
                         July 9th & 10th | 9am - 10pm
@@ -34,7 +54,7 @@
                 </div>
                 <img src="assets/images/home/latin_america.jpg">
             </div>
-            <div class="button item main-small grow" href="#" onclick="window.open('http://www.latincouver.ca', '_system', 'location=yes'); return false;">
+            <div class="button item main-small grow" href="#" onclick="window.open('http://www.expoplazalatina.ca/', '_system', 'location=yes'); return false;">
                 <div class="blue">
                     <h3>ExpoPlaza Latina</h3>
                     <h4>
@@ -48,7 +68,7 @@
                 </div>
                 <img src="assets/images/home/expoplaza_latina.jpg">
             </div>
-            <div class="button item main-small grow" href="#" onclick="window.open('http://www.latincouver.ca', '_system', 'location=yes'); return false;">
+            <div class="button item main-small grow" href="#" onclick="window.open('http://www.latincouver.ca/lcpn/', '_system', 'location=yes'); return false;">
                 <div class="green">
                     <h3>LCPN</h3>
                     <h4>
@@ -62,20 +82,6 @@
                 </div>
                 <img src="assets/images/home/LCPN.jpg">
             </div>                        
-            <div class="button item main-small grow" href="#" onclick="window.open('http://www.latincouver.ca', '_system', 'location=yes'); return false;">
-                <div class="yellow">
-                    <h3>Latin Events in BC</h3>
-                    <h4>
-                        <i class="ion ion-calendar icon-accent"></i>
-                        July 9th & 10th | 9am - 10pm
-                    </h4>
-                    <h4>
-                        <i class="ion ion-android-pin icon-accent"></i>
-                        Concord Pacific Place  | 88 Pacific Blvd
-                    </h4>                       
-                </div>                
-                <img src="assets/images/home/latin_events.jpg">
-            </div>
         </div>
     </ion-content>
 </ion-view>

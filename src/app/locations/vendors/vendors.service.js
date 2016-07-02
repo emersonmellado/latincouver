@@ -5,6 +5,9 @@ class VendorsService {
     getVendors() {
         return this.$http.get('app/json/vendors.json');
     }
+    getArtists() {
+        return this.$http.get('app/json/artists.json');
+    }    
 }
 
 VendorsService.$inject = ['$http'];

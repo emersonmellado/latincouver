@@ -1,129 +1,119 @@
+var overlay;
+USGSOverlay.prototype = new google.maps.OverlayView();
 
-//http://codepen.io/psutherland/pen/seiwE
+function USGSOverlay(bounds, image, map) {
+    // Initialize all properties.
+    this.bounds_ = bounds;
+    this.image_ = image;
+    this.map_ = map;
 
-const INIT = new WeakMap();
-const SERVICE = new WeakMap();
-const TIMEOUT = new WeakMap();
+    // Define a property to hold the image's div. We'll
+    // actually create this div upon receipt of the onAdd()
+    // method so we'll leave it null for now.
+    this.div_ = null;
 
-class MapController{
-  constructor($scope, $ionicLoading, $compile){
-  }
-  centerOnMe() {
-        if(!this.map) {
-          return;
-        }
+    // Explicitly call setMap on this overlay.
+    this.setMap(map);
+}  
+USGSOverlay.prototype.onAdd = function() {
 
-        this.loading = $ionicLoading.show({
-          content: 'Getting current location...',
-          showBackdrop: false
+  var div = document.createElement('div');
+  div.style.borderStyle = 'none';
+  div.style.borderWidth = '0px';
+  div.style.position = 'absolute';
+
+  // Create the img element and attach it to the div.
+  var img = document.createElement('img');
+  img.src = this.image_;
+  img.style.width = '100%';
+  img.style.height = '100%';
+  img.style.position = 'absolute';
+  div.appendChild(img);
+
+  this.div_ = div;
+
+  // Add the element to the "overlayLayer" pane.
+  var panes = this.getPanes();
+  panes.overlayLayer.appendChild(div);
+};
+// [END region_attachment]
+
+// [START region_drawing]
+USGSOverlay.prototype.draw = function() {
+
+  // We use the south-west and north-east
+  // coordinates of the overlay to peg it to the correct position and size.
+  // To do this, we need to retrieve the projection from the overlay.
+  var overlayProjection = this.getProjection();
+
+  // Retrieve the south-west and north-east coordinates of this overlay
+  // in LatLngs and convert them to pixel coordinates.
+  // We'll use these coordinates to resize the div.
+  var sw = overlayProjection.fromLatLngToDivPixel(this.bounds_.getSouthWest());
+  var ne = overlayProjection.fromLatLngToDivPixel(this.bounds_.getNorthEast());
+
+  // Resize the image's div to fit the indicated dimensions.
+  var div = this.div_;
+  div.style.left = sw.x + 'px';
+  div.style.top = ne.y + 'px';
+  div.style.width = (ne.x - sw.x) + 'px';
+  div.style.height = (sw.y - ne.y) + 'px';
+};
+
+class MapController {
+    constructor($scope, $state) {
+
+    }
+    initMap() {
+        var latLng = new google.maps.LatLng(49.276308, -123.104591)        
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 18,
+            center: latLng,
+            panControl: false,
+            disableDefaultUI: true,
+            zoomControl: true,
+            scrollwheel: false,
+            panControl: false,            
+            mapTypeId: google.maps.MapTypeId.ROADMAP
         });
-        navigator.geolocation.getCurrentPosition(function(pos) {
-          this.map.setCenter(new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude));
-          this.loading.hide();
-        }, function(error) {
-          alert('Unable to get location: ' + error.message);
-        });
-      };
-      
-      this.clickTest = function() {
-        alert('Example of infowindow with ng-click')
-      };
-      
-    }  
+
+        var Item_1 = new google.maps.LatLng(49.275356, -123.107949);
+        var Item_2 = new google.maps.LatLng(49.277624, -123.102284);
+
+        var bounds = new google.maps.LatLngBounds(Item_1, Item_2);
+
+        // The photograph is courtesy of the U.S. Geological Survey.
+        var srcImage = 'assets/images/map.png';
+
+        // The custom USGSOverlay object contains the USGS image,
+        // the bounds of the image, and a reference to the map.
+        overlay = new USGSOverlay(bounds, srcImage, map);
+
+        var bounds2 = new google.maps.LatLngBounds();
+        var bound_1 = new google.maps.LatLng(49.275795, -123.106538);
+        var bound_2 = new google.maps.LatLng(49.277377, -123.102783);        
+        bounds2.extend(bound_2);
+        bounds2.extend(bound_1);
+        map.fitBounds(bounds2);
+        // google.maps.event.addDomListener(map, 'idle', function() {
+
+        //     var marker = new google.maps.Marker({
+        //         map: map,
+        //         animation: google.maps.Animation.DROP,
+        //         position: latLng
+        //     });
+
+        //     var infoWindow = new google.maps.InfoWindow({
+        //         content: "Here I am!"
+        //     });
+
+        //     google.maps.event.addListener(marker, 'click', function() {
+        //         infoWindow.open(map, marker);
+        //     });
+
+        // });
+
+    }
 }
-export default BrowseController;
-
-.controller('MapCtrl', function($scope, $ionicLoading, $compile) {
-      function initialize() {
-        var site = new google.maps.LatLng(55.9879314,-4.3042387);
-        var hospital = new google.maps.LatLng(55.8934378,-4.2201905);
-      
-        var mapOptions = {
-          streetViewControl:true,
-          center: site,
-          zoom: 18,
-          mapTypeId: google.maps.MapTypeId.TERRAIN
-        };
-        var map = new google.maps.Map(document.getElementById("map"),
-            mapOptions);
-        
-        //Marker + infowindow + angularjs compiled ng-click
-        var contentString = "<div><a ng-click='clickTest()'>Click me!</a></div>";
-        var compiled = $compile(contentString)($scope);
-
-        var infowindow = new google.maps.InfoWindow({
-          content: compiled[0]
-        });
-
-        var marker = new google.maps.Marker({
-          position: site,
-          map: map,
-          title: 'Strathblane (Job Location)'
-        });
-        
-        var hospitalRoute = new google.maps.Marker({
-          position: hospital,
-          map: map,
-          title: 'Hospital (Stobhill)'
-        });
-        
-        var infowindow = new google.maps.InfoWindow({
-             content:"Project Location"
-        });
-
-        infowindow.open(map,marker);
-        
-        var hospitalwindow = new google.maps.InfoWindow({
-             content:"Nearest Hospital"
-        });
-
-        hospitalwindow.open(map,hospitalRoute);
-       
-        google.maps.event.addListener(marker, 'click', function() {
-          infowindow.open(map,marker);
-        });
-
-        $scope.map = map;
-        
-        var directionsService = new google.maps.DirectionsService();
-        var directionsDisplay = new google.maps.DirectionsRenderer();
-
-        var request = {
-            origin : site,
-            destination : hospital,
-            travelMode : google.maps.TravelMode.DRIVING
-        };
-        directionsService.route(request, function(response, status) {
-            if (status == google.maps.DirectionsStatus.OK) {
-                directionsDisplay.setDirections(response);
-            }
-        });
-
-        directionsDisplay.setMap(map); 
-       
-      }
-  
-      google.maps.event.addDomListener(window, 'load', initialize);
-    
-      $scope.centerOnMe = function() {
-        if(!$scope.map) {
-          return;
-        }
-
-        $scope.loading = $ionicLoading.show({
-          content: 'Getting current location...',
-          showBackdrop: false
-        });
-        navigator.geolocation.getCurrentPosition(function(pos) {
-          $scope.map.setCenter(new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude));
-          $scope.loading.hide();
-        }, function(error) {
-          alert('Unable to get location: ' + error.message);
-        });
-      };
-      
-      $scope.clickTest = function() {
-        alert('Example of infowindow with ng-click')
-      };
-      
-    });
+MapController.$inject = ['$scope', '$state'];
+export default MapController;

@@ -31,6 +31,36 @@ function routerConfig($stateProvider, $urlRouterProvider) {
             }
         })
 
+        .state('map', {
+            url: '/map',
+            views: {
+                home: {
+                    templateUrl: 'app/locations/map/map.html',
+                    controller: 'MapController as map'
+                }
+            }
+        })
+        .state('latinhub', {
+            url: '/latinhub',
+            views: {
+                home: {
+                    templateUrl: 'app/locations/latinhub/latinhub.html',
+                    controller: 'LatinhubController as latinhub'
+                }
+            }
+        })
+
+
+    .state('detailMaster', {
+        url: '/detail/:section/:id',
+        views: {
+            home: {
+                templateUrl: 'app/locations/detail/detail.html',
+                controller: 'DetailController as detail'
+            }
+        }
+    })
+
 
     .state('plazas', {
             url: '/plazas',

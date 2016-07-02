@@ -16,11 +16,13 @@ import EatController from './locations/event/eat.controller';
 import VendorsController from './locations/vendors/vendors.controller';
 import ScheduleController from './locations/schedule/schedule.controller';
 import DetailController from './locations/detail/detail.controller';
-
+import MapController from './locations/map/map.controller';
+import LatinhubController from './locations/latinhub/latinhub.controller';
 
 import PlazaService from './locations/plazas/plazas.service';
 import VendorsService from './locations/vendors/vendors.service';
 import ScheduleService from './locations/schedule/schedule.service';
+import DetailService from './locations/detail/detail.service';
 
 angular.module('latincouver', ['ionic', 'ui.router'])
     .config(config)
@@ -41,6 +43,9 @@ angular.module('latincouver', ['ionic', 'ui.router'])
     .controller('VendorsController', VendorsController)
     .controller('MainstageController', MainstageController)
     .controller('ScheduleController', ScheduleController)
+    .controller('DetailController', DetailController)
+    .controller('MapController', MapController)
+    .controller('LatinhubController', LatinhubController)
 
 
 .service('PlazaService', PlazaService)

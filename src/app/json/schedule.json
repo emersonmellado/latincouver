@@ -1,6 +1,7 @@
 [
     {
-        "id": 1,
+        "id": 200,
+        "plaza_id": 2,
         "day": 1,
         "from": "2:30pm",
         "to": "2:50pm",
@@ -9,7 +10,8 @@
         "type": "Mexican Ceviche",
         "color": "red-flat"
     }, {
-        "id": 2,
+        "id": 201,
+        "plaza_id": 2,
         "day": 1,
         "from": "4:30pm",
         "to": "5:50pm",
@@ -18,7 +20,8 @@
         "type": "Mexican Ceviche",
         "color": "blue-flat"
     }, {
-        "id": 3,
+        "id": 202,
+        "plaza_id": 2,
         "day": 2,
         "from": "2:30pm",
         "to": "2:50pm",
@@ -27,7 +30,8 @@
         "type": "Mexican Ceviche",
         "color": "red-flat"
     }, {
-        "id": 4,
+        "id": 203,
+        "plaza_id": 2,
         "day": 2,
         "from": "4:30pm",
         "to": "5:50pm",

@@ -8,7 +8,7 @@
     </div>
     <ion-content class="has-header content" overflow-scroll="false">
         <div>
-            <img class="full-image" ng-src={{plaza.selected.image}}>
+            <img class="plaza-image" ng-src={{plaza.selected.image}}>
         </div>
         <div class="button-bar plaza-bar">
             <div class="button col col-25 detail-plaza-button" data-ng-class="{'plaza-active' : $state.is('detail')}" ui-sref="detail">
@@ -16,17 +16,17 @@
                     Info
                 </div>
             </div>
-            <div class="button col col-25 detail-plaza-button" ui-sref=".day1" data-ng-class="{'plaza-active' : $state.is('detail.day1')}" data-ng-show="plaza.selected.list_1">
+            <div class="button col col-25 detail-plaza-button" ui-sref=".day1" data-ng-class="{'plaza-active' : $state.is('detail.day1')}" data-ng-hide="!plaza.selected.list_1.length">
                 <div>
                     Sat 9 Jul
                 </div>
             </div>
-            <div class="button col col-25 detail-plaza-button" ui-sref=".day2" data-ng-class="{'plaza-active' : $state.is('detail.day2')}" data-ng-show="plaza.selected.list_2">
+            <div class="button col col-25 detail-plaza-button" ui-sref=".day2" data-ng-class="{'plaza-active' : $state.is('detail.day2')}" data-ng-hide="!plaza.selected.list_2.length">
                 <div>
                     Sat 10 Jul
                 </div>
             </div>
-            <div class="button col col-25 detail-plaza-button" ui-sref=".biz" data-ng-class="{'plaza-active' : $state.is('detail.biz')}" data-ng-show="plaza.selected.biz">
+            <div class="button col col-25 detail-plaza-button" ui-sref=".biz" data-ng-class="{'plaza-active' : $state.is('detail.biz')}" data-ng-hide="!plaza.selected.biz.length">
                 <div>
                     Business
                 </div>
@@ -36,7 +36,7 @@
             <div class="plaza-content">
                 <div class="list">
                     <span ng-bind-html='plaza.selected.info'></span>
-                    <button class="button plaza-map-button button-positive">
+                    <button class="button plaza-map-button button-positive" ui-sref="map">
                         <i class="ion ion-map"></i>
                         <span class="hash">Map</span>
                     </button>
@@ -44,13 +44,13 @@
             </div>
             <div class="list event-list">
                 <div class="row" data-ng-repeat="p in plaza.vendorsList" ng-if="$index % 2 == 0">
-                    <div class="col col-50">
+                    <div class="col col-50" ui-sref="detailMaster({section:plaza.detailMaster, id:plaza.vendorsList[$index].id})">
                         <img data-ng-src="{{plaza.vendorsList[$index].image}}" data-ng-show="plaza.vendorsList[$index].image">
                         <div class="{{plaza.vendorsList[$index].color}}">
                             <h5>{{plaza.vendorsList[$index].name}}</h5>
                         </div>
                     </div>
-                    <div class="col col-50" ng-show="plaza.vendorsList[$index+1]">
+                    <div class="col col-50" ng-show="plaza.vendorsList[$index+1]" ui-sref="detailMaster({section:plaza.detailMaster, id:plaza.vendorsList[$index+1].id})">
                         <img data-ng-src="{{plaza.vendorsList[$index+1].image}}" data-ng-show="plaza.vendorsList[$index+1].image">
                         <div class="{{plaza.vendorsList[$index+1].color}}">
                             <h5>{{plaza.vendorsList[$index+1].name}}</h5>

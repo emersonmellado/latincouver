@@ -1,32 +1,34 @@
 class EventController {
-    constructor($scope, $ionicSideMenuDelegate) {
-        Object.assign(this, { $scope, $ionicSideMenuDelegate});
+    constructor($scope, $ionicSideMenuDelegate, VendorsService) {
+        Object.assign(this, { $scope, $ionicSideMenuDelegate,VendorsService });
         this.setupSlider();
     }
-    prevSlide(){
+    prevSlide() {
         this.slider.sliderDelegate._slidePrev();
-    }    
-    nextSlide(){
+    }
+    nextSlide() {
         this.slider.sliderDelegate._slideNext();
     }
-    setupSlider(){
+    setupSlider() {
         //this.$ionicSideMenuDelegate.toggleLeft();
         this.slider = {};
         this.slider.images = [];
         this.slider.currentPage = 0;
-        
-        this.slider.images = [ 
-            { 
-                "image" : "assets/images/home/carnaval_delsol.jpg"
-            },
-            { 
-                "image" : "assets/images/home/latin_america.jpg"
-            },
-            { 
-                "image" : "assets/images/home/expoplaza_latina.jpg"
-            }
-        ];
-            
+
+        // this.slider.images = [{
+        //     "image": "assets/images/home/carnaval_delsol.jpg"
+        // }, {
+        //     "image": "assets/images/home/latin_america.jpg"
+        // }, {
+        //     "image": "assets/images/home/expoplaza_latina.jpg"
+        // }];
+
+        this.VendorsService.getArtists().then(response => {
+            this.slider.images = response.data;
+            this.vendorsList = response.data;
+            this.detailMaster = 'artists';            
+        });
+
         //some options to pass to our slider
         this.slider.sliderOptions = {
             effect: 'slide',
@@ -35,7 +37,7 @@ class EventController {
             speed: 500,
             loop: true,
             autoplay: 5000
-        };        
+        };
         //create delegate reference to link with slider
         this.slider.sliderDelegate = null;
         //watch our sliderDelegate reference, and use it when it becomes available
@@ -45,26 +47,13 @@ class EventController {
                 this.slider.sliderDelegate.on('slideChangeEnd', function() {
                     this.slider.currentPage = this.slider.sliderDelegate.activeIndex;
                     this.$apply();
-                });                                
+                });
             }
         });
-
-        // $scope.swiperOptions = {
-        //     /* Whatever options */
-        //     effect: 'slide',
-        //     initialSlide: 0,
-        //     /* Initialize a scope variable with the swiper */
-        //     onInit: function(swiper){
-        //         $scope.swiper = swiper;
-        //     },
-        //     onSlideChangeEnd: function(swiper){
-        //         console.log('The active index is ' + swiper.activeIndex);
-        //     }
-        // };
     }
     toggleLeft() {
         this.$ionicSideMenuDelegate.toggleLeft();
     }
 }
-EventController.$inject = ['$scope', '$ionicSideMenuDelegate'];
+EventController.$inject = ['$scope', '$ionicSideMenuDelegate', 'VendorsService'];
 export default EventController;

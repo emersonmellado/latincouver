@@ -1,6 +1,7 @@
 class DetailController {
-    constructor($stateParams, $filter, DetailService) {
+    constructor($scope, $http, $stateParams, $filter, DetailService) {
         this.$http = $http;
+        //console.log("$stateParams.section", $stateParams.section);
         DetailService.getDetails($stateParams.section).then(response => {
             this.list = response.data;
             this.plazaId = $stateParams.id;
@@ -9,7 +10,10 @@ class DetailController {
             })[0];            
         });
     }
+    launch(url){
+        window.open(url, '_system', 'location=yes');        
+    }
 }
 
-DetailController.$inject = ['$stateParams', '$filter', 'DetailService'];
+DetailController.$inject = ['$scope','$http','$stateParams', '$filter', 'DetailService'];
 export default DetailController;

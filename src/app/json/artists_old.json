@@ -1,0 +1,39 @@
+[
+    {
+        "id": 100,
+        "plaza_id": 1,
+        "name": "Entangados",
+        "description": "<p>Entangados is a band of musicians and actors from Córdoba, Argentina, who perform as clowns. Since 2004 the band has mixed theatre with genres such as Rock, Cuarteto, Música Balkánica, Reggae, Cumbia, Ska, Folklore, and Tango. Each show is a fiesta of music full of dance, humour, happiness, and energy.</p>",
+        "image": "assets/images/artists/Entangados1.jpg",
+        "color": "red-flat",
+        "links": [{
+            "name": "Facebook: ",
+            "href": "https://www.facebook.com/Entangados"
+        },{
+            "name": "Youtube: ",
+            "href": "https://www.youtube.com/user/Entangados"
+        }]
+    }, {
+        "id": 101,
+        "plaza_id": 1,
+        "name": "",
+        "description": "<p>Grupo Axé Capoeira began in Recife in 1982. Today, as Canada’s first academy of Capoeira, the Group continues to rise as one of the world’s leading Capoeira organisations. The Group continues to travel around the world and participate in competitions and has participated in the 2001 International Capoeira Competition in Argentina. Furthermore, Grupo Axé Capoeira is renowned as a traveling group which promotes the history, music, art, and culture of Brazil in interactive and educational demonstrations. The philosophy of Grupo Axé Capoeira is to respect all the mestres, preserve the roots and traditions of Capoeira, and train Capoeira in all its aspects: as a fight, art, and culture.</p>",
+        "image": "assets/images/artists/",
+        "color": "red-flat",
+        "links": [{
+            "name": "Facebook: ",
+            "href": "https://www.facebook.com/ColombiaCulturalClub"
+        }]
+    }, {
+        "id": 102,
+        "plaza_id": 1,
+        "name": "Colombia Cultural Club",
+        "products": "Hotdog, Colombian Coffee, Mango, Brochetas",
+        "description": "<p></p>",
+        "image": "assets/images/artists/",
+        "color": "red-flat",
+        "links": [{
+            "name": "Facebook: ",
+            "href": "https://www.facebook.com/ColombiaCulturalClub"
+        }
+]

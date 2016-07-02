@@ -1,6 +1,7 @@
 class PlazasController {
     constructor($scope, $http, $stateParams, $filter, PlazaService, ScheduleService, VendorsService) {
         this.$http = $http;
+        this.detailMaster = 'vendors';
         PlazaService.getPlazas().then(response => {
             this.list = response.data;
             this.plazaId = $stateParams.id;
@@ -11,14 +12,22 @@ class PlazasController {
                 VendorsService.getVendors().then(response => {
                     this.vendorsList = $filter('filter')(response.data, {
                         plaza_id: this.plazaId
-                    });
+                    }); 
+                    if (!this.vendorsList.length){
+                        VendorsService.getArtists().then(response => {
+                            this.detailMaster = 'artists';
+                            this.vendorsList = $filter('filter')(response.data, {
+                                plaza_id: this.plazaId
+                            });                    
+                        });
+                    }
                 });
                 ScheduleService.getSchedule().then(response => {
                     this.selected.list_1 = $filter('filter')(response.data, {
-                        day: 1
+                        plaza_id: this.plazaId, day: 1
                     });
                     this.selected.list_2 = $filter('filter')(response.data, {
-                        day: 2
+                        plaza_id: this.plazaId, day: 2
                     });
                 });
             }

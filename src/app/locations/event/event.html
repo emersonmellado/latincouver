@@ -90,6 +90,22 @@
                 </div>
                 <div ui-view>
                     <div class="list event-list">
+
+                        <div class="row" data-ng-repeat="p in event.vendorsList" ng-if="$index % 2 == 0">
+                            <div class="col col-50 grow" ui-sref="detailMaster({section:event.detailMaster, id:event.vendorsList[$index].id})">
+                                <img data-ng-src="{{event.vendorsList[$index].image}}" data-ng-show="event.vendorsList[$index].image">
+                                <div class="{{event.vendorsList[$index].color}}">
+                                    <h5>{{event.vendorsList[$index].name}}</h5>
+                                </div>
+                            </div>
+                            <div class="col col-50 grow" ng-show="event.vendorsList[$index+1]" ui-sref="detailMaster({section:event.detailMaster, id:event.vendorsList[$index+1].id})">
+                                <img data-ng-src="{{event.vendorsList[$index+1].image}}" data-ng-show="event.vendorsList[$index+1].image">
+                                <div class="{{event.vendorsList[$index+1].color}}">
+                                    <h5>{{event.vendorsList[$index+1].name}}</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <!--    
                         <div class="row">
                             <div class="col col-50">
                                 <img src="assets/images/event/carnaval_delsol.jpg">
@@ -106,18 +122,19 @@
                         </div>
                         <div class="row">
                             <div class="col col-50">
-                                <img src="assets/images/event/expoplaza_latina.jpg">
+                                <img src="assets/images/event/expoevent_latina.jpg">
                                 <div class="red">
                                     <h5>Carnaval del Sol</h5>
                                 </div>
                             </div>
                             <div class="col col-50">
-                                <img src="assets/images/event/expoplaza_latina.jpg">
+                                <img src="assets/images/event/expoevent_latina.jpg">
                                 <div class="green">
                                     <h5>Carnaval del Sol</h5>
                                 </div>
                             </div>
                         </div>
+                        -->
                     </div>
                 </div>
             </ion-content>
