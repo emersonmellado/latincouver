@@ -16,11 +16,25 @@ class LatinhubController {
         this.slider.currentPage = 0;
 
         this.slider.images = [{
-            "image": "assets/images/latinhub/1.jpg"
+            "image": "assets/images/latinhub/0.jpg"
         }, {
+            "image": "assets/images/latinhub/1.jpg"
+        }, {            
             "image": "assets/images/latinhub/2.jpg"
         }, {
             "image": "assets/images/latinhub/3.jpg"
+        }, {
+            "image": "assets/images/latinhub/4.jpg"
+        }, {
+            "image": "assets/images/latinhub/5.jpg"
+        }, {
+            "image": "assets/images/latinhub/6.jpg"
+        }, {
+            "image": "assets/images/latinhub/7.jpg"
+        }, {
+            "image": "assets/images/latinhub/8.jpg"
+        }, {
+            "image": "assets/images/latinhub/9.jpg"
         }];
 
         //some options to pass to our slider

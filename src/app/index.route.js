@@ -58,6 +58,24 @@ function routerConfig($stateProvider, $urlRouterProvider) {
                 }
             }
         })
+        .state('sponsors', {
+            url: '/sponsors',
+            views: {
+                home: {
+                    templateUrl: 'app/locations/sponsors/sponsors.html',
+                    controller: 'SponsorsController as sponsors'
+                }
+            }
+        })        
+        .state('media', {
+            url: '/media',
+            views: {
+                home: {
+                    templateUrl: 'app/locations/media/media.html',
+                    controller: 'MediaController as media'
+                }
+            }
+        })        
 
     .state('detailMaster', {
         url: '/detail/:section/:id',
@@ -150,8 +168,7 @@ function routerConfig($stateProvider, $urlRouterProvider) {
         })
         .state('vendors.products', {
             url: '/products',
-            templateUrl: 'app/locations/vendors/products.html',
-            controller: 'VendorsController as vendor'
+            templateUrl: 'app/locations/vendors/products.html'
         })
         .state('vendors.nonprofit', {
             url: '/nonprofit',

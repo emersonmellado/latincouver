@@ -1,24 +1,93 @@
 <ion-view view-title="intro">
   <div class="bar bar-header bar-positive">
-      <button ng-click="back()" class="button icon ion-android-arrow-back">
-      </button>
-      <p class="title">
-          latin-hub
-      </p>
+    <button ng-click="back()" class="button icon ion-android-arrow-back">
+    </button>
+    <p class="title">
+      latin-hub
+    </p>
   </div>
+  <ion-content class="has-header content" overflow-scroll="false">
   <div data-ng-show="$state.is('latinhub')">
-      <div class="event-navigation">
-          <button class="button button-next" ng-click="latinhub.nextSlide()">
-              <i class="icon ion-chevron-right"></i>
-          </button>
-          <button class="button button-prev" ng-click="latinhub.prevSlide()">
-              <i class="icon ion-chevron-left"></i>
-          </button>
-      </div>
-      <ion-slides class="event-slides" options="latinhub.slider.sliderOptions" slider="latinhub.slider.sliderDelegate">
-          <ion-slide-page class="event-slide-box" ng-repeat="slide in latinhub.slider.images">
-              <img ng-src="{{slide.image}}">
-          </ion-slide-page>
-      </ion-slides>
-  </div>
+    <div class="latinhub-navigation">
+      <button class="button button-next" ng-click="latinhub.nextSlide()">
+        <i class="icon ion-chevron-right"></i>
+      </button>
+      <button class="button button-prev" ng-click="latinhub.prevSlide()">
+        <i class="icon ion-chevron-left"></i>
+      </button>
+    </div>
+    <ion-slides class="latinhub-slides" options="latinhub.slider.sliderOptions" slider="latinhub.slider.sliderDelegate">
+      <ion-slide-page class="latinhub-slide-box" ng-repeat="slide in latinhub.slider.images">
+        <img ng-src="{{slide.image}}">
+      </ion-slide-page>
+    </ion-slides>
+  </div>  
+    <div class="plaza-content">
+      <p>
+        <strong>LATINCOUVER AND PALAGON ARE PROUD TO PRESENT THE LATIN AMERICAN INNOVATION HUB</strong>
+      </p>
+      <p>
+        <strong>Our communities have united to create affordable office space for entrepreneurs.</strong>
+      </p>
+      <p>
+        The Latin American Innovation Hub has been created as a socio-economic space in BC to promote business, cultural relationships and professional connections for Latin American entrepreneurs and Latin American enthusiasts. We offer a gathering place where all business communities can share ideas, expand their networks and circles of influence, a physical manifestation of the mission and vision that Latincouver has strived since its creation in 2009.
+      </p>
+      <p>
+        The office sharing space is becoming a popular concept in business centered regions like Greater Vancouver, where rental prices for new businesses can be hard to sustain. This concept of shared business space has existed for centuries in Latin American countries in the form of The Plaza.
+      </p>
+      <p>
+        Plazas are open spaces in the centre of the city where entrepreneurs gather to develop businesses, interchange culture, arts and socialize with all the people in the town. The Plaza is the birthplace of Latin American culture, the focal point of its heritage and the engine that fueled our economic growth.
+      </p>
+      <p>
+        After years of knocking on so many doors, Latincouver was warmly welcomed to to develop our Plaza in with Palagon. Palagon is a commercial space company, with deep roots in the Iranian community, that shares Latin values of integrity and gratitude.
+      </p>
+      <p>
+        Today the Iranian community is a socio-economic powerhouse that is helping to build the infrastructure of Greater Metro Vancouver. As Latin Americans we could not have asked for a better community to partner up with. The iranian community has a long history of trying to settle and succeed in BC and Canada. They understand the struggles that we are facing because they lived through them.
+      </p>
+      <p>
+        Palagon has offered its support and mentorship as Latincouver strives to settle a home for Latin American people to immigrate to Canada in the North Shore. The success of the Latin Innovation Hub will be one more example of the amazing things that can be achieved when multicultural communities support each other.
+      </p>
+      <p>
+        Greater Vancouver already has defined business areas marked by specific cultural groups, and North Vancouver seemed like a good location to bring multicultural options. The North Shore offers unparalleled lifestyle opportunities for immigrants looking to build a better life in Canada.
+      </p>
+      <p>
+        A short 10 minute drive to Downtown Vancouver, and Surrounded by green snow capped mountains, Ocean views and overlooking Majestic Downtown vancouver, the North Shore is an ideal place for young Latin American families to grow in a welcoming community. As we take on the role of settling this land for our community, Latincouver chose the building located at 2030 Marine Dr. as the place to build our Latin Innovation Hub.
+      </p>
+      <p>
+        One of the many benefits that the Latin Innovation Hub will provide is a solution to the problem of affordable office space with fast direct access to Downtown Vancouver. Our office rental prices could vary from from $350 to $1250 per month, with 1 to 6 work stations available. Another solution that we offer businesses who wish to benefit from being part of the economic possibilities that we are working on generating is a virtual address.
+      </p>
+      <p>
+        We offer virtual or part-time offices from $69 to $170, where your business can possess a mailing address, access to meeting rooms, host speaking events, galas and other benefits yet to come.
+      </p>
+      <p>
+        As part of our commitment to economic growth, Latincouver and Palagon will be sponsoring 5 qualified entrepreneurs with three months of free desk space in our Plaza. Be part of this exciting new work space concept, we encourage entrepreneurs to present business ideas and start their project with Latincouver and Palagon. If you are an entrepreneur, or you are thinking of becoming an entrepreneur, we invite you to visit our Plaza, make an appointment and take a look at the future of the Latin American Community in Greater Metro Vancouver.
+      </p>
+      <p>
+        Act now and let us know your needs as we are currently under renovations and we are open to discussing what your particular needs might be.
+      </p>
+      <p>
+        <strong>Contact Latincouver to come and meet us</strong>
+      </p>
+      <p>
+        <strong>Contact Palagon for more information</strong>
+      </p>
+      <p>
+        Tina Ebrahimi
+        <br/> Business Development Manager
+        <br/> Palagon
+        <br/> 604-331-6004
+        <br/> leasing@palagon.com
+      </p>
+      <p>
+        <strong>Other office features</strong>
+      </p>
+      <p>
+        Flexible leasing options
+        <br/> Fully furnished offices at same great rates
+        <br/> Beautiful designer offices
+        <br/> Security & privacy guaranteed
+        <br/> Build your business with the support of vancouver’s number one locally Owned small office landlord!
+      </p>
+    </div>
+  </ion-content>
 </ion-view>

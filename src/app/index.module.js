@@ -26,7 +26,7 @@ import ScheduleService from './locations/schedule/schedule.service';
 import DetailService from './locations/detail/detail.service';
 import BusinessService from './locations/business/business.service';
 
-angular.module('latincouver', ['ionic', 'ui.router'])
+angular.module('latincouver', ['ionic', 'ui.router', 'ngCordova'])
     .config(config)
     .config(routerConfig)
 

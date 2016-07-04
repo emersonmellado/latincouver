@@ -1,4 +1,4 @@
-function config($logProvider, $ionicConfigProvider) {
+function config($logProvider, $ionicConfigProvider, $cordovaFacebookProvider) {
     'ngInject';
 
     $logProvider.debugEnabled(true);
@@ -9,6 +9,11 @@ function config($logProvider, $ionicConfigProvider) {
     // $ionicConfigProvider.backButton.text('');                  // default is 'Back'
     // $ionicConfigProvider.backButton.previousTitleText(false);  // hides the 'Back' text
     // $ionicConfigProvider.templates.maxPrefetch(20);
+    /*
+    var appID = 116252811865421;
+    var version = "v2.6"; // or leave blank and default is v2.0
+    $cordovaFacebookProvider.browserInit(appID, version);    
+    */
 }
 
 export default config;

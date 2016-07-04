@@ -1,61 +1,17 @@
-.event-buttons-page {
-    padding: 0px;
+
+.latinhub-slides {
+    height: 400px!important;
+    top: 0px;
 }
 
-.event-active {
-    border-bottom: 4px $primaryLight solid!important;
-}
-
-.button-bar {
-    height: 43px;
-}
-
-.event-header-button {
-    padding: 0;
-    margin: 0;
-    color: $primaryMid;
-    text-align: center;
-    background: #fff;
-    &:hover {
-        color: $primaryMid;
-        border-bottom: 6px $primaryLight solid!important;
-    }
-    div {
-        @extend .mid;
-        font-size: 16px;
-        vertical-align: middle;
-        //BugFix for the i
-        .button .icon:before,
-        .button.icon:before,
-        .button.icon-left:before,
-        .button.icon-right:before {
-            margin-top: -5px!important;
-        }
-        i {
-            &:before {
-                line-height: 32px!important;
-            }
-        }
-        img {
-            margin-top: -5px!important;
-            height: 20px;
-            vertical-align: middle;
-        }
-    }
-}
-
-.event-slides {
-    height: 250px!important;
-}
-
-.event-navigation {
+.latinhub-navigation {
     button {
         z-index: 100;
         min-width: 30px;
         padding: 0px;
         margin: 0px;
         position: absolute!important;
-        top: 120px!important;
+        top: 200px!important;
         background-color: rgba(0, 0, 0, 0.2);
         height: 30px;
         color: #fff;
@@ -74,7 +30,7 @@
     }
 }
 
-.event-button {
+.latinhub-button {
     padding: 30;
     height: 165px;
     margin: 0;
@@ -96,7 +52,7 @@ $cor-destaque: #fff;
 $cor-destaque-hover: #222;
 .swiper-container {
     top: 0px;
-    height: 250px;
+    height: 400px;
 }
 
 .swiper-container-horizontal > .swiper-pagination {
@@ -107,13 +63,13 @@ $cor-destaque-hover: #222;
     background-color: #fff;
 }
 
-.event-slide-box {
+.latinhub-slide-box {
     display: flex;
     flex-direction: row;
     height: auto;
     img {
         //margin-top: 60px;
-        object-fit: cover;
+        object-fit: fit;
         width: 100%;
         text-align: center;
         vertical-align: middle;
@@ -135,8 +91,8 @@ $cor-destaque-hover: #222;
     }
 }
 
-.event-list {
-    min-height: 350px;
+.latinhub-list {
+    min-height: 400px;
     top: 0px;
     padding: 0px;
     margin: 0px;
@@ -180,7 +136,7 @@ $cor-destaque-hover: #222;
     }
 }
 
-.event-contest-button {
+.latinhub-contest-button {
     z-index: 1001;
     width: 30%;
     height: 25px;
@@ -207,7 +163,7 @@ $cor-destaque-hover: #222;
     }
 }
 
-.event-sub-list {
+.latinhub-sub-list {
     min-height: 350px;
     top: 0px;
     padding: 0px;

@@ -1,12 +1,26 @@
-<ion-view view-title="title">
+<ion-view class="no-padding" hide-nav-bar="true" view-title="Events">
     <div class="bar bar-header bar-positive">
-        <button ng-click="back()" class="button icon ion-android-arrow-back">
+        <button ui-sref="event" class="button icon ion-android-arrow-back">
         </button>
         <p class="title">
             sponsors
         </p>
     </div>
-    <ion-content overflow-scroll="true">
-         <iframe src="http://www.carnavaldelsol.ca/our-sponsors/"></iframe>
+    <ion-content class="has-header content" overflow-scroll="false">
+        <div ui-view>
+            <div class="list list-inset">
+              <label class="item item-input">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="text" placeholder="Search" ng-model="vendorSearch">
+              </label>
+            </div>                
+            <div class="list">
+                <a class="item item-thumbnail-left" href="#" data-ng-repeat="v in sponsors.fullList | filter:vendorSearch"  ui-sref="detailMaster({section:v.detailMaster, id:v.id})">
+                    <img class="plaza-image" data-ng-src="{{v.image}}" data-ng-show="v.image">
+                    <h2>{{v.name}}</h2>
+                    <p>{{v.products}}</p>
+                </a>    
+            </div>
+        </div>
     </ion-content>
 </ion-view>

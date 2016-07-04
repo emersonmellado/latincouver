@@ -1,7 +1,13 @@
+<div class="list list-inset">
+  <label class="item item-input">
+    <i class="icon ion-search placeholder-icon"></i>
+    <input type="text" placeholder="Search" ng-model="vendorSearch">
+  </label>
+</div>
 <div class="list">
-    <a class="item item-thumbnail-left" href="#">
-        <img src="assets/images/chefs/jonathan.png">
-        <h2>Pretty Hate Machine</h2>
-        <p>Nine Inch Nails</p>
-    </a>
+  <a class="item item-thumbnail-left" href="#" data-ng-repeat="v in vendor.vendorsList_products | filter:vendorSearch" ui-sref="detailMaster({section:v.detailMaster, id:v.id})">
+    <img class="plaza-image" data-ng-src="{{v.image}}" data-ng-show="v.image">
+    <h2>{{v.name}}</h2>
+    <p>{{v.products}}</p>
+  </a>
 </div>
