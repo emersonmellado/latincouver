@@ -49,7 +49,15 @@ function routerConfig($stateProvider, $urlRouterProvider) {
                 }
             }
         })
-
+        .state('contest', {
+            url: '/contest',
+            views: {
+                home: {
+                    templateUrl: 'app/locations/contest/contest.html',
+                    controller: 'ContestController as contest'
+                }
+            }
+        })
 
     .state('detailMaster', {
         url: '/detail/:section/:id',
@@ -162,7 +170,7 @@ function routerConfig($stateProvider, $urlRouterProvider) {
 
 
 
-    $urlRouterProvider.otherwise('/splash');
+    $urlRouterProvider.otherwise('/intro');
 }
 
 export default routerConfig;

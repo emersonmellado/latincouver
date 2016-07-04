@@ -1,5 +1,6 @@
 [{
     "id": 100,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 1,
     "name": "Will Campa",
@@ -18,6 +19,7 @@
     }]
 }, {
     "id": 101,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 2,
     "name": "Samba Fusion",
@@ -36,6 +38,7 @@
     }]
 }, {
     "id": 102,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 3,
     "name": "Mazacote",
@@ -54,6 +57,7 @@
     }]
 }, {
     "id": 103,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 4,
     "name": "Locarno",
@@ -80,6 +84,7 @@
     }]
 }, {
     "id": 104,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 5,
     "name": "Tabasko",
@@ -102,6 +107,7 @@
     }]
 }, {
     "id": 105,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 6,
     "name": "Bloco Energia",
@@ -124,11 +130,12 @@
     }]
 }, {
     "id": 106,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 7,
     "name": "Robin Layne Band ",
     "datetime": "Sat 07/09, 5:45 pm - 6:15 pm",
-    "description": "<p>The music of the Robin Layne Band evokes memories of summer days full of adventure and playfulness.</p><p>With roots in jazz, Latin and African traditions their music hints at artists such as Abdullah Ibrahim, Steve Coleman, Thomas Mapfumo, Toumani Dioubate and the marimba music of Chiapas.He has followed his love of world music to Cuba, Guinea, Mali, and Mexico studying under master drummers and marimbists of those respective traditions.He currently performs with world music groups Locarno, Tambura Rasa, and Mazacote </p><p>Equally at home on stage or in a classroom! Robin Layne is a regular fixture on the B.C. festival circuit, collaborating with a wide spectrum of folk and world artists. His recent touring engagements have led him to Mexico, Italy, China, the U.S. and Canada.. Robin is the senior percussion instructor at the Sarah McLachlan School of Music and the Artistic Director of the Britannia World Rhythms for Youth Society.</p>",
+    "description": "<p>The music of the Robin Layne Band evokes memories of summer days full of adventure and playfulness.</p><p>With roots in jazz, Latin and African traditions their music hints at artists such as Abdullah Ibrahim, Steve Coleman, Thomas Mapfumo, Toumani Dioubate and the marimba music of Chiapas.He has followed his love of world music to Cuba, Guinea, Mali, and Mexico studying under detailMaster drummers and marimbists of those respective traditions.He currently performs with world music groups Locarno, Tambura Rasa, and Mazacote </p><p>Equally at home on stage or in a classroom! Robin Layne is a regular fixture on the B.C. festival circuit, collaborating with a wide spectrum of folk and world artists. His recent touring engagements have led him to Mexico, Italy, China, the U.S. and Canada.. Robin is the senior percussion instructor at the Sarah McLachlan School of Music and the Artistic Director of the Britannia World Rhythms for Youth Society.</p>",
     "color": "yellow-flat",
     "image": "assets/images/artists/Robin-Layne-Band.jpg",
     "links": [{
@@ -142,6 +149,7 @@
     }]
 }, {
     "id": 107,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 8,
     "name": "Brisas del Palmar",
@@ -160,6 +168,7 @@
     }]
 }, {
     "id": 108,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 9,
     "name": "Entangados",
@@ -178,6 +187,7 @@
     }]
 }, {
     "id": 109,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 10,
     "name": "Las Estrellas de Vancouver",
@@ -192,6 +202,7 @@
     }]
 }, {
     "id": 110,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 11,
     "name": "Zazueira Band",
@@ -210,6 +221,7 @@
     }]
 }, {
     "id": 111,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 12,
     "name": "Alma Chevere",
@@ -228,6 +240,7 @@
     }]
 }, {
     "id": 112,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 13,
     "name": "Kutapira",
@@ -246,6 +259,7 @@
     }]
 }, {
     "id": 113,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 14,
     "name": "Flamenco Rosario ",
@@ -268,6 +282,7 @@
     }]
 }, {
     "id": 114,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 15,
     "name": "Maquilishuat Folklore Dancers",
@@ -277,6 +292,7 @@
     "image": "assets/images/artists/Maquilishuat-Folklore1-1.jpg"
 }, {
     "id": 115,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 16,
     "name": "Nahualli Folklore Dancers",
@@ -299,6 +315,7 @@
     }]
 }, {
     "id": 116,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 17,
     "name": "Axé Capoeira",
@@ -325,6 +342,7 @@
     }]
 }, {
     "id": 117,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 18,
     "name": "Paul Bray Drumming Workshop",
@@ -334,6 +352,7 @@
     "image": "assets/images/artists/Paul-Bray-Drumming1.jpg"
 }, {
     "id": 118,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 19,
     "name": "Songpati",
@@ -352,6 +371,7 @@
     }]
 }, {
     "id": 119,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 20,
     "name": "Zumba",
@@ -361,6 +381,7 @@
     "image": "assets/images/event/carnaval_delsol.jpg"
 }, {
     "id": 120,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 21,
     "name": "Salsa",
@@ -370,12 +391,231 @@
     "image": "assets/images/event/carnaval_delsol.jpg"
 }, {
     "id": 121,
+    "detailMaster":"artists",
     "plaza_id": 1,
     "order": 22,
     "name": "African Peruvian",
     "datetime": "Sat 07/09, 4:15 pm - 5:45 pm",
     "description": "",
     "color": "blue-flat",
-    "image": "assets/images/event/carnaval_delsol.jpg" 
+    "image": "assets/images/event/carnaval_delsol.jpg"
+}, {
+    "id": 600,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Bryan Wilson",
+    "products": "Pen/Ink Painting",
+    "description": "<p><strong>Bryan Wilson</strong> draws on personal experiences to create pen pictures, while some are just memories, others are taken from his surroundings at the time. Bryan lives in Youbou on Vancouver Island, a very small town that allows him the solitude to focus on his craft. Having taught himself, Bryan feels that each piece opens new directions in technique, composition, and subject matter.</p><p>“When I work within my living room, looking out at the lake, it’s so quiet. The sound of silence is hanging in the air as the sun is coming up, and the world is still mostly asleep. This is my favourite time ­ inspiration is flowing, everything seems easy, and it allows me to be reminded that I don’t know why I draw. I just love to draw.”</p>",
+    "image": "assets/images/artists/Bryan-Wilson.jpg",
+    "color": "red-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.bryanwilsonart.com"
+    }]
+}, {
+    "id": 601,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Christopher F.B. Potter",
+    "products": "Nature and Culture Painting",
+    "description": "<p>After a 30­year career in the logging industry – work which took him to remote corners of British Columbia’s coastline – <strong>Christopher Potter</strong> turned from forestry to fine art. “I was lucky to see corners British Columbia that many never set eyes on,” he says. “It gave me a huge respect for the province’s natural beauty.” </p><p>Early retirement allowed him to complete a long­time goal: walking the 800­kilometre Camino de Santiago de Compostella across Northern Spain. “It was a life­changing experience,” he says. And it contributed to the development of his artist’s eye. More travel followed – to countries in Asia, Europe and the Americas, thanks to his work as a photographer with HolidayMaker, a Canadian travel magazine. </p><p>The next challenge was to capture some of the many images – resulting from his appreciation of nature and different cultures – in a painterly way. “It’s a challenge that’s ongoing,” he says. “The learning never stops, nor the desire to continually improve.” Christopher is an Active Member of the Canadian Federation of Artists, and of the Garibaldi Art Club. His work is included in private collections in Canada, New Zealand, and the United Kingdom, and has appeared in the following shows and galleries in British Columbia:<p><ul><li>● ArtVancouver! (2015, 2016 Vancouver, juried show)</li><li>● Canadian Federation of Artists, Vancouver (juried show)</li><li>● Blue Heron Gallery, Osprey Village, Maple Ridge (founding member)</li><li>● Maple Ridge Library Show</li><li>● Garibaldi Art Show, Maple Ridge</li><li>● Featured artist at Mac’s Framing, Langley</li></ul></p>",
+    "image": "assets/images/artists/christopherpotter.ca2_.png",
+    "color": "blue-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.christopherpotter.ca/"
+    }]
+}, {
+    "id": 602,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "David Astorga Bocos",
+    "products": "Portrait Photography",
+    "description": "<p>After finishing his studies in Iluminación Captación y Tratamiento de la Imagen (Light Capture and Image Processing) in 2014, <strong>David Astorga Bocos</strong> pursued his passion in cinema and photography by working in the artistic aspects of theatre and television. He believes photography is a way of life and form of expression, which he tries to convey through the intensely personal nature of his portraits. He enjoys surrounding himself with everything that gives him alternative perspectives, as he continues to experiment and explore different techniques and possibilities of the world of photography.</p>",
+    "image": "assets/images/artists/David-Astorga-Bocos6.jpg",
+    "color": "green-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://www.flickr.com/photos/121101855@N05"
+    }]
+}, {
+    "id": 603,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Flash Enterprises",
+    "products": "Henna and Face Painting",
+    "description": "<p>Moin will be providing Henna and Face­Painting services</p>",
+    "image": "assets/images/artists/flash-entreprises.jpg",
+    "color": "yellow-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": ""
+    }]
+}, {
+    "id": 604,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Iliana So",
+    "products": "LuchArte/Mural Painting",
+    "description": "<p><strong>Iliana So</strong> is a painter, muralist, and Mexican writer graduated from the Academy of San Carlos. LuchArte founder of the movement to unify the multiple disciplines of art with wrestling. Creative pacifist movement for ‘peace walls’ where murals are made in peace, she has more than fifteen collective and eight individual exhibitions in Mexico City and USA. Her plastic work is inspired mainly in wrestling, the human figure, and peace. Representative of Mexico to the International Muralists 2014 meeting held in Cd . Nezahualcóyotl, México, she currently has artwork displayed in the Corazón Gallery in the city of San Francisco, USA.</p>",
+    "image": "assets/images/artists/Iliana-so.png",
+    "color": "red-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://www.facebook.com/iliana.so"
+    }]
+}, {
+    "id": 605,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Kim Legler",
+    "products": "Fashion Painting",
+    "description": "<p><strong>Kim Legler</strong> comes from an artistic background as a visual artist, and is a trained fashion designer. Simply put, she loves fashion illustration and pop art, as she often draws inspiration for her fashion designs from her art. </p><p>Hailing from Canada’s Great North, but having studied fashion design in Vancouver, British Columbia, she is often inspired by both the serenity of nature and the vibrancy of city life. Kim has spent the past few years travelling, gathering inspiration to incorporate into her future collections. She continues to sell her work at an international level across Europe, the United Kingdom, Australia, and the United States. Her work has been published in Houzz, The Glitter Guide, Design Love Fest, Missy Confidential, FashionLush, and FrameBridge.</p>",
+    "image": "assets/images/artists/Kim-Legler.jpg",
+    "color": "blue-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://www.instagram.com/kim_legler"
+    }]
+}, {
+    "id": 606,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Monica Nudelman",
+    "products": "Wood Painting",
+    "description": "<p>Say <strong>Monica Nudelman</strong>, ‘much of my work begins with discarded pieces of wood or furniture. I am fascinated with objects which with time have been forgotten, the solid wooden boards which have already been used for so many different purposes. These pieces serve as the foundation for my oils, paints, and images. The gradual decline of faded color and surface deterioration are of great interest. Using pattern, paint, oil, and imagery, the discarded piece becomes new again.’ </p><p>‘Paper, fabrics, and acrylics are the basic materials of my collages. I see many others which fit into each other, forming a unique scenario. With each cut or torn piece of paper or fabric, so many possibilities appear. Rather the ‘destruction’ or pieces of the image are transformed, along with other pieces into a new, completely different form. I like the mixture of printed images and textures which fit into each other until they take an entirely new identity. Transforming any image into something new is very inspiring ­ many of my works are based on renewal, hope, and belief.’</p>",
+    "image": "assets/images/artists/Monica-Nudelman.jpg",
+    "color": "green-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.monicanudelman.com/"
+    }]
+}, {
+    "id": 607,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Natacha Trottier",
+    "products": "Body Painting",
+    "description": "<p>Started in the makeup industry in 2004 working mostly on theatrical productions and fashion photoshoots, <strong>Natacha Trottier</strong> offers makeup and hair services for all types of events: head shots, boudoir, bridal and non­bridal, graduation, ladies party, private or group lessons, face and body painting, commercials and music videos. Her clients list goes from the little munchkins birthday parties to Lululemon athletica. She also proudly teaches at the most recognized makeup school in Canada; Blanche Macdonald Centre. The awards she has received include 1st place at the North American circus, body painting competition (2015), and 1st at the Art World Expo body painting competition 2 years in a row.</p>",
+    "image": "assets/images/artists/Natacha-Trottier.jpg",
+    "color": "yellow-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.natachatrottier.com/"
+    }]
+}, {
+    "id": 608,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Painted Rocket",
+    "products": "Digital Painting",
+    "description": "<p><strong>Ivan Solomon</strong> has a boundless energy to create beautiful, clean and colourful artwork. Ivan moved to Vancouver from Great Britain in 1971, inspired by its natural beauty. He continues to find inspiration in his scenic Pacific Northwest surroundings as well as from his loving grandchildren, while focusing on his colourful, whimsical and sentimental digital artwork with Painted Rocket Designs. Ivan creates each design by hand starting with a blank digital canvas.</p>",
+    "image": "assets/images/artists/Painted-Rocket.png",
+    "color": "red-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://paintedrocket.com/"
+    }]
+}, {
+    "id": 609,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Rita Henderson",
+    "products": "Landscape/Portrait Painting",
+    "description": "<p>Say <strong>Rita Henderson</strong>, ‘I am a First Nations artist and also have Swiss citizenship. I am open­minded and enjoy a life of learning and creativity sparked with passion and zeal for beauty and truth. I love art and decorating and working with people to produce spaces of inspiration and beauty in your world. I use all paint and media to create art that speaks to the heart and soul.’</p>",
+    "image": "assets/images/artists/Rita-Henderson.jpg",
+    "color": "blue-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://rita­henderson.pixels.com"
+    }]
+}, {
+    "id": 610,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Serge Démétrius Dubé",
+    "products": "Abstract Painting",
+    "description": "<p>Since 1983 Mr. <strong>Serge Démétrius Dubé</strong> has been painting with different mediums including watercolor, oil and acrylic. Being self­taught, he enjoyed exploring realism to surrealism, impressionism, and expressionism.</p><p>Over the past 11 years he has had great success with the development of his own acrylic technique using bold colour, active line, and fluid movement. This unique style draws the viewer in to experience a whole new level of color and movement. Mr. Dube’s extensive body of work and long career as an artist caused his paintings gain the attention of galleries and collectors worldwide. </p><p>He has worked with such treasured artists as Jean Paul Riopelle, Luigi Tiengo, Paul Ygartua, Brent Heighton, and John Einersson and many more. </p><p>Dube has dedicated his life to exploration of the 4th dimension of the mind. Mr. Dube offers a new experience to the viewer through use of colour, movement, and creativity. </p><p>Serge Dube showed in the Calgary Stampede in 2015, and was awarded first prize in the Artist’s Guild. He has won several awards such as the Best in Show at the South Delta Artist’s Guild in 2015, and a Certificate of Excellence from Artavita 2015, an award of Merit in the Regional Showcase at the ‘86 World Exposition and many more. Mr. Dube shows yearly at the galleries he is represented by in the West Coast. He has been represented by the Latitude Gallery in Calgary, Fallen Leaf Gallery in Canmore, Artym Gallery in Invermere, Gallery 421 in Kelowna, Lloyd’s Gallery in Penticton and several others in the past 35 years.</p>",
+    "image": "assets/images/artists/Serge-Démétrius-Dubé.png",
+    "color": "green-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.sergedube.com/"
+    }]
+}, {
+    "id": 611,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Sussanne Horberg",
+    "products": "Watercolour Painting",
+    "description": "<p>Many people who know Sussanne Horberg now have a hard time believing she had difficulty communicating when she was younger. Somehow, art has given her the tools to really express how she feels with wild abandonment. She creates images which speak her language. Seeing the colour explode, trying new techniques and experimenting is what gives her the greatest joy. </p><p>Sussanne’s favourite medium is watercolour, and mixed media. Recently she has been experimenting with acrylic textures, which is just like finding a new friend. She has learned her lesson, it is best to always follow your passion and your true bliss, because when you do everything just works out! </p><p>It’s all about building relationships, and expanding horizons. Sussanne is excited to be creating these wonderful Vendel Festival Art Shows and promoting and sharing with other like minded artists. She can't help but do the happy dance while she is painting! </p><p>You can find Sussanne’s artwork on display at the Surrey Art Gallery and at Vendel Festival Art Shows.</p>",
+    "image": "assets/images/artists/Sussanne-Hoiberg1.jpg",
+    "color": "yellow-flat"
+}, {
+    "id": 700,
+    "detailMaster": "artists",
+    "plaza_id": 7,
+    "name": "School of Groove",
+    "products": "",
+    "description": "<p>Rooted in Spanish canción with Afro­Cuban traits, Cuban Son is one of the most influential and widespread form of Latin American music. The School of Groove Cubanos are a group of musically dedicated students aged 10 to 14 who perform traditional Cuban Son. They have studied together for several years, and recently traveled to Santiago de Cuba, the birthplace of ‘Son Cubano’ music, to study with true detailMasters of the art form ­ their instructors play with Septeto Moneda Nacional, one of the best Son groups in Cuba. They continue to study together, and are planning a return to Santiago in 2017 to continue their relationship with their instructors and present their work at the Festival de Trova. These talented and focused kids are interested in taking what they have learned to another level, and are eager to share their love of Cuban music with new audience. Led by their instructor Michelle Cormier, and accompanied by profound vocalist Toto Berriel, they are certain to inspire.</p>",
+    "image": "assets/images/artists/school-groove.png",
+    "color": "green-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://schoolofgroovevancouver.com/"
+    }]   
+}, {
+    "id": 702,
+    "detailMaster": "artists",
+    "plaza_id": 7,
+    "name": "Zumba Fitness",
+    "products": "",
+    "description": "<p>Zumba Fitness started as a happy accident when creator Beto Perez forgot his traditional aerobics music when he darted off to teach an aerobics class in his native Colombia. He improvised using his own mix of music from tapes he had in his backpack (salsa and merengue music he grew up with). He then brought his dance­fitness style to Miami, and the rest is history. Today, Zumba is a group fitness class based on some of the most exciting rhythms and dance styles from Latin America and around the world, including Salsa, Merengue, Cumbia, Reggaeton, Samba, Tango, Flamenco, Bollywood, Swing, Soca and Bellydance, all in one class. Denise Galay, owner of Zumba Vancouver, ascribes the popularity of Zumba to its originality and the current popularity of dance shows on television. You can think of Zumba as a dance party disguised as a fitness routine, with high­intensity sections that get participants’ hearts pumping mixed with lower­intensity segments that give them a chance to catch their breath. There is no heavy choreography ­ if you can shake your hips, then you can do Zumba.</p>",
+    "image": "assets/images/artists/zumba-vancouver.png",
+    "color": "yellow-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.zumbavancouver.ca"
+    }]  
 
+}, {
+    "id": 800,
+    "detailMaster": "artists",
+    "plaza_id": 8,
+    "name": "Harrison Lee",
+    "products": "Yo Yo Wiz",
+    "description": "<p>Harrison Lee is a 16 year old professional yoyo competitor. He is a familiar face around town and a popular performer at local festivals and charitable events. Often referred to as Vancouver’s ‘Yoyo Kid,’ Harrison is no stranger to the media appearing frequently on TV, radio and newspaper. Harrison was the 2013 Canadian National Freestyle Yoyo Champion, one of the youngest on record, and he represents Canada at yoyo contests all around the world. In addition to his yoyoing talent, Harrison is also an inspirational speaker giving talks at schools, conferences, and public events.</p>",
+    "image": "assets/images/artists/Harrison-lee.jpg",
+    "color": "green-flat"
+}, {
+    "id": 801,
+    "detailMaster": "artists",
+    "plaza_id": 8,
+    "name": "Ivan Flores",
+    "products": "the Magician",
+    "description": "<p>Born and raised in Venezuela, Ivan’s life had a drastic change when he was 14 and it had become an inspiration for his career as an illusionist. Ever since he picked up his first deck of cards, he had been intrigued by the mystical and transformational power of magic. Now, at the age of 20, Ivan is already a seasoned performer as he enters his 6th year in the entertainment business.</p>",
+    "image": "assets/images/artists/ivan-magic.jpg",
+    "color": "yellow-flat"    
+}, {
+    "id": 802,
+    "detailMaster": "artists",
+    "plaza_id": 8,
+    "name": "Vancouver Puppet Theatre",
+    "products": "Performing an original and educational puppet theatre",
+    "description": "<p>Vancouver Puppet Theatre is performing an original and educational puppet theatre plays for children of 2 to­14 years old. We have number of theatre plays to accommodate every age. Our plays for younger audiences (2­ ­ 10 years old) are mostly based on the traditional folk tales (The Wolf and Seven Kids, Three Little Pigs, Kolobok, etc.). Our mobile Vancouver Puppet Theatre was organized in 2012 as a non­­profit organisation. We have presented in front of children of all ages over the years.</p>",
+    "image": "assets/images/artists/Vancouver-Puppet-Theatre.jpg",
+    "color": "red-flat"       
 }]

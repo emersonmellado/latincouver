@@ -1,11 +1,11 @@
 class ScheduleService {
-    constructor($http) {
-        this.$http = $http;
+    constructor($http, API) {
+       Object.assign(this, {$http, API });
     }
     getSchedule() {
-        return this.$http.get('app/json/schedule.json');
+        return this.$http.get(this.API + 'schedule.json');
     }
 }
 
-ScheduleService.$inject = ['$http'];
+ScheduleService.$inject = ['$http', 'API'];
 export default ScheduleService;

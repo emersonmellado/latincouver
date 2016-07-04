@@ -1,5 +1,6 @@
 class LatinhubController {
-    constructor($scope) {
+    constructor($scope, $ionicSideMenuDelegate) {
+        Object.assign(this, { $scope, $ionicSideMenuDelegate });
         this.setupSlider();
     }
     prevSlide() {
@@ -45,5 +46,5 @@ class LatinhubController {
         });
     }
 }
-LatinhubController.$inject = ['$scope'];
+LatinhubController.$inject = ['$scope','$ionicSideMenuDelegate'];
 export default LatinhubController;

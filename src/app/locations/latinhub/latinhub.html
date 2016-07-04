@@ -1,4 +1,11 @@
 <ion-view view-title="intro">
+  <div class="bar bar-header bar-positive">
+      <button ng-click="back()" class="button icon ion-android-arrow-back">
+      </button>
+      <p class="title">
+          latin-hub
+      </p>
+  </div>
   <div data-ng-show="$state.is('latinhub')">
       <div class="event-navigation">
           <button class="button button-next" ng-click="latinhub.nextSlide()">

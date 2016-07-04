@@ -1,43 +1,17 @@
-<!-- <div class="list event-list">
-    <div class="row">
-        <div class="col col-50">
-            <img src="assets/images/chefs/jonathan.png">
-            <div class="red-flat">
-                <h5>Chef Jonathan Chui</h5>
-            </div>
-        </div>
-        <div class="col col-50">
-            <img src="assets/images/chefs/sid.png">
-            <div class="green-flat">
-                <h5>Chef Sid Choudary</h5>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col col-50">
-            <img src="assets/images/chefs/han.png">
-            <div class="yellow-flat">
-                <h5>Chef Han</h5>
-            </div>
-        </div>
-        <div class="col col-50">
-            <img src="assets/images/chefs/pedro.png">
-            <div class="blue-flat">
-                <h5>Chef Pedro Guillen</h5>
-            </div>
-        </div>
+<div class="plaza-content">
+    <div class="list">
+        <span ng-bind-html='plaza.selected.business_info'></span>
     </div>
 </div>
- -->
 <div class="list event-list">
     <div class="row" data-ng-repeat="p in plaza.selected.biz" ng-if="$index % 2 == 0">
-        <div class="col col-50" ui-sref="detailMaster({section:plaza.selected.detailMaster, id:plaza.selected.biz[$index].id})">
+        <div class="col col-50" ui-sref="detailMaster({section:plaza.selected.biz[$index].detailMaster, id:plaza.selected.biz[$index].id})">
             <img data-ng-src="{{plaza.selected.biz[$index].image}}" data-ng-show="plaza.selected.biz[$index].image">
             <div class="{{plaza.selected.biz[$index].color}}">
                 <h5>{{plaza.selected.biz[$index].name}}</h5>
             </div>
         </div>
-        <div class="col col-50" ng-show="plaza.selected.biz[$index+1]" ui-sref="detailMaster({section:plaza.selected.detailMaster, id:plaza.selected.biz[$index+1].id})">
+        <div class="col col-50" ng-show="plaza.selected.biz[$index+1]" ui-sref="detailMaster({section:plaza.selected.biz[$index+1].detailMaster, id:plaza.selected.biz[$index+1].id})">
             <img data-ng-src="{{plaza.selected.biz[$index+1].image}}" data-ng-show="plaza.selected.biz[$index+1].image">
             <div class="{{plaza.selected.biz[$index+1].color}}">
                 <h5>{{plaza.selected.biz[$index+1].name}}</h5>

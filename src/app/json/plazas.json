@@ -27,21 +27,26 @@
     "id": "5",
     "name": "Sports Plaza",
     "image": "assets/images/plazas/sports-plazanew.jpg",
-    "color": "yellow-flat"
+    "color": "yellow-flat",
+    "info":"<p>Soccer (fútbol/futebol) is the most popular sport in the world, according to FIFA there are more than 30,000,000 people participating in organized competitions around the world ­ from the deserts of Bahrain to the metropolises of São Paulo and Milan. Latin American countries and teams have always played a very important role in the international soccer scene. Soccer’s place in non­Caribbean Latin American Society has shaped nations and is ingrained into every little bit of society; from baby teams, to soccer stars like Pele, Rocha, and Gamarra, Soccer rules and lives in Latin Americans’ hearts around the world!</p><p>At our Sports Plaza, we are presenting soccer, 2 ways:</p>"
 }, {
     "id": "6",
     "name": "Urban Plaza",
     "image": "assets/images/plazas/urbanlabart.png",
-    "color": "red-flat"
+    "color": "red-flat",
+    "info": "<p><strong>The high energy and fun atmosphere of Urban Art Plaza is so infectious that the Exhibitors end up enjoying it as much as the attendees.</strong></p><p><strong>The Art Plaza at Carnaval del Sol</strong>, July 9th and 10th, brings to you the opportunity to infuse your senses with the infinite palette of creative labour through the full gamut of artistic expression, including traditional painting, live painting, sculpture, photography, fashion, handcrafts and more. Click [here] to learn more about the rich history of Latin­American arts. </p><p>The Art Plaza presents the following artists:</p>"
 }, {
     "id": "7",
-    "name": "Travel Plaza",
+    "name": "Family Plaza",
     "complement": "Mercedes Bens Vans",
     "image": "assets/images/plazas/mercedesbenzvans.png",
-    "color": "blue-flat"
+    "color": "blue-flat",
+    "info": "<p>Colores del Sol Fashion Show</p><p><strong><a href='#/detail/vendors/799'>VCC fashion graduates</a></strong> will be presenting their <strong>Shape Of The Colours Collection</strong>, you will be wowed, awed, you will fall in love with the vibrancy of tropical­summers alluring promises.</p><p>The Mercedes Benz Van Family Plaza is proud to present the <strong>School of Groove</strong> on Saturday 07/09 from 5:00 pm to 6:00 pm</p><p><strong>Dance Workshop</strong></p><p>What are the differences between Bachata and Kizomba? Is ‘screwing the lightbulb’ your only Bollywood Dance move? Want to burn some calories with Zumba (especially after downing a few Churros from our food vendors)? Nestor de la Zerda of <strong>BC Dance</strong>, and Denise Galay of <strong>Zumba Vancouver</strong> will be showcasing their talents and sharing a few moves with their audience. Join them at their dance workshop at our Family Plaza.</p><p>Our main sponsor <strong>Mercedes Benz Van</strong> traces their heritage as far back as 1886, and they proudly promote “The Best or Nothing” from their family to our family and friends. Mercedes Benz will have their new Metris van on display and may even let you take it out on a test drive after the show!</p>",
+    "business_info":"<p>This year we have created a space where Vancouver families can enjoy activities together for an amazing weekend with family and friends. Relax, put on your summer clothes and come meander in our Family Plaza. Meet and chat with our vendors bringing choices and knowledge to improve health, financial well­being, and so much more.</p><p>The Family Plaza offers the following businesses:</p>"
 }, {
     "id": "8",
     "name": "Kids Plaza",
     "image": "assets/images/plazas/kids-plazanew.jpg",
-    "color": "green-flat"
+    "color": "green-flat",
+    "info": "<p>Kids (and Moms) Plaza is where three to ten year olds can play and learn new and different activities in their own space. A perfect destination for them to have a great time, learn, and make new friends.</p><p>Kids Plaza features:<ul><li><a href='#/detail/vendors/800'><strong>● Mom’s Playground</strong> - offered by GMR Marketing</a></li><li><a href='#/detail/vendors/800'><strong>● KidZone</strong> - offered by GMR Marketing</a></li><li><strong>● Mini­chefs</strong> - The space where children will have the opportunity to play and learn how to cook and express their creativity at the kitchen.</li><li><strong>● Arts and crafts</strong> - The place where kids can create, paint, build, colour, etc.</li><li><strong>● Spa for kids</strong> - A place for girls and boys who want to have a manicure, do their hair, or have decorative face painting. </li><li><strong>● Fairground</strong> - Here children can perform all typical fairground activities such as shooting hoops, clown toss, etc.</li><li><strong>● Mini City</strong> - This is where kids can learn something about cityscapes such as streets, traffic lights, and signs. There will be small cars available for the very young ones to operate along a marked path.</li><li><strong>● Piñatas</strong> - will be there for the children to break open during both days of Carnaval del Sol.</li><li><strong>● Dance Stage</strong> - Have a burning desire to show off what you got? Join the greatest dance stage and show off your Salsa, Bachata, Samba, and Zumba moves. All for free! Do you think you have what It takes to be the Dancing King/Queen of Carnaval del Sol?</li><li><strong>● Performance Artists</strong><br/><a href='#/detail/artists/800'>Harrison Lee<br/><a href='#/detail/artists/801'>Ivan the Magician</a><br/><a href='#/detail/artists/802'>Vancouver Puppet Theatre</li></ul></p><p>Kids Plaza also provides a general play area where one adult member of the family can watch the children while the others go off and enjoy other areas of the Carnaval. There will be staff to keep the area generally safe and clean, although the actual supervision of individual children needs to be done by at least one parent. Latincouver is not equipped to provide a daycare facility and does not assume any liability for children using this area. We also offer the following businesses at the Kids Plaza:</p>"
 }]

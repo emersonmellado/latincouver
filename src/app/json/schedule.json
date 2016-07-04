@@ -339,6 +339,200 @@
         "name": "Pedro Guillen",
         "description": "",
         "type": "Peru",
-        "color": "blue-flat"                                          
+        "color": "blue-flat"    
+    }, {
+        "id": 700,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "2:00 pm",
+        "to": "2:30 pm",
+        "name": "Fashion Show",
+        "description": "Colores del Sol",
+        "type": "by VCC",
+        "color": "blue-flat"   
+    }, {
+        "id": 701,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "3:15 pm",
+        "to": "3:45 pm",
+        "name": "Fashion Show",
+        "description": "Colores del Sol",
+        "type": "by VCC",
+        "color": "green-flat" 
+    }, {
+        "id": 702,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "3:45 pm",
+        "to": "4:00 pm",
+        "name": "Bollywood Dance",
+        "description": "Nestor and crew",
+        "type": "",
+        "color": "red-flat"  
+    }, {
+        "id": 703,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "4:40 pm",
+        "to": "5:00 pm",
+        "name": "Zumba",
+        "description": "Denise and crew",
+        "type": "",
+        "color": "yellow-flat"                            
+    }, {
+        "id": 704,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "5:00 pm",
+        "to": "6:00 pm",
+        "name": "School of Groove",
+        "description": "Rooted in Spanish canción with Afro­Cuban traits,",
+        "type": "Cuban Son",
+        "color": "blue-flat" 
+    }, {
+        "id": 705,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "6:30 pm",
+        "to": "7:00 pm",
+        "name": "Bachata",
+        "description": "Nestor and crew",
+        "type": "",
+        "color": "green-flat"  
+    }, {
+        "id": 706,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "7:30 pm",
+        "to": "7:45 pm",
+        "name": "Kizomba",
+        "description": "Nestor and crew",
+        "type": "",
+        "color": "red-flat"    
+
+    }, {
+        "id": 750,
+        "plaza_id": 7,
+        "day": 2,
+        "from": "1:30 pm",
+        "to": "1:45 pm",
+        "name": "Kizomba",
+        "description": "Nestor and crew",
+        "type": "",
+        "color": "red-flat"     
+    }, {
+        "id": 751,
+        "plaza_id": 7,
+        "day": 2,
+        "from": "1:45 pm",
+        "to": "2:15 pm",
+        "name": "Fashion Show",
+        "description": "Colores del Sol",
+        "type": "by VCC",
+        "color": "green-flat"   
+    }, {
+        "id": 752,
+        "plaza_id": 7,
+        "day": 2,
+        "from": "2:30 pm",
+        "to": "3:00 pm",
+        "name": "Bollywood Dance",
+        "description": "Nestor and crew",
+        "type": "",
+        "color": "blue-flat"        
+    }, {
+        "id": 753,
+        "plaza_id": 7,
+        "day": 2,
+        "from": "3:00 pm",
+        "to": "3:30 pm",
+        "name": "Fashion Show",
+        "description": "Colores del Sol",
+        "type": "by VCC",
+        "color": "yellow-flat"       
+    }, {
+        "id": 754,
+        "plaza_id": 7,
+        "day": 2,
+        "from": "4:15 pm",
+        "to": "4:30 pm",
+        "name": "Caribbean Rhythm",
+        "description": "Denise and crew",
+        "type": "",
+        "color": "red-flat"      
+    }, {
+        "id": 755,
+        "plaza_id": 7,
+        "day": 2,
+        "from": "4:30 pm",
+        "to": "5:00 pm",
+        "name": "Bachata",
+        "description": "Nestor and crew",
+        "type": "",
+        "color": "green-flat"     
+    
+    }, {
+        "id": 800,
+        "plaza_id": 8,
+        "day": 1,
+        "from": "1:00 pm",
+        "to": "1:30 pm",
+        "name": "Ivan the Magician",
+        "description": "Performance",
+        "type": "Venezuela",
+        "color": "yellow-flat"   
+    }, {
+        "id": 801,
+        "plaza_id": 8,
+        "day": 1,
+        "from": "2:00 pm",
+        "to": "2:30 pm",
+        "name": "Vancouver Puppet Theatre",
+        "description": "Performance",
+        "type": "",
+        "color": "red-flat"  
+
+    }, {
+        "id": 850,
+        "plaza_id": 8,
+        "day": 1,
+        "from": "1:15 pm",
+        "to": "2:15 pm",
+        "name": "Vancouver Puppet Theatre",
+        "description": "Performance",
+        "type": "",
+        "color": "green-flat"  
+    }, {
+        "id": 851,
+        "plaza_id": 8,
+        "day": 2,
+        "from": "3:00 pm",
+        "to": "3:30 pm",
+        "name": "Ivan the Magician",
+        "description": "Performance",
+        "type": "Venezuela",
+        "color": "blue-flat"   
+    }, {
+        "id": 852,
+        "plaza_id": 8,
+        "day": 2,
+        "from": "3:50 pm",
+        "to": "4:15 pm",
+        "name": "Ivan the Magician",
+        "description": "Performance",
+        "type": "Venezuela",
+        "color": "yellow-flat"          
+    }, {
+        "id": 851,
+        "plaza_id": 8,
+        "day": 2,
+        "from": "4:30 pm",
+        "to": "5:15 pm",
+        "name": "Harrison Lee",
+        "description": "Yo Yo Wiz",
+        "type": "Performance",
+        "color": "red-flat"           
     }
+
 ]

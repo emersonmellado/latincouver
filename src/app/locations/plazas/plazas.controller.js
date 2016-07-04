@@ -1,8 +1,7 @@
 class PlazasController {
     constructor($scope, $http, $stateParams, $filter, PlazaService, ScheduleService, VendorsService, BusinessService) {
         Object.assign(this, { $scope, $filter, $stateParams, $http, PlazaService, ScheduleService, VendorsService, BusinessService });
-        this.detailMaster = 'vendors';
-        this.vendorsList = "";
+        this.vendorsList = {};
         this.selected = {};
         this.selected.list_1 = "";
         this.selected.list_2 = "";   
@@ -28,14 +27,15 @@ class PlazasController {
             this.vendorsList = this.$filter('filter')(response.data, {
                 plaza_id: this.plazaId
             });                     
-            if (!this.vendorsList.length){
-                this.VendorsService.getArtists().then(response => {
-                    this.detailMaster = 'artists';
-                    this.vendorsList = this.$filter('filter')(response.data, {
-                        plaza_id: this.plazaId
-                    });                    
+            this.VendorsService.getArtists().then(response => {                    
+                this.vendorsList = this.vendorsList.concat(this.$filter('filter')(response.data, {
+                    plaza_id: this.plazaId
+                })); 
+                //reordering by Id, that way we can manage the order by changing the id
+                this.vendorsList.sort(function(a, b) {
+                    return parseFloat(a.id) - parseFloat(b.id);
                 });
-            }
+            });                
         });
     }
     getSchedule(){
@@ -50,7 +50,6 @@ class PlazasController {
     }
     getBusiness(){
         this.BusinessService.getBusiness().then(response => {
-            this.selected.detailMaster = 'business';
             this.selected.biz = this.$filter('filter')(response.data, {
                 plaza_id: this.plazaId
             });

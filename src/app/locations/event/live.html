@@ -1,4 +1,4 @@
-<button class="button event-contest-button" ng-click="event.prevSlide()">
+<button class="button event-contest-button" ui-sref="contest">
     <span>
         CONTEST
         <span class="hash">#LIVECARNAVAL</span>
@@ -7,26 +7,34 @@
 <div class="list event-sub-list">
     <div class="row">
         <div class="col col-50 grow">
-            <div class="blue-flat">
-                <h1>Main stage performers</h1>
-            </div>
+            <a href='#/plazas/detail/1'>
+                <div class="blue-flat">
+                    <h1>Main stage performers</h1>
+                </div>
+            </a>
         </div>
         <div class="col col-50">
-            <div class="red-flat">
-                <h1>&nbsp;&nbsp;&nbsp;performers&nbsp;&nbsp;&nbsp; at other venues</h1>
-            </div>
+            <a href='#/plazas'>
+                <div class="red-flat">
+                    <h1>performers at other venues</h1>
+                </div>
+            </a>
         </div>
     </div>
     <div class="row">
         <div class="col col-50">
-            <div class="green-flat">
-                <h1>&nbsp;&nbsp;&nbsp;&nbsp;fashion&nbsp;&nbsp;&nbsp;&nbsp; show</h1>
-            </div>
+            <a href='#/plazas/detail/7'>
+                <div class="green-flat">
+                    <h1>fashion show</h1>
+                </div>
+            </a>
         </div>
         <div class="col col-50">
-            <div class="yellow-flat">
-                <h1>&nbsp;&nbsp;&nbsp;&nbsp; art &nbsp;&nbsp;&nbsp;&nbsp; exhibitions</h1>
-            </div>
+            <a href='#/plazas/detail/6'>
+                <div class="yellow-flat">
+                    <h1>art exhibitions</h1>
+                </div>
+            </a>
         </div>
     </div>
 </div>
