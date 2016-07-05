@@ -1,3 +1,17 @@
+.slide-name{
+    z-index: 100;
+    //min-width: 30px;
+    width: 100%;
+    padding: 0px;
+    margin: auto;
+    position: absolute!important;
+    top: 80%!important;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 30px;
+    color: #fff;    
+    font-size: 22px;
+    text-align: center;
+}
 .event-buttons-page {
     padding: 0px;
 }
@@ -94,10 +108,10 @@
 
 $cor-destaque: #fff;
 $cor-destaque-hover: #222;
-.swiper-container {
-    top: 0px;
-    height: 250px;
-}
+// .swiper-container {
+//     top: 0px;
+//     height: 250px;
+// }
 
 .swiper-container-horizontal > .swiper-pagination {
     bottom: 20px!important;

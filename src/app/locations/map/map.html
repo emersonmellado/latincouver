@@ -1,12 +1,12 @@
 <ion-view ng-init="map.initMap()">
     <div class="bar bar-header bar-positive">
-        <button ng-click="back()" class="button icon ion-android-arrow-back">
-        </button>
+        <button ng-click="back()" class="button icon ion-android-arrow-back"></button>
+        <button ui-sref="home" class="button icon ion-home"></button>        
         <p class="title">
             Map
         </p>
     </div>
-    <ion-content>
+    <ion-content class="has-header content">
         <div id="map" data-tap-disabled="true"></div>     
     </ion-content>
 </ion-view>

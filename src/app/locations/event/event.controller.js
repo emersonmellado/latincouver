@@ -10,23 +10,16 @@ class EventController {
         this.slider.sliderDelegate._slideNext();
     }
     setupSlider() {
-        //this.$ionicSideMenuDelegate.toggleLeft();
         this.slider = {};
-        this.slider.images = [];
-        this.slider.currentPage = 0;
-
-        // this.slider.images = [{
-        //     "image": "assets/images/home/carnaval_delsol.jpg"
-        // }, {
-        //     "image": "assets/images/home/latin_america.jpg"
-        // }, {
-        //     "image": "assets/images/home/expoplaza_latina.jpg"
-        // }];
+        this.slider.currentPage = 1;
 
         this.VendorsService.getArtists().then(response => {
-            this.slider.images = response.data;
+            var images = angular.copy(response.data);
+            this.slider.images = images;
+            //this.slider.images = response.data;
             this.vendorsList = response.data;
-            this.detailMaster = 'artists';            
+            this.slider.images.sort();
+            console.log("this.slider.images", this.slider.images);
         });
 
         //some options to pass to our slider

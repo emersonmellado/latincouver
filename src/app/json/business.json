@@ -1,6 +1,7 @@
 [{
     "id": 400,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 4,
     "name": "YVR",
     "products": "",
@@ -10,6 +11,7 @@
 }, {
     "id": 401,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 4,
     "name": "Aerovías de México",
     "products": "",
@@ -24,6 +26,7 @@
 }, {
     "id": 402,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 4,
     "name": "Destinos Enterprises",
     "products": "",
@@ -38,6 +41,7 @@
 }, {
     "id": 403,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 4,
     "name": "Evo Car Share",
     "products": "",
@@ -47,6 +51,7 @@
 }, {
     "id": 404,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 4,
     "name": "Latin America Vancouver Consulates",
     "products": "",
@@ -56,6 +61,7 @@
 }, {
     "id": 405,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 4,
     "name": "Ria Money Transfer",
     "products": "",
@@ -70,6 +76,7 @@
 }, {
     "id": 406,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 4,
     "name": "The Today Team",
     "products": "",
@@ -84,6 +91,7 @@
 }, {
     "id": 407,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 4,
     "name": "University of British Columbia",
     "products": "",
@@ -98,6 +106,7 @@
 }, {
     "id": 408,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 4,
     "name": "Vancouver English Centre",
     "products": "",
@@ -107,6 +116,7 @@
 }, {
     "id": 500,
     "detailMaster":"business",
+    "type": "nonprofit",
     "plaza_id": 5,
     "name": "BC Nurses' Union",
     "products": "Nursing Advocate",
@@ -121,6 +131,7 @@
 }, {
     "id": 501,
     "detailMaster":"business",
+    "type": "nonprofit",
     "plaza_id": 5,
     "name": "Return­It ­ Encorp Pacific",
     "products": "Beverage Container Recycling",
@@ -135,6 +146,7 @@
 }, {
     "id": 502,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 5,
     "name": "Bubble Ball",
     "products": "Human­Sized Bubbles for Games",
@@ -149,8 +161,9 @@
 }, {
     "id": 503,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 5,
-    "name": "Dog Taxi Daycare and Dog Hotel",
+    "name": "Dog Taxi Daycare",
     "products": "Daycare and Training for Dogs",
     "description": "<p><strong>Dog­Taxi Daycare</strong> is a family­run, family­oriented team of dog lovers and experts. With over 25 years combined experience on the team, they understand dogs and their needs. They’re the daycare with a difference because they focus on Dog Behaviour and Pack Mentality, and they will work with you to help you better understand your furry friend’s dog­perspective. Dog­Taxi Daycare encourages healthy interaction and promotes interaction leading to play behaviour ­ play behaviour that is an ideal solution for understanding canine psychology. During the day your dog plays and learns from the Dog­Taxi Daycare family and their fellow canine friends while improving focus with commands and agility, learning about boundaries and respect, and learning to play with safety and confidence. Dog­Taxi could not possibly express it better than one of their clients did. “Thanks to Dog Taxi Daycare, our dog is well socialized, fit and happy!”</p>",
     "image": "assets/images/business/Dog-Taxi-Daycare.jpg",
@@ -163,6 +176,7 @@
 }, {
     "id": 504,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 5,
     "name": "TD Bank",
     "products": "Financial Services",
@@ -174,24 +188,12 @@
         "icon": "ion-link",
         "href": "https://www.tdcanadatrust.com/products­services/banking/index­ banking.jsp"
     }] 
-}, {
-    "id": 505,
-    "detailMaster":"business",
-    "plaza_id": 5,
-    "name": "Zipcar",
-    "products": "Car­Sharing",
-    "description": "<p><strong>Zipcar</strong> is a car­sharing company that provides automobile reservations to its members, billable by the hour or day. ‘Zipsters’ pay a monthly or annual membership fee in addition to car reservations charges. As of June 2015, the company had more than 900,000 members and offers nearly 10,000 vehicles throughout the United States, Canada, the United Kingdom, Spain, France, Austria and Turkey, making Zipcar one of the world's leading car rental networks. Members can reserve Zipcars with Zipcar's mobile app, online or by phone at any time, immediately or up to a year in advance. Zipsters have automated access to Zipcars using an access card which works with the car's technology to unlock the door, where the keys are already located inside. Zipcar also offers an iPhone or Android application that allows members to honk the horn to locate a Zipcar and unlock the doors. Zipcar charges a one-time application fee, an annual fee, and a reservation charge. Fuel, parking, insurance, and maintenance are included in the price.</p>",
-    "image": "assets/images/business/zipcar.png",
-    "color": "blue-flat",
-    "links": [{
-        "name": "Website: ",
-        "icon": "ion-link",
-        "href": "http://www.zipcar.ca/vancouver"
-    }]    
+
 
 }, {
     "id": 600,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 6,
     "name": "BC Dance",
     "products": "",
@@ -201,6 +203,7 @@
 }, {
     "id": 601,
     "detailMaster":"business",
+    "type": "nonprofit",
     "plaza_id": 6,
     "name": "Canada",
     "products": "",
@@ -215,6 +218,7 @@
 }, {
     "id": 602,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 6,
     "name": "Inner Circle Jewellery",
     "products": "",
@@ -229,6 +233,7 @@
 }, {
     "id": 603,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 6,
     "name": "Jungle Shack",
     "products": "",
@@ -243,6 +248,7 @@
 }, {
     "id": 604,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 6,
     "name": "South Hill's Jewellery’s",
     "products": "",
@@ -252,6 +258,7 @@
 }, {
     "id": 605,
     "detailMaster":"business",
+    "type": "nonprofit",
     "plaza_id": 6,
     "name": "Tara Canada Books",
     "products": "",
@@ -266,6 +273,7 @@
 }, {
     "id": 606,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 6,
     "name": "Tom Lee Music",
     "products": "",
@@ -280,6 +288,7 @@
 }, {
     "id": 607,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 6,
     "name": "Vancouver Latin Film Festival",
     "products": "",
@@ -294,6 +303,7 @@
 }, {
     "id": 700,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 7,
     "name": "Mistura and Fento",
     "products": "Watches and Sunglasses",
@@ -308,6 +318,7 @@
 }, {
     "id": 701,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 7,
     "name": "Nerium Optimera Skin Care",
     "products": "Beauty Products",
@@ -317,6 +328,7 @@
 }, {
     "id": 702,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 7,
     "name": "Jeans and Jeans",
     "products": "Colombian Jeans and Corsets",
@@ -326,6 +338,7 @@
 }, {
     "id": 703,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 7,
     "name": "Investor Group",
     "products": "Financial Services",
@@ -335,6 +348,7 @@
 }, {
     "id": 704,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 7,
     "name": "Primerica Financial Services",
     "products": "Financial Services",
@@ -344,6 +358,7 @@
 }, {
     "id": 705,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 7,
     "name": "Sun Life Financial Services",
     "products": "Financial Services",
@@ -353,6 +368,7 @@
 }, {
     "id": 706,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 7,
     "name": "Tangerine Financial Services",
     "products": "Financial Services",
@@ -362,6 +378,7 @@
 }, {
     "id": 707,
     "detailMaster":"business",
+    "type": "products",
     "plaza_id": 7,
     "name": "Telus Optik TV",
     "products": "Entertainment",
@@ -371,12 +388,12 @@
 }, {
     "id": 708,
     "detailMaster":"business",
-    "plaza_id": 7,
     "type": "products",
+    "plaza_id": 7,    
     "name": "Violet Hill",
     "products": "Mobile Fashion Shop",
     "description": "<p>In 2013, John and Bernadette were presented with the unique opportunity to take over <strong>Violet Hill Clothing</strong>, the only women’s boutique of its kind in the heart of Steveston Village. However, this wasn’t their first connection with the boutique. In 2010, as a well­ established general contractor, John worked with the original owner to design and build the boutique to her specifications. “A lot of things came into play,” explains John. “When I build something, I really give it a piece of myself and my wife always dreamed of having her own boutique, so in 2013, when the original owner was looking for a change, we took a leap and decided to buy it.” Continuing Violet Hill Clothing’s legacy as the Best Boutique in Richmond in their very first year of operation, John and Bernadette clearly hit the ground running to bring great style to the women of Steveston.</p>",
-    "image": "assets/images/business/Telus-Optik-TV.jpg",
+    "image": "assets/images/business/violethill.jpg",
     "color": "red-flat",
     "links": [{
         "name": "Facebook: ",
@@ -386,8 +403,8 @@
 }, {
     "id": 709,
     "detailMaster":"business",
-    "plaza_id": 7,
     "type": "nonprofit",
+    "plaza_id": 7,    
     "name": "Latino Canadian Chamber of Commerce",
     "products": "Business Liaison",
     "description": "<p>Founded in 2009, the Latino Canadian Chamber of Commerce is a non­profit organization whose mission is to represent the Latino business community, and to create a bridge where the cultural and economic ties of the Latino community can be united and strengthened. They enhance and promote the interest of the Latino business community through various mixers, seminars, and advocacy programs throughout the year. One of the most important responsibilities of their organization is to connect Latino businesses in order to network and achieve economic growth in the community.</p>",
@@ -396,8 +413,8 @@
 }, {
     "id": 710,
     "detailMaster":"business",
-    "plaza_id": 7,
     "type": "nonprofit",
+    "plaza_id": 7,    
     "name": "Liberal Party of Canada",
     "products": "Federal Government",
     "description": "<p>The Liberal Party of Canada, colloquially known as the Grits, is the oldest federal political party in Canada. The party espouses the principles of liberalism, and generally sits at the centre of the Canadian political spectrum. The Liberal Party is positioned to the left of the Conservative Party of Canada and to the right of the New Democratic Party (NDP). The party has dominated federal politics for much of Canada's history, holding power for almost 69 years in the 20th century — more than any other party in a developed country — and as a result, it is sometimes referred to as Canada's ‘natural governing party’. The Liberals' signature policies and legislative decisions include universal health care, the Canada Pension Plan, Canada Student Loans, peacekeeping, multilateralism, official bilingualism, official multiculturalism, patriating the Canadian constitution and the entrenchment of Canada's Charter of Rights and Freedoms, the Clarity Act, restoring balanced budgets in the 1990s, and making same­sex marriage legal nationwide.</p>",
@@ -411,8 +428,8 @@
 }, {
     "id": 710,
     "detailMaster":"business",
-    "plaza_id": 7,
     "type": "nonprofit",
+    "plaza_id": 7,    
     "name": "Multi­Material BC Non­Profit Society",
     "products": "Recycling",
     "description": "<p>Multi­Material BC Non­Profit Society (MMBC) is a non­profit organization that is fully financed by industry to manage residential packaging and printed paper recycling programs in BC, either directly or by working with local governments, First Nations, private companies, and other non­profit organizations. MMBC’s program is an example of extended producer responsibility (EPR). Over the past two decades, BC has introduced EPR programs for beverage containers, electronics, paint, used oil, tires, batteries, and now packaging and printed­paper. In each of these programs, industry assumes responsibility for end­of­life management including collection and recycling of these materials.</p>",

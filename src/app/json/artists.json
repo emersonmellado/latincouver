@@ -134,7 +134,7 @@
     "plaza_id": 1,
     "order": 7,
     "name": "Robin Layne Band ",
-    "datetime": "Sat 07/09, 5:45 pm - 6:15 pm",
+    "datetime": "Sat 07/09, 5:15 pm - 6:15 pm",
     "description": "<p>The music of the Robin Layne Band evokes memories of summer days full of adventure and playfulness.</p><p>With roots in jazz, Latin and African traditions their music hints at artists such as Abdullah Ibrahim, Steve Coleman, Thomas Mapfumo, Toumani Dioubate and the marimba music of Chiapas.He has followed his love of world music to Cuba, Guinea, Mali, and Mexico studying under detailMaster drummers and marimbists of those respective traditions.He currently performs with world music groups Locarno, Tambura Rasa, and Mazacote </p><p>Equally at home on stage or in a classroom! Robin Layne is a regular fixture on the B.C. festival circuit, collaborating with a wide spectrum of folk and world artists. His recent touring engagements have led him to Mexico, Italy, China, the U.S. and Canada.. Robin is the senior percussion instructor at the Sarah McLachlan School of Music and the Artistic Director of the Britannia World Rhythms for Youth Society.</p>",
     "color": "yellow-flat",
     "image": "assets/images/artists/Robin-Layne-Band.jpg",
@@ -226,7 +226,7 @@
     "order": 12,
     "name": "Alma Chevere",
     "datetime": "Sat 07/09, 3:15 pm - 4:00 pm",
-    "description": "<p>Alma Chevere is a melodious fusion of several styles such as Flamenco, Rumba, Rock and Latin Pop.</p><p> Alma Chevere, Meaning‘ Cool Soul, ’was conceived by four individuals from varied walks of life sharing common passions.The musicians themselves are an eclectic mix coming from as far as Venezuela, Mexico, Colombia, to Bella Coola.Each member of the band brings his own musical style derived from his home roots, varied musical influences, and languages, resulting in music that is truly unique and fulfilling. </p> < p > Lead singer, Luis Guttierez, brings a flare of Caribbean heat, salsa and energy from Venezuela, Guitarist Victor Fe evokes Spanish passion and emotion with his flamenco rhythms, and Mexico 's bright colour palette is made evident by bass player, Rolando Hernandez. On drums and percussion is multi-instrumentalist Karl Frostrup.</p>",
+    "description": "<p>Alma Chevere is a melodious fusion of several styles such as Flamenco, Rumba, Rock and Latin Pop.</p><p> Alma Chevere, Meaning‘ Cool Soul, ’was conceived by four individuals from varied walks of life sharing common passions.The musicians themselves are an eclectic mix coming from as far as Venezuela, Mexico, Colombia, to Bella Coola.Each member of the band brings his own musical style derived from his home roots, varied musical influences, and languages, resulting in music that is truly unique and fulfilling. </p><p>Lead singer, Luis Guttierez, brings a flare of Caribbean heat, salsa and energy from Venezuela, Guitarist Victor Fe evokes Spanish passion and emotion with his flamenco rhythms, and Mexico 's bright colour palette is made evident by bass player, Rolando Hernandez. On drums and percussion is multi-instrumentalist Karl Frostrup.</p>",
     "color": "green-flat",
     "image": "assets/images/artists/Alma-Chevere.jpg",
     "links": [{
@@ -238,6 +238,25 @@
         "icon": "ion-social-facebook",
         "href": "https://www.facebook.com/AlmaChevere"
     }]
+}, {
+    "id": 1110,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 12,
+    "name": "Sambacouver",
+    "datetime": "Sat 07/09, 4:15 pm ­ 4:45 pm",
+    "description": "<p>Sambacouver is the liveliest Brazilian music band in Vancouver. Playing tunes that range from all Brazilian music genres to international hits with a Brazilian twist, this exciting big band uses a variety of percussion instruments to deliver extremely engaging and interactive performances. The band has been together since the 2014 FIFA world cup, and has only played sold out venues since then, including The Pint Gastown, All Star Wings and Ribs, Cabana & Studio Records. Through the summer, the band occasionally does rehearsals at Third Beach to test new material, engage new crowds and showcase the amazing atmosphere that they create during their concerts. All band members come from different musical and cultural backgrounds, which really set this band and its performances apart from any other local band.</p>",
+    "color": "green-flat",
+    "image": "assets/images/artists/sambacouver_band.jpg",
+    "links": [{
+        "name": "Web",
+        "icon": "ion-link",
+        "href": "https://www.facebook.com/sambacouver/"
+    }, {
+        "name": "Youtube",
+        "icon": "ion-social-youtube",
+        "href": "https://www.youtube.com/channel/UCLzIJ_8rUrsn9HXXcfuhvxQ"
+    }]    
 }, {
     "id": 112,
     "detailMaster":"artists",
@@ -345,11 +364,11 @@
     "detailMaster":"artists",
     "plaza_id": 1,
     "order": 18,
-    "name": "Paul Bray Drumming Workshop",
+    "name": "Afro-Cuban Drum Workshop with Robin Layne",
     "datetime": "Sat 07/09, 1:00 pm - 1:30 pm",
-    "description": "<p>“Paul Bray is a dynamic and charismatic percussionist who draws on his strong classical background, Paul has devoted his attention to the study of African influenced music, specialising in Afro-Cuban and Afro-Brazilian folkloric musical styles.” </p><p> Come out and Live Latin America with Paul Bray!</p><p>Paul’ s impressive list of achievements includes studies in Cuban music and Brazilian percussion, and collaborations with Afro - Bahia Dance Productions and Yasse Afro - Arts.He also works as a studio musician as a director of Sambatá, Vancouver’ s 20 - piece Escola de Samba.Paul has also performed as a guest artist with both Jesse Cook and Tibetan multi - instrumentalist Nawang Khechog. </p><p>Paul is taking time out from his busy schedule to Play some Latin American drums at Carnaval del Sol!Currently,Paul is the percussion instructor at the Sarah McLachlan Music Outreach and is guest instructor with the Britannia World Rhythms Ensemble. </p><p>In the performing arena Paul is a member of Tambor Iroko - led by Jack Duncan Candela– and he is a regular club percussionist,collaborating with local DJ’ s in Vancouver </p>",
+    "description": "<p>Come learn how to drum with the master himself!</p>",
     "color": "blue-flat",
-    "image": "assets/images/artists/Paul-Bray-Drumming1.jpg"
+    "image": "assets/images/artists/Robin-Layne-Band.jpg"
 }, {
     "id": 118,
     "detailMaster":"artists",
@@ -374,31 +393,54 @@
     "detailMaster":"artists",
     "plaza_id": 1,
     "order": 20,
-    "name": "Zumba",
+    "name": "Zumba Vancouver",
     "datetime": "Sun 09/10, 11:30 am - 12:30 pm",
-    "description": "<p>http://www.zumbavancouver.ca/</p>",
+    "description": "<p>Zumba Fitness started as a happy accident when creator Beto Perez forgot his traditional aerobics music when he darted off to teach an aerobics class in his native Colombia. He improvised using his own mix of music from tapes he had in his backpack (salsa and merengue music he grew up with). He then brought his dance­fitness style to Miami, and the rest is history. Today, Zumba is a group fitness class based on some of the most exciting rhythms and dance styles from Latin America and around the world, including Salsa, Merengue, Cumbia, Reggaeton, Samba, Tango, Flamenco, Bollywood, Swing, Soca and Bellydance, all in one class. </p><p>Denise Galay, owner of Zumba Vancouver, ascribes the popularity of Zumba to its originality and the current popularity of dance shows on television. You can think of Zumba as a dance party disguised as a fitness routine, with high­intensity sections that get participants’ hearts pumping mixed with lower­intensity segments that give them a chance to catch their breath. There is no heavy choreography ­ if you can shake your hips, then you can do Zumba.</p>",
     "color": "green-flat",
-    "image": "assets/images/event/carnaval_delsol.jpg"
+    "image": "assets/images/artists/Zumba-Vancouver03.jpg"
 }, {
     "id": 120,
     "detailMaster":"artists",
     "plaza_id": 1,
     "order": 21,
-    "name": "Salsa",
+    "name": "Grupo America",
     "datetime": "Sat 07/09, 7:45 pm - 8:15 pm",
-    "description": "",
+    "description": "<p>Since exploding onto the Canadian arts scene 20 years ago, Vancouver­based Grupo America has been dazzling International audiences with their spectacular Latin Dance show. Grupo America pushes stylistic boundaries by presenting a variety of dances from every corner of the America’s. The show combines “sizzling” modern routines with beautiful traditional numbers that will take your breath away. Their multitude of striking costumes sets them apart from any dance company you have ever seen, and you will be treated to a visual explosion of colour and glamour! Grupo America boasts talented dancers and choreographers from some of the best folkloric ballets in Latin America. </p><p>Grupo America has also received international acclaim; including winning the 2007, 2008, 2012 and 2013 Cuban Salsa World Championship in Miami. With over 2000 international shows and appearances, this extraordinary group has gained a reputation as one of Canada’s elite entertainer’s with their irrepressible determination, energy, talent, and passion.</p>",
     "color": "red-flat",
-    "image": "assets/images/event/carnaval_delsol.jpg"
+    "image": "assets/images/artists/Grupo-America01.jpg",
+    "links": [{
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/WorldDanceCo"
+    }, {
+        "name": "Twitter",
+        "icon": "ion-social-twitter",
+        "href": "https://twitter.com/WorldDanceCo"
+    }, {
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://worlddanceco.com/"
+    }, {
+        "name": "Youtube",
+        "icon": "ion-social-youtube",
+        "href": "https://www.youtube.com/user/grupoamerica"                
+    }]   
 }, {
     "id": 121,
     "detailMaster":"artists",
     "plaza_id": 1,
     "order": 22,
-    "name": "African Peruvian",
-    "datetime": "Sat 07/09, 4:15 pm - 5:45 pm",
-    "description": "",
+    "name": "Tusuy Kusun Peruvian Folk Dance",
+    "datetime": "Sat 07/09, 5:00 pm ­ 5:15 pm",
+    "description": "<p>Originally named Rhythm without Borders, Kusun Tusuy Folk Dance was created in Arequipa, Peru, by Claudia Neira, Mara, Jessica, and Libertad Escarza. Motivated by the same passion and goal, and guided by the philosophies of discipline and respect, the primary objective of this dance troupe is to help strengthen the national identity of Peru through the art form of folk dance.</p><p> In 2009 the group decided to bring life and colour to the celebrations of Peruvian culture right here in Vancouver. Since then, it has grown to become the soul of Peruvian dances, and Tusuy Kusun has been appearing in different cultural events in British Columbia.",
     "color": "blue-flat",
-    "image": "assets/images/event/carnaval_delsol.jpg"
+    "image": "assets/images/artists/Tusuy-Kusun01.jpg",
+    "links": [{
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/Tusuy­Kusun­Peruvian­Folk­Dance­ 546927428661645"
+    }]
+
 }, {
     "id": 600,
     "detailMaster":"artists",
@@ -449,12 +491,7 @@
     "products": "Henna and Face Painting",
     "description": "<p>Moin will be providing Henna and Face­Painting services</p>",
     "image": "assets/images/artists/flash-entreprises.jpg",
-    "color": "yellow-flat",
-    "links": [{
-        "name": "Website: ",
-        "icon": "ion-link",
-        "href": ""
-    }]
+    "color": "yellow-flat"
 }, {
     "id": 604,
     "detailMaster":"artists",

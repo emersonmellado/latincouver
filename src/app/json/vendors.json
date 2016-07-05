@@ -305,7 +305,22 @@
             "name": "Blog: ",
             "icon": "ion-social-wordpress",
             "href": "https://johngonzalezmusic.wordpress.com/"
-        }]       
+        }] 
+    }, {
+        "id": 305,
+        "detailMaster":"vendors",
+        "type":"food",
+        "plaza_id": 3,
+        "name": "La Taqueria",
+        "products": "Tacos",
+        "description": "<p>Come home to Mexico when you visit <strong>La Taqueria Pinche Taco Shop</strong> and feel the love of family and friends. Honour food and life in a happy environment at La Taqueria Pinche Taco Shops located on Hastings, Cambie, and in North Vancouver and Victoria. Celebrate with traditional tacos made with local, sustainable and organic (when available) products, stuff your homemade tacos or tortillas with their authentic fillings, finish with special homemade salsas and toppings and be replete in Mexican culinary bliss. La Taqueria Pinche Taco Shop was created by Marcelo Ramirez to bring authentic Mexican food to Vancouver. His goal is to keep it real to Mexican life so don’t expect an American interpretation of Mexican food at La Taqueria.</p><p> Visit Mexico and the first thing that will entice you are the vibrant street food stalls surrounded by locals and tourists vying for the attention of the vendors. Some of the city’s best food is served at market stalls, and roving vendors. Street food serves as a powerful social equalizer ­ every day of the week, breadwinners of every level, from CEOs to pinche (kitchen helpers), rub shoulders at their favourite taco stand.</p><p>La Taqueria brings the vibrant street­food lover’s paradise of Mexico to the shores of the Pacific Northwest of Vancouver and Victoria. La Taqueria makes prominent the astronomical delights of the streets of Mexico’s culinary scene, a scene that stems from history, regional diversity and the specialities of this enthralling country. Tacos are what give the people strength and vitality; it is the lifeblood of Mexican cities, towns and villages. You’ll try twelve types of iconic local tacos that represent styles of cooking from all over the country. Watch chefs detailMasterfully shave meat and pineapple into tiny corn tortillas, then add your own onions, cilantro and salsas to your Al Pastor taco. Or try the braised beef cheeks De Cachete, the chicken and chorizo Tinga De Pollo and so much more! If you love seafood you will devour the Atun taco. Looking for vegan options then go for the summer celebration Calabacitas or any of the many vegan and vegetarian choices.</p><p> At La Taqueria, a taco isn’t just a local dish, it’s a way of eating.</p>",
+        "image": "assets/images/vendors/lataqueriapinchetaco.jpg",
+        "color": "blue-flat",
+        "links": [{
+            "name": "Website: ",
+            "icon": "ion-link",
+            "href": "http://www.lataqueria.com"
+        }]                   
     },{
         "id": 500,
         "detailMaster":"vendors",
@@ -396,7 +411,7 @@
     }, {
         "id": 801,
         "detailMaster":"vendors",
-        "type":"products",
+        "type":"",
         "plaza_id": 8,
         "name": "CF Educational Services",
         "products": "",
