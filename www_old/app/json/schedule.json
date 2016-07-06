@@ -1,0 +1,813 @@
+[
+    {
+        "id": 100,
+        "plaza_id": 1,
+        "day": 1,
+        "from": "11:30 am",
+        "to": "12:30 pm",
+        "name": "Entangados",
+        "description": "Argentinian Clown Band",
+        "type": "Argentina",
+        "color": "red-flat"
+    }, {
+        "id": 101,
+        "plaza_id": 1,
+        "day": 1,
+        "from": "12:30 pm",
+        "to": "1:00 pm",
+        "name": "Axe Capoeira",
+        "description": "Brazilian Dance & Music",
+        "type": "Brazil",
+        "color": "blue-flat"
+    }, {
+        "id": 102,
+        "plaza_id": 1,
+        "day": 1,
+        "from": "1:00 pm",
+        "to": "1:30 pm",
+        "name": "Drum Workshop with Robin Layne",
+        "description": "Afro Cuban",
+        "type": "",
+        "color": "green-flat"
+    }, {
+        "id": 103,
+        "plaza_id": 1,
+        "day": 1,
+        "from": "1:30 pm",
+        "to": "2:00 pm",
+        "name": "Nahualli",
+        "description": "Mexican Folkore Dancers",
+        "type": "Mexico",
+        "color": "yellow-flat"
+    }, {
+        "id": 104,
+        "plaza_id": 1,
+        "day": 1,
+        "from": "2:15 pm",
+        "to": "3:00 pm",
+        "name": "Songpati",
+        "description": "Venezuelan Folk Music",
+        "type": "Venezuela",
+        "color": "red-flat"
+    }, {      
+        "id": 105,
+        "plaza_id": 1,
+        "day": 1,
+        "from": "3:15 pm",
+        "to": "4:00 pm",
+        "name": "Alma Chevere",
+        "description": "Latin Pop / Rock",
+        "type": "",
+        "color": "blue-flat"
+    }, {      
+        "id": 106,
+        "plaza_id": 1,
+        "day": 1,
+        "from": "4:20 pm",
+        "to": "4:40 pm",
+        "name": "Sambacouver",
+        "description": "Samba",
+        "type": "",
+        "color": "green-flat"      
+    }, {      
+        "id": 107,
+        "plaza_id": 1,
+        "day": 1,
+        "from": "5:00 pm",
+        "to": "5:15 pm",
+        "name": "Dance Group",
+        "description": "Peruvian",
+        "type": "",
+        "color": "yellow-flat"             
+    }, {
+        "id": 108,
+        "plaza_id": 1,
+        "day": 1,
+        "from": "5:15 pm",
+        "to": "6:15 pm",
+        "name": "Robin Layne",
+        "description": "Percussional",
+        "type": "",
+        "color": "red-flat"
+    }, {
+        "id": 109,
+        "plaza_id": 1,
+        "day": 1,
+        "from": "6:30 pm",
+        "to": "7:30 pm",
+        "name": "Locarno",
+        "description": "Mexican & Cuban Folk Music",
+        "type": "",
+        "color": "blue-flat"  
+    }, {
+        "id": 110,
+        "plaza_id": 1,
+        "day": 1,
+        "from": "7:45 pm",
+        "to": "8:15 pm",
+        "name": "Grupo America",
+        "description": "Latin Dance Show",
+        "type": "",
+        "color": "green-flat"          
+    }, {
+        "id": 111,
+        "plaza_id": 1,
+        "day": 1,
+        "from": "8:30 pm",
+        "to": "10:00 pm",
+        "name": "Will Campa",
+        "description": "y su orquestra",
+        "type": "Cuba",
+        "color": "yellow-flat"      
+
+
+
+
+
+    }, {
+        "id": 112,
+        "plaza_id": 1,
+        "day": 2,
+        "from": "11:30 pm",
+        "to": "12:30 pm",
+        "name": "Zumba",
+        "description": "ZumbaVancouver.ca",
+        "type": "",
+        "color": "red-flat"          
+    }, {
+        "id": 113,
+        "plaza_id": 1,
+        "day": 2,
+        "from": "12:30 pm",
+        "to": "1:00 pm",
+        "name": "Maquilishuat Folklore",
+        "description": "El Salvador",
+        "type": "",
+        "color": "blue-flat"   
+    }, {
+        "id": 114,
+        "plaza_id": 1,
+        "day": 2,
+        "from": "1:00 pm",
+        "to": "1:15 pm",
+        "name": "Mayor Speaking",
+        "description": "Openning Words",
+        "type": "",
+        "color": "green-flat"      
+    }, {
+        "id": 115,
+        "plaza_id": 1,
+        "day": 2,
+        "from": "1:15 pm",
+        "to": "1:45 pm",
+        "name": "Bloco Energia",
+        "description": "Brazilian Percussional",
+        "type": "",
+        "color": "yellow-flat"      
+    }, {
+        "id": 116,
+        "plaza_id": 1,
+        "day": 2,
+        "from": "1:45 pm",
+        "to": "2:15 pm",
+        "name": "Flamenco Rosario",
+        "description": "Argentina",
+        "type": "",
+        "color": "red-flat"      
+    }, {
+        "id": 117,
+        "plaza_id": 1,
+        "day": 2,
+        "from": "2:30 pm",
+        "to": "3:00 pm",
+        "name": "Zazueira Band",
+        "description": "Samba, Rock & Pop",
+        "type": "",
+        "color": "blue-flat"      
+    }, {
+        "id": 118,
+        "plaza_id": 1,
+        "day": 2,
+        "from": "3:15 pm ",
+        "to": "4:00 pm",
+        "name": "Brisas del Palmar",
+        "description": "Cuba",
+        "type": "",
+        "color": "green-flat"      
+    }, {
+        "id": 119,
+        "plaza_id": 1,
+        "day": 2,
+        "from": "4:15 pm",
+        "to": "5:00 pm",
+        "name": "Las Estrellas de Vancouver",
+        "description": "Female Mexican Mariachi",
+        "type": "",
+        "color": "yellow-flat"      
+    }, {
+        "id": 120,
+        "plaza_id": 1,
+        "day": 2,
+        "from": "5:15 pm",
+        "to": "6:00 pm",
+        "name": "Kutapira",
+        "description": "Afro Cuban Percussional",
+        "type": "",
+        "color": "red-flat"      
+    }, {
+        "id": 121,
+        "plaza_id": 1,
+        "day": 2,
+        "from": "6:15 pm",
+        "to": "6:45 pm",
+        "name": "Samba Fusion",
+        "description": "",
+        "type": "Brazil",
+        "color": "blue-flat"      
+    }, {
+        "id": 122,
+        "plaza_id": 1,
+        "day": 2,
+        "from": "7:00 pm",
+        "to": "7:45 pm",
+        "name": "Orquesta Tabasko",
+        "description": "Colombian Salsa",
+        "type": "",
+        "color": "green-flat"      
+    }, {
+        "id": 123,
+        "plaza_id": 1,
+        "day": 2,
+        "from": "8:00 pm",
+        "to": "9:00 pm",
+        "name": "Mazacote",
+        "description": "West Coast Latin",
+        "type": "Dance Band",
+        "color": "yellow-flat"
+
+
+    }, {
+        "id": 300,
+        "plaza_id": 3,
+        "day": 1,
+        "from": "12:30 pm",
+        "to": "2:00 pm",
+        "name": "DJ Rumpus",
+        "description": "",
+        "type": "",
+        "color": "blue-flat"  
+    }, {
+        "id": 301,
+        "plaza_id": 3,
+        "day": 1,
+        "from": "2:00 pm",
+        "to": "4:00 pm",
+        "name": "Asi Somos",
+        "description": "Venezuelan Band",
+        "type": "",
+        "color": "red-flat"  
+    }, {
+        "id": 302,
+        "plaza_id": 3,
+        "day": 1,
+        "from": "4:00 pm",
+        "to": "7:00 pm",
+        "name": "Rompiendo Fronteras",
+        "description": "Vallenato & Cumbia",
+        "type": "Colombian Band",
+        "color": "green-flat"  
+    }, {
+        "id": 303,
+        "plaza_id": 3,
+        "day": 1,
+        "from": "4:00 pm",
+        "to": "7:00 pm",
+        "name": "DJ Rumpus",
+        "description": "",
+        "type": "",
+        "color": "yellow-flat"  
+    }, {
+        "id": 350,
+        "plaza_id": 3,
+        "day": 2,
+        "from": "12:30 pm",
+        "to": "2:00 pm",
+        "name": "DJ Rumpus",
+        "description": "",
+        "type": "",
+        "color": "yellow-flat"  
+    }, {
+        "id": 351,
+        "plaza_id": 3,
+        "day": 2,
+        "from": "2:00 pm",
+        "to": "4:00 pm",
+        "name": "Asi Somos",
+        "description": "Venezuelan Band",
+        "type": "",
+        "color": "green-flat"  
+    }, {
+        "id": 352,
+        "plaza_id": 3,
+        "day": 2,
+        "from": "4:00 pm",
+        "to": "7:00 pm",
+        "name": "Rompiendo Fronteras",
+        "description": "Vallenato & Cumbia",
+        "type": "Colombian Band",
+        "color": "red-flat"  
+    }, {
+        "id": 353,
+        "plaza_id": 3,
+        "day": 2,
+        "from": "7:00 pm",
+        "to": "8:30 pm",
+        "name": "DJ Rumpus",
+        "description": "",
+        "type": "",
+        "color": "blue-flat" 
+    }, {
+        "id": 400,
+        "plaza_id": 4,
+        "day": 1,
+        "from": "2:30 pm",
+        "to": "2:50 pm",
+        "name": "Chef Juan Pablo Sanchez",
+        "description": "El Coroto Latino",
+        "type": "Venezuela",
+        "color": "red-flat"
+    }, {
+        "id": 401,
+        "plaza_id": 4,
+        "day": 1,
+        "from": "2:50 pm",
+        "to": "3:10 pm",
+        "name": "Chef Seungmin Han",
+        "description": "Kosoo Korean Kitchen",
+        "type": "Korea",
+        "color": "blue-flat"    
+    }, {
+        "id": 402,
+        "plaza_id": 4,
+        "day": 1,
+        "from": "4:00 pm",
+        "to": "4:20 pm",
+        "name": "Chef Brandon Owen",
+        "description": "Gordon Food Services",
+        "type": "Canada",
+        "color": "green-flat"      
+    }, {
+        "id": 403,
+        "plaza_id": 4,
+        "day": 1,
+        "from": "4:20 pm",
+        "to": "4:40 pm",
+        "name": "Chef Siddhartha Choudary",
+        "description": "Siddhartha’s Indian Kitchen",
+        "type": "India",
+        "color": "yellow-flat"      
+    }, {        
+        "id": 404,
+        "plaza_id": 4,
+        "day": 1,
+        "from": "5:30 pm",
+        "to": "5:50 pm",
+        "name": "Chef Jonathan Chuy",
+        "description": "La Taqueria Pinche Taco shop",
+        "type": "Mexico",
+        "color": "red-flat"            
+    }, {
+        "id": 405,
+        "plaza_id": 4,
+        "day": 1,
+        "from": "5:50 pm",
+        "to": "6:15 pm",
+        "name": "Chef Alain and Brigitte Rayé",
+        "description": "Café Ça Va",
+        "type": "France",
+        "color": "blue-flat"       
+    }, {
+        "id": 406,
+        "plaza_id": 4,
+        "day": 2,
+        "from": "2:15 pm",
+        "to": "2:30 pm",
+        "name": "Chef Juan Pablo Sanchez",
+        "description": "El Coroto Latino",
+        "type": "Venezuela",
+        "color": "green-flat"                  
+    }, {
+        "id": 407,
+        "plaza_id": 4,
+        "day": 2,
+        "from": "2:30 pm",
+        "to": "3:00 pm",
+        "name": "Sudarat Yuintra",
+        "description": "Soi Gaow Market",
+        "type": "Thailand",
+        "color": "yellow-flat"
+    }, {
+        "id": 408,
+        "plaza_id": 4,
+        "day": 2,
+        "from": "3:30 pm",
+        "to": "3:50 pm",
+        "name": "Chef Jonathan Chuy",
+        "description": "La Taqueria Pinche Taco Shop",
+        "type": "Mexico",
+        "color": "red-flat"
+    }, {
+        "id": 409,
+        "plaza_id": 4,
+        "day": 2,
+        "from": "3:50 pm",
+        "to": "4:15 pm",
+        "name": "Chef Cullin David",
+        "description": "Calabash Bistro",
+        "type": "Caribbean",
+        "color": "blue-flat"          
+    }, {
+        "id": 410,
+        "plaza_id": 4,
+        "day": 2,
+        "from": "5:15 pm",
+        "to": "5:35 pm",
+        "name": "Chef Mariana Gabilondo",
+        "description": "La Mezcaleria",
+        "type": "Mexico",
+        "color": "green-flat"    
+    }, {
+        "id": 411,
+        "plaza_id": 4,
+        "day": 2,
+        "from": "5:35 pm",
+        "to": "6:00 pm",
+        "name": "Chef Sheldon Maloff",
+        "description": "Provence Marinaside",
+        "type": "Canada",
+        "color": "yellow-flat"    
+    }, {
+        "id": 412,
+        "plaza_id": 4,
+        "day": 2,
+        "from": "6:15 pm",
+        "to": "6:35 pm",
+        "name": "Chef Brandon Owen",
+        "description": "Gordon Food Services",
+        "type": "Canada",
+        "color": "red-flat"    
+    }, {
+        "id": 413,
+        "plaza_id": 4,
+        "day": 2,
+        "from": "6:35 pm",
+        "to": "7:00 pm",
+        "name": "Chef Pedro Guillen",
+        "description": "",
+        "type": "Peru",
+        "color": "blue-flat"    
+    }, {
+        "id": 500,
+        "plaza_id": 5,
+        "day": 1,
+        "from": "10:30 pm",
+        "to": "6:30 pm",
+        "name": "Street Soccer Tournament",
+        "description": "",
+        "type": "",
+        "color": "blue-flat"   
+    }, {
+        "id": 550,
+        "plaza_id": 5,
+        "day": 2,
+        "from": "10:00 pm",
+        "to": "1:15 pm",
+        "name": "Street Soccer Tournament",
+        "description": "",
+        "type": "",
+        "color": "green-flat"  
+    }, {
+        "id": 551,
+        "plaza_id": 5,
+        "day": 2,
+        "from": "1:15 pm",
+        "to": "1:30 pm",
+        "name": "Game: Latin Consuls vs Vancouver BC",
+        "description": "",
+        "type": "",
+        "color": "yellow-flat"  
+    }, {
+        "id": 552,
+        "plaza_id": 5,
+        "day": 2,
+        "from": "1:40 pm",
+        "to": "6:30 pm",
+        "name": "Street Soccer Tournament",
+        "description": "",
+        "type": "",
+        "color": "blue-flat"  
+
+    }, {
+        "id": 700,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "12:00 pm",
+        "to": "2:00 pm",
+        "name": "DJ Sanchez",
+        "description": "",
+        "type": "Cuba",
+        "color": "blue-flat"   
+    }, {
+        "id": 701,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "2:00 pm",
+        "to": "2:30 pm",
+        "name": "Fashion Show",
+        "description": "Colores del Sol",
+        "type": "by VCC",
+        "color": "green-flat"         
+    }, {
+        "id": 702,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "3:15 pm",
+        "to": "3:45 pm",
+        "name": "Fashion Show",
+        "description": "Colores del Sol",
+        "type": "by VCC",
+        "color": "red-flat" 
+    }, {
+        "id": 703,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "3:45 pm",
+        "to": "4:00 pm",
+        "name": "Bolly Daz",
+        "description": "Indian Dance",
+        "type": "BC Dance",
+        "color": "yellow-flat"  
+    }, {
+        "id": 704,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "4:40 pm",
+        "to": "5:00 pm",
+        "name": "Zumba Danza Production",
+        "description": "",
+        "type": "",
+        "color": "blue-flat"                            
+    }, {
+        "id": 705,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "5:00 pm",
+        "to": "6:00 pm",
+        "name": "School of Groove",
+        "description": "Cuban Kids Band",
+        "type": "",
+        "color": "green-flat" 
+    }, {
+        "id": 706,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "6:15 pm",
+        "to": "6:30 pm",
+        "name": "DJ Sanchez",
+        "description": "",
+        "type": "Cuba",
+        "color": "red-flat"         
+    }, {
+        "id": 707,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "6:30 pm",
+        "to": "7:00 pm",
+        "name": "Bachata",
+        "description": "Dominican Republic",
+        "type": "BC Dance",
+        "color": "yellow-flat"  
+    }, {
+        "id": 708,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "7:30 pm",
+        "to": "7:45 pm",
+        "name": "African Dance",
+        "description": "Kizomba",
+        "type": "BC Dance",
+        "color": "blue-flat"    
+    }, {
+        "id": 709,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "8:15 pm",
+        "to": "8:30 pm",
+        "name": "Zumba Flash Mob",
+        "description": "ZumbaVancouver.ca",
+        "type": "",
+        "color": "green-flat"   
+
+    }, {
+        "id": 750,
+        "plaza_id": 7,
+        "day": 1,
+        "from": "12:00 pm",
+        "to": "1:00 pm",
+        "name": "DJ Sanchez",
+        "description": "",
+        "type": "Cuba",
+        "color": "blue-flat"   
+    }, {
+        "id": 751,
+        "plaza_id": 7,
+        "day": 2,
+        "from": "1:30 pm",
+        "to": "1:45 pm",
+        "name": "African Dance",
+        "description": "Kizomba",
+        "type": "BC Dance",
+        "color": "red-flat"     
+    }, {
+        "id": 752,
+        "plaza_id": 7,
+        "day": 2,
+        "from": "1:45 pm",
+        "to": "2:15 pm",
+        "name": "Fashion Show",
+        "description": "Colores del Sol",
+        "type": "by VCC",
+        "color": "green-flat"   
+    }, {
+        "id": 753,
+        "plaza_id": 7,
+        "day": 2,
+        "from": "2:30 pm",
+        "to": "3:00 pm",
+        "name": "Bolly Daz",
+        "description": "Indian Dance",
+        "type": "BC Dance",
+        "color": "yellow-flat"        
+    }, {
+        "id": 754,
+        "plaza_id": 7,
+        "day": 2,
+        "from": "3:00 pm",
+        "to": "3:30 pm",
+        "name": "Fashion Show",
+        "description": "Colores del Sol",
+        "type": "by VCC",
+        "color": "blue-flat"       
+    }, {
+        "id": 755,
+        "plaza_id": 7,
+        "day": 2,
+        "from": "4:15 pm",
+        "to": "4:30 pm",
+        "name": "Danza production",
+        "description": "Caribbean Rhythm",
+        "type": "",
+        "color": "red-flat"      
+    }, {
+        "id": 756,
+        "plaza_id": 7,
+        "day": 2,
+        "from": "4:30 pm",
+        "to": "5:00 pm",
+        "name": "Bachata",
+        "description": "Dominican Republic",
+        "type": "BC Dance",
+        "color": "green-flat"     
+     }, {
+        "id": 757,
+        "plaza_id": 7,
+        "day": 2,
+        "from": "7:00 pm",
+        "to": "9:00 pm",
+        "name": "DJ Sanchez",
+        "description": "",
+        "type": "Cuba",
+        "color": "yellow-flat"     
+    }, {
+        "id": 800,
+        "plaza_id": 8,
+        "day": 1,
+        "from": "11:30 pm",
+        "to": "1:00 pm",
+        "name": "Kids activities",
+        "description": "",
+        "type": "",
+        "color": "yellow-flat"  
+    }, {
+        "id": 801,
+        "plaza_id": 8,
+        "day": 1,
+        "from": "1:00 pm",
+        "to": "1:30 pm",
+        "name": "Ivan Flores",
+        "description": "Magician",
+        "type": "Venezuela",
+        "color": "red-flat"   
+    }, {
+        "id": 802,
+        "plaza_id": 8,
+        "day": 1,
+        "from": "2:00 pm",
+        "to": "2:30 pm",
+        "name": "Puppet Theatre",
+        "description": "Vancouver",
+        "type": "",
+        "color": "blue-flat"  
+    }, {
+        "id": 803,
+        "plaza_id": 8,
+        "day": 1,
+        "from": "2:30 pm",
+        "to": "6:00 pm",
+        "name": "Kids activities",
+        "description": "",
+        "type": "",
+        "color": "green-flat"  
+    }, {
+        "id": 804,
+        "plaza_id": 8,
+        "day": 1,
+        "from": "6:15 pm",
+        "to": "6:45 pm",
+        "name": "School of Goove",
+        "description": "Cuban Kids Band",
+        "type": "",
+        "color": "yellow-flat"         
+    }, {
+        "id": 805,
+        "plaza_id": 8,
+        "day": 1,
+        "from": "4:20 pm",
+        "to": "8:00 pm",
+        "name": "Kids activities",
+        "description": "",
+        "type": "",
+        "color": "red-flat"  
+    }, {
+        "id": 850,
+        "plaza_id": 8,
+        "day": 2,
+        "from": "11:30 pm",
+        "to": "1:00 pm",
+        "name": "Kids activities",
+        "description": "",
+        "type": "",
+        "color": "red-flat"      
+     }, {
+        "id": 851,
+        "plaza_id": 8,
+        "day": 2,
+        "from": "1:15 pm",
+        "to": "2:15 pm",
+        "name": "Puppets Theatre",
+        "description": "Vancouver",
+        "type": "",
+        "color": "blue-flat"  
+    }, {
+        "id": 851,
+        "plaza_id": 8,
+        "day": 2,
+        "from": "3:00 pm",
+        "to": "4:15 pm",
+        "name": "Ivan Florez",
+        "description": "Magician",
+        "type": "",
+        "color": "green-flat"          
+    }, {
+        "id": 852,
+        "plaza_id": 8,
+        "day": 2,
+        "from": "4:30 pm",
+        "to": "5:15 pm",
+        "name": "Harrison Lee",
+        "description": "Yo Yo Wiz",
+        "type": "Performance",
+        "color": "yellow-flat"   
+    }, {
+        "id": 853,
+        "plaza_id": 8,
+        "day": 2,
+        "from": "5:35 pm",
+        "to": "7:45 pm",
+        "name": "Kids activities",
+        "description": "",
+        "type": "",
+        "color": "red-flat"  
+    }, {
+        "id": 854,
+        "plaza_id": 8,
+        "day": 2,
+        "from": "4:20 pm",
+        "to": "8:00 pm",
+        "name": "Kids activities",
+        "description": "",
+        "type": "",
+        "color": "blue-flat"                          
+    }
+
+]

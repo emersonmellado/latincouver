@@ -1,0 +1,658 @@
+[{
+    "id": 100,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 1,
+    "name": "Will Campa",
+    "datetime": "Sat 07/09, 8:30 pm - 10:00 pm",
+    "description": "<p>Recording several albums with Cumbre and Maraca, Wil is best recognized internationally for his Grammy Nominated contribution to the CD ‘Tremenda Rumba’ in 2002. In 2005 Wil formed what is known today as one of Cuba elite groups ‘Wil Campa Y Su Orquesta,’ releasing two albums: ‘Es Tiempo’ in 2006 and ‘Todo Es Posible’ in 2011, winning him a Nomination for Best Album 2012 at the Cubadisco (Cuba’s equivalent of the Grammy’s). Wil Campa Y Su Orquesta have been touring extensively nationally (e.g. Havana Jazz Festival) and internationally, inspiring and introducing thousands of audiences to Cuba’s musical royalty.</p><p>Wil’ s childhood was spent in Pinar del Rio, Cuba, where he grew up amidst streets filled with joyful traditional Cuban music.Wil’ s vision, musical talent, and chorographical direction have placed this Orchestra, Wil Campa Y Su Orquesta, as one of the most exciting touring groups! </p>",
+    "color": "red-flat",
+    "image": "assets/images/artists/Will-Campa.jpg",
+    "links": [{
+        "name": "Web",
+        "icon": "ion-link",
+        "href": "http://www.wilcampa.com/english/home_english.html"
+    }, {
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/wil.campa"
+    }]
+}, {
+    "id": 101,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 2,
+    "name": "Samba Fusion",
+    "datetime": "Sun 07/10, 6:15 pm - 6:45 pm",
+    "description": "<p>This multi-cultural troupe performs several styles of dance fusion including Brazilian Samba, Forro, Samba Reggae, Afro- Brazilian, Gypsy, Hip Hop, Contemporary, Salsa/Latin/Reggaeton, African, Polynesian, and Burlesque.</p><p>Samba Fusion was formed by Andrea Monteiro and Naija K in Vancouver based on their common dance background in ‘Samba.’As the ideas flowed in the initial stages of the group 's development, more dancers joined and each dancer brought on their experience in different styles of dance. Rooted in Brazilian Samba fused with numerous dance styles, music and rhythms, Samba Fusion will wow you with their colourful attire and steamy dance moves!</p>",
+    "color": "blue-flat",
+    "image": "assets/images/artists/Samba-Fusion.png",
+    "links": [{
+        "name": "Web",
+        "icon": "ion-link",
+        "href": "http://www.sambafusion.com"
+    }, {
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/Samba-Fusion-217416471623486"
+    }]
+}, {
+    "id": 102,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 3,
+    "name": "Mazacote",
+    "datetime": "Sun 07/10, 8:00 pm - 9:00 pm",
+    "description": "<p>Mazacote is a west coast latin dance band, playing horn-driven New York salsa dura and beats from Colombia, Puerto Rico and Cuba. Based in Vancouver, the band features Nicaraguan singer-songwriter David Lopez, latin jazz trumpeter Malcolm Aiken, and a groove-heavy rhythm section featuring Chris Couto on timbales, Carlos Arias on bass, and Niho Takase on keys.</p>",
+    "color": "yellow-flat",
+    "image": "assets/images/artists/Mazacote.jpg",
+    "links": [{
+        "name": "Web",
+        "icon": "ion-link",
+        "href": "http://www.mazacote.ca"
+    }, {
+        "name": "Youtube",
+        "icon": "ion-social-youtube",
+        "href": "https://www.youtube.com/playlist?list=PLEB036B617E011C72"
+    }]
+}, {
+    "id": 103,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 4,
+    "name": "Locarno",
+    "datetime": "Sat 07/09, 6:30 pm - 7:30 pm",
+    "description": "<p>Locarno is the Latin project of Juno award winning musician and Paperboys frontman, Tom Landa. The music, like him, is part Mexican but with strong doses of Cuban Son, folk music, Pop, and Funk. The music could be compared to Manu Chao, Ozomatli, or Rodrigo and Gabriela - a dash of Son Jarocho and Salsa with a more edgy and contemporary flair.</p><p>For the past few years Tom has been writing and recording the material for Locarno.His goal is to create music which is heavily influenced by Mexican music but using the elements and musicians around him in his hometown of Vancouver.A key element to this sound is the partnerships he has created with producer Joby Baker who has worked with several World / Latin artists including Alex Cuba and Miguelito Valdes who lends his trumpet and percussion talents to the project.Miguelito was born and raised in Havana Cuba and has played with Afro - Cuban All Stars, Omara Portuondo, and The Buena Vista Social Club. </p><p>Rounding up the group is Sam Esecson on drums and percussion, Kalissa Hernandez on violin and vocals, and Nick La Riviere on trombone. </p>",
+    "color": "green-flat",
+    "image": "assets/images/artists/Locarno1.jpg",
+    "links": [{
+        "name": "Web",
+        "icon": "ion-link",
+        "href": "http://www.locarnomusic.com"
+    }, {
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/locarnomusic"
+    }, {
+        "name": "Twitter",
+        "icon": "ion-social-twitter",
+        "href": "https://twitter.com/Locarnomusic"
+    }, {
+        "name": "Youtube",
+        "icon": "ion-social-youtube",
+        "href": "https://www.youtube.com/channel/UCrfT9cEkXIIrx60isCMnC-g"
+    }]
+}, {
+    "id": 104,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 5,
+    "name": "Tabasko",
+    "datetime": "Sun 07/10, 7:00 pm - 7:45 pm",
+    "description": "<p>Orquesta Tabasko was formed in 2007 by the group’s director, arranger and composer, Diego Kohl after an inspiring trip to Cali, Colombia where one of his hit singles, ‘El Campo’ was promoted and aired on several radio stations in Colombia. Diego was most impressed by the salsamania he experienced down in Cali. ‘It is the most popular style of music down there,’ says Diego, ‘I would love to see people get as crazy about Latin music here in Canada.’ Diego has been working hard to achieve that goal ever since by performing regularly with Orquesta Tabasko and recording his original Salsa compositions.</p>",
+    "color": "red-flat",
+    "image": "assets/images/artists/Orquesta-Tabasko1.jpg",
+    "links": [{
+        "name": "Web",
+        "icon": "ion-link",
+        "href": "http://www.diegokohl.com"
+    }, {
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/OrquestaTabasko"
+    }, {
+        "name": "Youtube",
+        "icon": "ion-social-youtube",
+        "href": "https://www.youtube.com/playlist?list=PLB41C9574D25267C0"
+    }]
+}, {
+    "id": 105,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 6,
+    "name": "Bloco Energia",
+    "datetime": "Sun 07/10, 1:15 pm - 1:45 pm",
+    "description": "<p>Comprised of 20 members and led by the dynamic duo Marco Castrucci and Nick Fabin, Bloco Energia is a community of people brought together by their passion for Brazilian music and dance. Bloco deliver high energy performances in parades, festivals, and charitable events throughout the Lower Mainland.</p>",
+    "color": "blue-flat",
+    "image": "assets/images/artists/Bloco-Energía-with-Samba-Fusion1.jpg",
+    "links": [{
+        "name": "Web",
+        "icon": "ion-link",
+        "href": "http://www.blocoenergia.org"
+    }, {
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/blocoenergia"
+    }, {
+        "name": "Youtube",
+        "icon": "ion-social-youtube",
+        "href": "https://www.youtube.com/channel/UC4MvB19UJyLf2afr6bUbalQ"
+    }]
+}, {
+    "id": 106,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 7,
+    "name": "Robin Layne Band ",
+    "datetime": "Sat 07/09, 5:15 pm - 6:15 pm",
+    "description": "<p>The music of the Robin Layne Band evokes memories of summer days full of adventure and playfulness.</p><p>With roots in jazz, Latin and African traditions their music hints at artists such as Abdullah Ibrahim, Steve Coleman, Thomas Mapfumo, Toumani Dioubate and the marimba music of Chiapas.He has followed his love of world music to Cuba, Guinea, Mali, and Mexico studying under detailMaster drummers and marimbists of those respective traditions.He currently performs with world music groups Locarno, Tambura Rasa, and Mazacote </p><p>Equally at home on stage or in a classroom! Robin Layne is a regular fixture on the B.C. festival circuit, collaborating with a wide spectrum of folk and world artists. His recent touring engagements have led him to Mexico, Italy, China, the U.S. and Canada.. Robin is the senior percussion instructor at the Sarah McLachlan School of Music and the Artistic Director of the Britannia World Rhythms for Youth Society.</p>",
+    "color": "yellow-flat",
+    "image": "assets/images/artists/Robin-Layne-Band.jpg",
+    "links": [{
+        "name": "Web",
+        "icon": "ion-link",
+        "href": "http://www.robinlayne.ca"
+    }, {
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/robin.layne.5"
+    }]
+}, {
+    "id": 107,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 8,
+    "name": "Brisas del Palmar",
+    "datetime": "Sun 07/10, 3:15 pm - 4:00 pm",
+    "description": "<p>El Grupo Cubano Brisas del Palmar Quintet rich harmonies have been pleasing crowds in Santiago de Cuba since their inception. Reflecting a unique style and interpretation, the band plays a varied repertoire of traditional Cuban music such as A Cappella, romantic ballads, Salsa, Son, Guaracha, Merengue, Cumbia, and Bachata. Their greatest joy while performing in Cuba and abroad has been their revival of traditional Cuban music rhythms. The memories of growing up in rural farms and the pride they feel for their country is reflected in their music. Brisas del Palmar is recognized as the premiere quintet in Cuba today.</p> <p> Through these years of evolution, the band has been under the direction of Rosel Lamoru, with the collaboration of Yordanis(his brother), Julio, Leonardo, and Sigfrido to complete the group. </p>",
+    "color": "green-flat",
+    "image": "assets/images/artists/Brisas-del-Palmar-2015-foto2.jpg",
+    "links": [{
+        "name": "Web",
+        "icon": "ion-link",
+        "href": "http://brisasdelpalmar.com/"
+    }, {
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://ja-jp.facebook.com/GrupoCubano"
+    }]
+}, {
+    "id": 108,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 9,
+    "name": "Entangados",
+    "datetime": "Sat 07/09, 11:30 am - 12:30 pm",
+    "description": "<p>This high-energy Argentinian clown band is a diverse group of talented musicians mixing Rock, Cuarteto (quartet), Música Balkánica (Balkan music), Reggae, Cumbia, Ska, Folklore, and Tango. Each member comes from a long history in theater and they love to clown around onstage. Their one desire in common is to entertain the public by bringing laughter and happiness! Colourful clothes and amusing behaviour, dance moves and skills on the instruments are just a few surprises in store.  </p><p>Come Live and dance to the sounds of Latin America at Carnaval del Sol!</p > ",
+    "color": "red-flat",
+    "image": "assets/images/artists/Entangados1.jpg",
+    "links": [{
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/Entangados"
+    }, {
+        "name": "Youtube",
+        "icon": "ion-social-youtube",
+        "href": "https://www.youtube.com/user/Entangados"
+    }]
+}, {
+    "id": 109,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 10,
+    "name": "Las Estrellas de Vancouver",
+    "datetime": "Sun 07/10, 4:15 pm - 5:00 pm",
+    "description": "<p>Las Estrellas de Vancouver is an All-Female Mariachi band, the group has gathered a stellar group of instrumentalists and singers from diverse musical backgrounds such as jazz, classical, and world music. They are passionate and thrilled to present a very high level of performance and to honour this beautiful musical tradition. In March 2015 they participated in a Viva el Mariachi Femenil event to honour the history of women in Mariachi.</p>",
+    "color": "blue-flat",
+    "image": "assets/images/artists/Las_Estrellas_de_Vancouver.jpg",
+    "links": [{
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/Las-Estrellas-de-Vancouver-1634965453407354"
+    }]
+}, {
+    "id": 110,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 11,
+    "name": "Zazueira Band",
+    "datetime": "Sun 07/10, 2:30 pm - 3:00 pm",
+    "description": "<p>Zazueira Band is influenced by a variety of styles and rhythms such as Bossa Nova of Joao Gilberto, the samba and chorinho of Samba schools, and the Brazilian Pop strongly influenced by the Tropicalia movement from the north of Brazil. Zazueira brings together the classic of the Bossa Nova with the originality of the Samba schools in modern variations such as Samba Reggae, Samba Rock and Pop, giving the music a high energy of exciting flavour.</p>",
+    "color": "yellow-flat",
+    "image": "assets/images/artists/Zazueira-Band-Brazilian-Music-band1.jpg",
+    "links": [{
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/zazueiraband"
+    }, {
+        "name": "Web",
+        "icon": "ion-link",
+        "href": "http://www.myspace.com/zazueiraband"
+    }]
+}, {
+    "id": 111,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 12,
+    "name": "Alma Chevere",
+    "datetime": "Sat 07/09, 3:15 pm - 4:00 pm",
+    "description": "<p>Alma Chevere is a melodious fusion of several styles such as Flamenco, Rumba, Rock and Latin Pop.</p><p> Alma Chevere, Meaning‘ Cool Soul, ’was conceived by four individuals from varied walks of life sharing common passions.The musicians themselves are an eclectic mix coming from as far as Venezuela, Mexico, Colombia, to Bella Coola.Each member of the band brings his own musical style derived from his home roots, varied musical influences, and languages, resulting in music that is truly unique and fulfilling. </p><p>Lead singer, Luis Guttierez, brings a flare of Caribbean heat, salsa and energy from Venezuela, Guitarist Victor Fe evokes Spanish passion and emotion with his flamenco rhythms, and Mexico 's bright colour palette is made evident by bass player, Rolando Hernandez. On drums and percussion is multi-instrumentalist Karl Frostrup.</p>",
+    "color": "green-flat",
+    "image": "assets/images/artists/Alma-Chevere.jpg",
+    "links": [{
+        "name": "Web",
+        "icon": "ion-link",
+        "href": "http://almachevere.com/index.html"
+    }, {
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/AlmaChevere"
+    }]
+}, {
+    "id": 1110,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 12,
+    "name": "Sambacouver",
+    "datetime": "Sat 07/09, 4:15 pm ­ 4:45 pm",
+    "description": "<p>Sambacouver is the liveliest Brazilian music band in Vancouver. Playing tunes that range from all Brazilian music genres to international hits with a Brazilian twist, this exciting big band uses a variety of percussion instruments to deliver extremely engaging and interactive performances. The band has been together since the 2014 FIFA world cup, and has only played sold out venues since then, including The Pint Gastown, All Star Wings and Ribs, Cabana & Studio Records. Through the summer, the band occasionally does rehearsals at Third Beach to test new material, engage new crowds and showcase the amazing atmosphere that they create during their concerts. All band members come from different musical and cultural backgrounds, which really set this band and its performances apart from any other local band.</p>",
+    "color": "green-flat",
+    "image": "assets/images/artists/sambacouver_band.jpg",
+    "links": [{
+        "name": "Web",
+        "icon": "ion-link",
+        "href": "https://www.facebook.com/sambacouver/"
+    }, {
+        "name": "Youtube",
+        "icon": "ion-social-youtube",
+        "href": "https://www.youtube.com/channel/UCLzIJ_8rUrsn9HXXcfuhvxQ"
+    }]    
+}, {
+    "id": 112,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 13,
+    "name": "Kutapira",
+    "datetime": "Sun 07/10, 5:15 pm - 6:00 pm",
+    "description": "<p>This highly stylized marimba fusion consists of some contemporary Zimbabwean tunes but the majority of the music is composed and arranged by Kutapira and inspired by genres like Reggae, Funk, Latin Jazz, Samba, Cumbia, Disco and Hip Hop.</p><p>What started years ago as a youth world music initiative has metamorphosed into the crowd pleasing percussion explosion known today as Kutapira, meaning‘ sweetness’ in the Shona language of Zimbabwe, a fitting title for a band that plays a fusion of Zimbabwean marimba with West African and Afro - Cuban percussion and more. </p><p>For years they performed exclusively as a mallet swinging, skin - slapping quintet but now, in their latest evolutionary form, feature guitar, horns and vocals. </p>",
+    "color": "red-flat",
+    "image": "assets/images/artists/Kutapira.jpg",
+    "links": [{
+        "name": "Web",
+        "icon": "ion-link",
+        "href": "http://www.kutapira.com"
+    }, {
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/kutapira"
+    }]
+}, {
+    "id": 113,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 14,
+    "name": "Flamenco Rosario ",
+    "datetime": "Sun 07/10, 1:45 pm - 2:15 pm",
+    "description": "<p>Flamenco Rosario is known for its spirited, fiery, and creative performances and collaborations! While the company continues to honour traditional flamenco, it also stretches the boundaries of this art form by producing its own original material.</p><p>Flamenco Rosario was founded by artistic director Rosario Ancer and musical director Victor Kolstee in 1989. With its annual Flamenco Festival, main stage performances, Cuadro Flamenco series, and Professional Training Program, Flamenco Rosario takes pride in creating a platform for flamenco to flourish in the city of Vancouver.With a solid and loyal following, Rosario’ s dancers are known to perform at sold - out venues.The company is graced by both local and international artists of the highest calibre. </p><p>With her 2010 award - winning Mexican production Mis Hermanas, Ms.Ancer was awarded the Isadora Award for Excellence in Choreography.She received“ The Mayor’ s Arts Award” in the Dance category in 2012 for her cultural contributions to Vancouver. </p>",
+    "color": "blue-flat",
+    "image": "assets/images/artists/Flamenco-Rosario1-1.jpg",
+    "links": [{
+        "name": "Web",
+        "icon": "ion-link",
+        "href": "http://flamencorosario.org"
+    }, {
+        "name": "Twitter",
+        "icon": "ion-social-twitter",
+        "href": "https://twitter.com/flamencorosario"
+    }, {
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/pages/Flamenco-Rosario/201862698652"
+    }]
+}, {
+    "id": 114,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 15,
+    "name": "Maquilishuat Folklore Dancers",
+    "datetime": "Sun 07/10, 12:30 pm - 1:00 pm",
+    "description": "<p>Originally known as “Las Cortadoras“ in PEI (for 6 years), the Salvadoran Folklore Group Maquilishuat aims to promote and share its culture and heritage with the Latin American and Canadian community through its dance and customs.</p>",
+    "color": "yellow-flat",
+    "image": "assets/images/artists/Maquilishuat-Folklore1-1.jpg"
+}, {
+    "id": 115,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 16,
+    "name": "Nahualli Folklore Dancers",
+    "datetime": "Sat 07/09, 1:30 pm - 2:00 pm",
+    "description": "<p>Get caught up in the colourful costumes and the graceful dance moves of this dance troupe at Carnaval del Sol!</p><p> Nahualli(Na - Wall - E) Folklore Society was born in 2010 out of a passion to promote Mexican Culture in Canada, primarily through traditional Mexican dance forms from all regions of Mexico.The name Nahualli originates from an indigenous language of Mexico called Nahuatl(Nah - Walt).It signifies an animal spirit or a transforming power that protects and guides each person from the moment of birth - the same transforming power the dancers feel on stage as they represent Mexico for the audience. </p>",
+    "color": "green-flat",
+    "image": "assets/images/artists/Nahualli-Folklore1.jpg",
+    "links": [{
+        "name": "Web",
+        "icon": "ion-link",
+        "href": "http://www.nahuallifolklore.com"
+    }, {
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/NahualliFolklore"
+    }, {
+        "name": "Youtube",
+        "icon": "ion-social-youtube",
+        "href": "https://www.youtube.com/user/NahualliFolkloreTube"
+    }]
+}, {
+    "id": 116,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 17,
+    "name": "Axé Capoeira",
+    "datetime": "Sat 07/09, 12:30 pm - 1:00 pm",
+    "description": "<p>Capoeira is a Brazilian art form that combines fight, dance, rhythm and movement. Capoeira is a dialog between players - a conversation through movement that can take on many shades of meaning. Rooted in history capoeira's dance-like appearance was a way for people to hide their training of combat and self defense.</p> <p> Grupo Axé Capoeira began in Recife(Brazil) in 1982 and is Canada’ s first academy of Capoeira.</p><p>Axé Group continues to rise as one of the world’ s leading Capoeira organisations; they continue to travel worldwide to participate in competitions.Grupo Axé has also performed in the 2001 International Capoeira Competition in Argentina.The philosophy of Grupo Axé Capoeira is to respect all the Mestres(symbol / guide), preserve the roots and traditions of Capoeira, and train Capoeira in all its aspects: as a fight, art, and culture. </p><p>Come Live and Play Latin America at this year’ s Carnaval del Sol! </p>",
+    "color": "red-flat",
+    "image": "assets/images/artists/axe-capoeira1.jpg",
+    "links": [{
+        "name": "Web",
+        "icon": "ion-link",
+        "href": "http://axevancouver.com"
+    }, {
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/AxeCapoeiraVancouver"
+    }, {
+        "name": "Youtube",
+        "icon": "ion-social-youtube",
+        "href": "https://www.youtube.com/user/axecapoeiravideos"
+    }, {
+        "name": "Twitter",
+        "icon": "ion-social-twitter",
+        "href": "https://twitter.com/axecapoeiravan"
+    }]
+}, {
+    "id": 117,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 18,
+    "name": "Afro-Cuban Drum Workshop with Robin Layne",
+    "datetime": "Sat 07/09, 1:00 pm - 1:30 pm",
+    "description": "<p>Come learn how to drum with the master himself!</p>",
+    "color": "blue-flat",
+    "image": "assets/images/artists/Robin-Layne-Band.jpg"
+}, {
+    "id": 118,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 19,
+    "name": "Songpati",
+    "datetime": "Sat 07/09, 2:15 pm - 3:00 pm",
+    "description": "<p>Latin beats pulsing with high energy rhythms, and lyrics ranging from humour to love songs and everything in between!</p><p> Songpati is a Latin music band that was created to bring new rhythms and enriching diversity to the stage.This Venezuelan folk music ensemble is formed of experienced musicians that have been performing regularly in Canada and overseas for over 20 years.Songpati’ s focus is in songs taken from one of the many Venezuelan genres, Gaita Zuliana, which is influenced by African and Spanish rhythms, providing a style of music that is engaging yet unpredictable and evocative using instruments such as cuatro, maracas, tambora(Venezuelan drum), furruco, and charrasca among others. </p>",
+    "color": "yellow-flat",
+    "image": "assets/images/artists/Songpati.jpg",
+    "links": [{
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/Songpati"
+    }, {
+        "name": "Twitter",
+        "icon": "ion-social-twitter",
+        "href": "https://twitter.com/songpati"
+    }]
+}, {
+    "id": 119,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 20,
+    "name": "Zumba Vancouver",
+    "datetime": "Sun 09/10, 11:30 am - 12:30 pm",
+    "description": "<p>Zumba Fitness started as a happy accident when creator Beto Perez forgot his traditional aerobics music when he darted off to teach an aerobics class in his native Colombia. He improvised using his own mix of music from tapes he had in his backpack (salsa and merengue music he grew up with). He then brought his dance­fitness style to Miami, and the rest is history. Today, Zumba is a group fitness class based on some of the most exciting rhythms and dance styles from Latin America and around the world, including Salsa, Merengue, Cumbia, Reggaeton, Samba, Tango, Flamenco, Bollywood, Swing, Soca and Bellydance, all in one class. </p><p>Denise Galay, owner of Zumba Vancouver, ascribes the popularity of Zumba to its originality and the current popularity of dance shows on television. You can think of Zumba as a dance party disguised as a fitness routine, with high­intensity sections that get participants’ hearts pumping mixed with lower­intensity segments that give them a chance to catch their breath. There is no heavy choreography ­ if you can shake your hips, then you can do Zumba.</p>",
+    "color": "green-flat",
+    "image": "assets/images/artists/Zumba-Vancouver03.jpg"
+}, {
+    "id": 120,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 21,
+    "name": "Grupo America",
+    "datetime": "Sat 07/09, 7:45 pm - 8:15 pm",
+    "description": "<p>Since exploding onto the Canadian arts scene 20 years ago, Vancouver­based Grupo America has been dazzling International audiences with their spectacular Latin Dance show. Grupo America pushes stylistic boundaries by presenting a variety of dances from every corner of the America’s. The show combines “sizzling” modern routines with beautiful traditional numbers that will take your breath away. Their multitude of striking costumes sets them apart from any dance company you have ever seen, and you will be treated to a visual explosion of colour and glamour! Grupo America boasts talented dancers and choreographers from some of the best folkloric ballets in Latin America. </p><p>Grupo America has also received international acclaim; including winning the 2007, 2008, 2012 and 2013 Cuban Salsa World Championship in Miami. With over 2000 international shows and appearances, this extraordinary group has gained a reputation as one of Canada’s elite entertainer’s with their irrepressible determination, energy, talent, and passion.</p>",
+    "color": "red-flat",
+    "image": "assets/images/artists/Grupo-America01.jpg",
+    "links": [{
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/WorldDanceCo"
+    }, {
+        "name": "Twitter",
+        "icon": "ion-social-twitter",
+        "href": "https://twitter.com/WorldDanceCo"
+    }, {
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://worlddanceco.com/"
+    }, {
+        "name": "Youtube",
+        "icon": "ion-social-youtube",
+        "href": "https://www.youtube.com/user/grupoamerica"                
+    }]   
+}, {
+    "id": 121,
+    "detailMaster":"artists",
+    "plaza_id": 1,
+    "order": 22,
+    "name": "Tusuy Kusun Peruvian Folk Dance",
+    "datetime": "Sat 07/09, 5:00 pm ­ 5:15 pm",
+    "description": "<p>Originally named Rhythm without Borders, Kusun Tusuy Folk Dance was created in Arequipa, Peru, by Claudia Neira, Mara, Jessica, and Libertad Escarza. Motivated by the same passion and goal, and guided by the philosophies of discipline and respect, the primary objective of this dance troupe is to help strengthen the national identity of Peru through the art form of folk dance.</p><p> In 2009 the group decided to bring life and colour to the celebrations of Peruvian culture right here in Vancouver. Since then, it has grown to become the soul of Peruvian dances, and Tusuy Kusun has been appearing in different cultural events in British Columbia.",
+    "color": "blue-flat",
+    "image": "assets/images/artists/Tusuy-Kusun01.jpg",
+    "links": [{
+        "name": "Facebook",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/Tusuy­Kusun­Peruvian­Folk­Dance­ 546927428661645"
+    }]
+
+}, {
+    "id": 600,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Bryan Wilson",
+    "products": "Pen/Ink Painting",
+    "description": "<p><strong>Bryan Wilson</strong> draws on personal experiences to create pen pictures, while some are just memories, others are taken from his surroundings at the time. Bryan lives in Youbou on Vancouver Island, a very small town that allows him the solitude to focus on his craft. Having taught himself, Bryan feels that each piece opens new directions in technique, composition, and subject matter.</p><p>“When I work within my living room, looking out at the lake, it’s so quiet. The sound of silence is hanging in the air as the sun is coming up, and the world is still mostly asleep. This is my favourite time ­ inspiration is flowing, everything seems easy, and it allows me to be reminded that I don’t know why I draw. I just love to draw.”</p>",
+    "image": "assets/images/artists/Bryan-Wilson.jpg",
+    "color": "red-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.bryanwilsonart.com"
+    }]
+}, {
+    "id": 601,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Christopher F.B. Potter",
+    "products": "Nature and Culture Painting",
+    "description": "<p>After a 30­year career in the logging industry – work which took him to remote corners of British Columbia’s coastline – <strong>Christopher Potter</strong> turned from forestry to fine art. “I was lucky to see corners British Columbia that many never set eyes on,” he says. “It gave me a huge respect for the province’s natural beauty.” </p><p>Early retirement allowed him to complete a long­time goal: walking the 800­kilometre Camino de Santiago de Compostella across Northern Spain. “It was a life­changing experience,” he says. And it contributed to the development of his artist’s eye. More travel followed – to countries in Asia, Europe and the Americas, thanks to his work as a photographer with HolidayMaker, a Canadian travel magazine. </p><p>The next challenge was to capture some of the many images – resulting from his appreciation of nature and different cultures – in a painterly way. “It’s a challenge that’s ongoing,” he says. “The learning never stops, nor the desire to continually improve.” Christopher is an Active Member of the Canadian Federation of Artists, and of the Garibaldi Art Club. His work is included in private collections in Canada, New Zealand, and the United Kingdom, and has appeared in the following shows and galleries in British Columbia:<p><ul><li>● ArtVancouver! (2015, 2016 Vancouver, juried show)</li><li>● Canadian Federation of Artists, Vancouver (juried show)</li><li>● Blue Heron Gallery, Osprey Village, Maple Ridge (founding member)</li><li>● Maple Ridge Library Show</li><li>● Garibaldi Art Show, Maple Ridge</li><li>● Featured artist at Mac’s Framing, Langley</li></ul></p>",
+    "image": "assets/images/artists/christopherpotter.ca2_.png",
+    "color": "blue-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.christopherpotter.ca/"
+    }]
+}, {
+    "id": 602,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "David Astorga Bocos",
+    "products": "Portrait Photography",
+    "description": "<p>After finishing his studies in Iluminación Captación y Tratamiento de la Imagen (Light Capture and Image Processing) in 2014, <strong>David Astorga Bocos</strong> pursued his passion in cinema and photography by working in the artistic aspects of theatre and television. He believes photography is a way of life and form of expression, which he tries to convey through the intensely personal nature of his portraits. He enjoys surrounding himself with everything that gives him alternative perspectives, as he continues to experiment and explore different techniques and possibilities of the world of photography.</p>",
+    "image": "assets/images/artists/David-Astorga-Bocos6.jpg",
+    "color": "green-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://www.flickr.com/photos/121101855@N05"
+    }]
+}, {
+    "id": 603,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Flash Enterprises",
+    "products": "Henna and Face Painting",
+    "description": "<p>Moin will be providing Henna and Face­Painting services</p>",
+    "image": "assets/images/artists/flash-entreprises.jpg",
+    "color": "yellow-flat"
+}, {
+    "id": 604,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Iliana So",
+    "products": "LuchArte/Mural Painting",
+    "description": "<p><strong>Iliana So</strong> is a painter, muralist, and Mexican writer graduated from the Academy of San Carlos. LuchArte founder of the movement to unify the multiple disciplines of art with wrestling. Creative pacifist movement for ‘peace walls’ where murals are made in peace, she has more than fifteen collective and eight individual exhibitions in Mexico City and USA. Her plastic work is inspired mainly in wrestling, the human figure, and peace. Representative of Mexico to the International Muralists 2014 meeting held in Cd . Nezahualcóyotl, México, she currently has artwork displayed in the Corazón Gallery in the city of San Francisco, USA.</p>",
+    "image": "assets/images/artists/Iliana-so.png",
+    "color": "red-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://www.facebook.com/iliana.so"
+    }]
+}, {
+    "id": 605,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Kim Legler",
+    "products": "Fashion Painting",
+    "description": "<p><strong>Kim Legler</strong> comes from an artistic background as a visual artist, and is a trained fashion designer. Simply put, she loves fashion illustration and pop art, as she often draws inspiration for her fashion designs from her art. </p><p>Hailing from Canada’s Great North, but having studied fashion design in Vancouver, British Columbia, she is often inspired by both the serenity of nature and the vibrancy of city life. Kim has spent the past few years travelling, gathering inspiration to incorporate into her future collections. She continues to sell her work at an international level across Europe, the United Kingdom, Australia, and the United States. Her work has been published in Houzz, The Glitter Guide, Design Love Fest, Missy Confidential, FashionLush, and FrameBridge.</p>",
+    "image": "assets/images/artists/Kim-Legler.jpg",
+    "color": "blue-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://www.instagram.com/kim_legler"
+    }]
+}, {
+    "id": 606,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Monica Nudelman",
+    "products": "Wood Painting",
+    "description": "<p>Say <strong>Monica Nudelman</strong>, ‘much of my work begins with discarded pieces of wood or furniture. I am fascinated with objects which with time have been forgotten, the solid wooden boards which have already been used for so many different purposes. These pieces serve as the foundation for my oils, paints, and images. The gradual decline of faded color and surface deterioration are of great interest. Using pattern, paint, oil, and imagery, the discarded piece becomes new again.’ </p><p>‘Paper, fabrics, and acrylics are the basic materials of my collages. I see many others which fit into each other, forming a unique scenario. With each cut or torn piece of paper or fabric, so many possibilities appear. Rather the ‘destruction’ or pieces of the image are transformed, along with other pieces into a new, completely different form. I like the mixture of printed images and textures which fit into each other until they take an entirely new identity. Transforming any image into something new is very inspiring ­ many of my works are based on renewal, hope, and belief.’</p>",
+    "image": "assets/images/artists/Monica-Nudelman.jpg",
+    "color": "green-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.monicanudelman.com/"
+    }]
+}, {
+    "id": 607,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Natacha Trottier",
+    "products": "Body Painting",
+    "description": "<p>Started in the makeup industry in 2004 working mostly on theatrical productions and fashion photoshoots, <strong>Natacha Trottier</strong> offers makeup and hair services for all types of events: head shots, boudoir, bridal and non­bridal, graduation, ladies party, private or group lessons, face and body painting, commercials and music videos. Her clients list goes from the little munchkins birthday parties to Lululemon athletica. She also proudly teaches at the most recognized makeup school in Canada; Blanche Macdonald Centre. The awards she has received include 1st place at the North American circus, body painting competition (2015), and 1st at the Art World Expo body painting competition 2 years in a row.</p>",
+    "image": "assets/images/artists/Natacha-Trottier.jpg",
+    "color": "yellow-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.natachatrottier.com/"
+    }]
+}, {
+    "id": 608,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Painted Rocket",
+    "products": "Digital Painting",
+    "description": "<p><strong>Ivan Solomon</strong> has a boundless energy to create beautiful, clean and colourful artwork. Ivan moved to Vancouver from Great Britain in 1971, inspired by its natural beauty. He continues to find inspiration in his scenic Pacific Northwest surroundings as well as from his loving grandchildren, while focusing on his colourful, whimsical and sentimental digital artwork with Painted Rocket Designs. Ivan creates each design by hand starting with a blank digital canvas.</p>",
+    "image": "assets/images/artists/Painted-Rocket.png",
+    "color": "red-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://paintedrocket.com/"
+    }]
+}, {
+    "id": 609,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Rita Henderson",
+    "products": "Landscape/Portrait Painting",
+    "description": "<p>Say <strong>Rita Henderson</strong>, ‘I am a First Nations artist and also have Swiss citizenship. I am open­minded and enjoy a life of learning and creativity sparked with passion and zeal for beauty and truth. I love art and decorating and working with people to produce spaces of inspiration and beauty in your world. I use all paint and media to create art that speaks to the heart and soul.’</p>",
+    "image": "assets/images/artists/Rita-Henderson.jpg",
+    "color": "blue-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://rita­henderson.pixels.com"
+    }]
+}, {
+    "id": 610,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Serge Démétrius Dubé",
+    "products": "Abstract Painting",
+    "description": "<p>Since 1983 Mr. <strong>Serge Démétrius Dubé</strong> has been painting with different mediums including watercolor, oil and acrylic. Being self­taught, he enjoyed exploring realism to surrealism, impressionism, and expressionism.</p><p>Over the past 11 years he has had great success with the development of his own acrylic technique using bold colour, active line, and fluid movement. This unique style draws the viewer in to experience a whole new level of color and movement. Mr. Dube’s extensive body of work and long career as an artist caused his paintings gain the attention of galleries and collectors worldwide. </p><p>He has worked with such treasured artists as Jean Paul Riopelle, Luigi Tiengo, Paul Ygartua, Brent Heighton, and John Einersson and many more. </p><p>Dube has dedicated his life to exploration of the 4th dimension of the mind. Mr. Dube offers a new experience to the viewer through use of colour, movement, and creativity. </p><p>Serge Dube showed in the Calgary Stampede in 2015, and was awarded first prize in the Artist’s Guild. He has won several awards such as the Best in Show at the South Delta Artist’s Guild in 2015, and a Certificate of Excellence from Artavita 2015, an award of Merit in the Regional Showcase at the ‘86 World Exposition and many more. Mr. Dube shows yearly at the galleries he is represented by in the West Coast. He has been represented by the Latitude Gallery in Calgary, Fallen Leaf Gallery in Canmore, Artym Gallery in Invermere, Gallery 421 in Kelowna, Lloyd’s Gallery in Penticton and several others in the past 35 years.</p>",
+    "image": "assets/images/artists/Serge-Démétrius-Dubé.png",
+    "color": "green-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.sergedube.com/"
+    }]
+}, {
+    "id": 611,
+    "detailMaster":"artists",
+    "plaza_id": 6,
+    "name": "Sussanne Horberg",
+    "products": "Watercolour Painting",
+    "description": "<p>Many people who know Sussanne Horberg now have a hard time believing she had difficulty communicating when she was younger. Somehow, art has given her the tools to really express how she feels with wild abandonment. She creates images which speak her language. Seeing the colour explode, trying new techniques and experimenting is what gives her the greatest joy. </p><p>Sussanne’s favourite medium is watercolour, and mixed media. Recently she has been experimenting with acrylic textures, which is just like finding a new friend. She has learned her lesson, it is best to always follow your passion and your true bliss, because when you do everything just works out! </p><p>It’s all about building relationships, and expanding horizons. Sussanne is excited to be creating these wonderful Vendel Festival Art Shows and promoting and sharing with other like minded artists. She can't help but do the happy dance while she is painting! </p><p>You can find Sussanne’s artwork on display at the Surrey Art Gallery and at Vendel Festival Art Shows.</p>",
+    "image": "assets/images/artists/Sussanne-Hoiberg1.jpg",
+    "color": "yellow-flat"
+}, {
+    "id": 700,
+    "detailMaster": "artists",
+    "plaza_id": 7,
+    "name": "School of Groove",
+    "products": "",
+    "description": "<p>Rooted in Spanish canción with Afro­Cuban traits, Cuban Son is one of the most influential and widespread form of Latin American music. The School of Groove Cubanos are a group of musically dedicated students aged 10 to 14 who perform traditional Cuban Son. They have studied together for several years, and recently traveled to Santiago de Cuba, the birthplace of ‘Son Cubano’ music, to study with true detailMasters of the art form ­ their instructors play with Septeto Moneda Nacional, one of the best Son groups in Cuba. They continue to study together, and are planning a return to Santiago in 2017 to continue their relationship with their instructors and present their work at the Festival de Trova. These talented and focused kids are interested in taking what they have learned to another level, and are eager to share their love of Cuban music with new audience. Led by their instructor Michelle Cormier, and accompanied by profound vocalist Toto Berriel, they are certain to inspire.</p>",
+    "image": "assets/images/artists/school-groove.png",
+    "color": "green-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://schoolofgroovevancouver.com/"
+    }]   
+}, {
+    "id": 702,
+    "detailMaster": "artists",
+    "plaza_id": 7,
+    "name": "Zumba Fitness",
+    "products": "",
+    "description": "<p>Zumba Fitness started as a happy accident when creator Beto Perez forgot his traditional aerobics music when he darted off to teach an aerobics class in his native Colombia. He improvised using his own mix of music from tapes he had in his backpack (salsa and merengue music he grew up with). He then brought his dance­fitness style to Miami, and the rest is history. Today, Zumba is a group fitness class based on some of the most exciting rhythms and dance styles from Latin America and around the world, including Salsa, Merengue, Cumbia, Reggaeton, Samba, Tango, Flamenco, Bollywood, Swing, Soca and Bellydance, all in one class. Denise Galay, owner of Zumba Vancouver, ascribes the popularity of Zumba to its originality and the current popularity of dance shows on television. You can think of Zumba as a dance party disguised as a fitness routine, with high­intensity sections that get participants’ hearts pumping mixed with lower­intensity segments that give them a chance to catch their breath. There is no heavy choreography ­ if you can shake your hips, then you can do Zumba.</p>",
+    "image": "assets/images/artists/zumba-vancouver.png",
+    "color": "yellow-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.zumbavancouver.ca"
+    }]  
+
+}, {
+    "id": 800,
+    "detailMaster": "artists",
+    "plaza_id": 8,
+    "name": "Harrison Lee",
+    "products": "Yo Yo Wiz",
+    "description": "<p>Harrison Lee is a 16 year old professional yoyo competitor. He is a familiar face around town and a popular performer at local festivals and charitable events. Often referred to as Vancouver’s ‘Yoyo Kid,’ Harrison is no stranger to the media appearing frequently on TV, radio and newspaper. Harrison was the 2013 Canadian National Freestyle Yoyo Champion, one of the youngest on record, and he represents Canada at yoyo contests all around the world. In addition to his yoyoing talent, Harrison is also an inspirational speaker giving talks at schools, conferences, and public events.</p>",
+    "image": "assets/images/artists/Harrison-lee.jpg",
+    "color": "green-flat"
+}, {
+    "id": 801,
+    "detailMaster": "artists",
+    "plaza_id": 8,
+    "name": "Ivan Flores",
+    "products": "the Magician",
+    "description": "<p>Born and raised in Venezuela, Ivan’s life had a drastic change when he was 14 and it had become an inspiration for his career as an illusionist. Ever since he picked up his first deck of cards, he had been intrigued by the mystical and transformational power of magic. Now, at the age of 20, Ivan is already a seasoned performer as he enters his 6th year in the entertainment business.</p>",
+    "image": "assets/images/artists/ivan-magic.jpg",
+    "color": "yellow-flat"    
+}, {
+    "id": 802,
+    "detailMaster": "artists",
+    "plaza_id": 8,
+    "name": "Vancouver Puppet Theatre",
+    "products": "Performing an original and educational puppet theatre",
+    "description": "<p>Vancouver Puppet Theatre is performing an original and educational puppet theatre plays for children of 2 to­14 years old. We have number of theatre plays to accommodate every age. Our plays for younger audiences (2­ ­ 10 years old) are mostly based on the traditional folk tales (The Wolf and Seven Kids, Three Little Pigs, Kolobok, etc.). Our mobile Vancouver Puppet Theatre was organized in 2012 as a non­­profit organisation. We have presented in front of children of all ages over the years.</p>",
+    "image": "assets/images/artists/Vancouver-Puppet-Theatre.jpg",
+    "color": "red-flat"       
+}]

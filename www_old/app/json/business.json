@@ -1,0 +1,438 @@
+[{
+    "id": 400,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 4,
+    "name": "YVR",
+    "products": "",
+    "description": "<p>Canada’s second busiest airport, is a place where millions of visitors are welcomed to BC, and where millions of residents are welcomed home! YVR not only connects passengers to over 118 non­stop destinations it is also a gateway that connects British Columbia's history and its people to the world. Inclusivity, accessibility and community are also at the core of their business and YVR is proud to support programs that empower communities, big and small, throughout Metro Vancouver and beyond. Thank you YVR for supporting us as our main Travel Plaza sponsor at this year’s Carnaval del Sol 2016!</p>",
+    "image": "assets/images/business/yvr.jpg",
+    "color": "blue-flat"
+}, {
+    "id": 401,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 4,
+    "name": "Aerovías de México",
+    "products": "",
+    "description": "<p>Aerovías de México, S.A. de C.V., operating as Aeroméxico, is the flag carrier airline of Mexico based in Mexico City. It operates scheduled services to more than 56 destinations in Mexico; North, South, and Central America; the Caribbean, Europe, and Asia. Its main base and hub is Mexico City International Airport, with a secondary hub at Monterrey.</p><p>Aeromexico has entered a codeshare agreement with WestJet, whereby connecting service via Montreal, Toronto and Vancouver to more than 10 Canadian destinations, including Calgary, Edmonton, Winnipeg, Ottawa, Halifax, Deer Lake, St. John's, among others will be enhanced. The agreement also provides WestJet clients new connecting service from WestJet’s extensive Canadian network to Mexico City via Montreal, Toronto, and Vancouver. In addition, WestJet will also now sell non­stop flights to/from Mexico from Montreal, Toronto, and Vancouver. WestJet Rewards are available on these flights as well.</p><p>Both Aeromexico and WestJet will also sell tickets for travel on each other's entire network, including non­codeshare flights, providing their respective passengers another benefit of the enhanced relationship. </p><p>As part of their cooperation, bags checked with both Aeromexico and WestJet will continue to reach the final destination without a separate check­in at the point of transfer between the carriers. </p><p>Aeromexico's Chief Revenue Officer, Anko Van der Werff, said: 'Our airline is always looking to offer its customers the best connecting service on our partner network, and this codeshare agreement with WestJet allows us to include more destinations and flights to and from Canada to Mexico and Latin America.'</p>",
+    "image": "assets/images/business/aeromexico.png",
+    "color": "yellow-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://aeromexico.com/en/ca/"
+    }]  
+}, {
+    "id": 402,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 4,
+    "name": "Destinos Enterprises",
+    "products": "",
+    "description": "<p>Destinos Enterprises is a Vancouver­based, full­service Tourism Marketing and Destination Management Company providing government agencies and private organizations with customized solutions to introduce and develop products and services in Latin destinations and Canada. Its primary goal is to raise public awareness of Canada, Latin America, Caribbean, and Europe as travel destinations. </p><p>Its founder, Sandra Sallovitz, is a recognized leader in Canada’s travel industry and a specialist in worldwide land and air travel programs. She has over 25 years of experience in the travel industry, with broad experience in business development and sales/marketing for companies like American Express Travel Services, Global Connections/GAP Adventures plus representation of LAN, TAM Airlines,Turkish Airlines, Aces, Frontier Airlines, Lloyd Boliviano, Harbour Air and other major airlines around the world.</p>",
+    "image": "assets/images/business/Destinos.png",
+    "color": "red-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.destinosenterprises.com/"
+    }] 
+}, {
+    "id": 403,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 4,
+    "name": "Evo Car Share",
+    "products": "",
+    "description": "<p>Evo Car Share allows us to do more with our friends and families by making our travelling lives hassle­free. Evo Car Share is Vancouver’s only pick­up and drop­off anywhere car sharing service, they offer a full fleet of four­door, hybrid vehicles with room for five passengers and enough cargo space and ski/bike racks for everyone. Evo allows more ways for people to live our B.C. lifestyle. Since its inception Evo has met, and continues to meet, the changing mobility needs of British Columbians, whether or not we own a car. Evo supports our local communities by donating 100% of users’ $2 annual car share operator fee to local non­profit agencies. That’s an impressive contribution considering thousands of users take hundreds of thousands trips every year! Thank you Evo for caring, sharing and participating as one of the proud sponsors of YVR Travel Plaza at this year’s Carnaval del Sol.</p>",
+    "image": "assets/images/business/expoplaza-latina-2013.jpg",
+    "color": "green-flat"
+}, {
+    "id": 404,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 4,
+    "name": "Latin America Vancouver Consulates",
+    "products": "",
+    "description": "<p>Latin America Vancouver Consulates bridges the gap between BC residents and Latin American cultures and communities. They are proud to support Latin American heritage in British Columbia! Thank you for being one of the sponsors of our YVR Travel Plaza at this Year’s Carnaval del Sol.</p>",
+    "image": "assets/images/business/evo-car-share.png",
+    "color": "blue-flat"    
+}, {
+    "id": 405,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 4,
+    "name": "Ria Money Transfer",
+    "products": "",
+    "description": "<p>Ria Money Transfer, a subsidiary of Euronet Worldwide, Inc., specializes in money remittances. Ria initiates transfers through a network of sending agents and company­ owned stores located throughout North America, Latin America, Europe, Asia­Pacific, Africa and online. Ria participates in multiple financial services, including, electronic bill payment, mobile top ups, prepaid debit cards, check cashing, currency exchange, and money orders. The company's first store front was opened in 1987, and since then they have grown into the third largest money transfer service in the world. In 2013, Ria processed approximately 28 million money transfers with a face value of more than $9 billion through a network of 235,000 global agents, and locations in 133 countries.</p>",
+    "image": "assets/images/business/RIA.png",
+    "color": "red-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.riafinancial.com/locations/CA/home.aspx"
+    }]     
+}, {
+    "id": 406,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 4,
+    "name": "The Today Team",
+    "products": "",
+    "description": "<p>“In today's world of constantly changing markets and upgrades to technology it is important to work with people who strive to stay ahead of the competition. This is why we call ourselves “The Today Team”. We are diligently working to remain at the top of today's wants and needs so our clients don't end up being yesterday’s news. We utilize a comprehensive, all­encompassing strategic marketing system that will assist you in a successful sale. Don't be satisfied with the industry norm, instead expect the best! It is important for you to understand the procedures involved in buying or selling a home, to recognize the significance of the documents you will encounter, and to understand the role of other people who may be involved in a purchase or sale.”</p>",
+    "image": "assets/images/business/The-Today-Team.png",
+    "color": "yellow-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.thetodayteam.com/site/index.php"
+    }]      
+}, {
+    "id": 407,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 4,
+    "name": "University of British Columbia",
+    "products": "",
+    "description": "<p>The University of British Columbia, commonly referred to as UBC, is a public research university with campuses and facilities in British Columbia, Canada. Founded in 1908 as the McGill University College of British Columbia, the university became independent and adopted its current name in 1915. It is British Columbia's oldest institution of higher learning and has over 60,000 students at its Vancouver and Okanagan Valley campuses. UBC's admission standards are among the most rigorous in Canada, and according to the annual rankings compiled by Maclean's and U.S. News and World Report the university consistently ranks among the top three research universities nationwide. In 2015 U.S. News and World Report and Times Higher Education ranked UBC among the 20 best public universities worldwide and in the top 6 in North America. With an annual research budget valued at $564 million, UBC funds 8,442 projects as of 2014. Faculty, alumni, and researchers have received seven Nobel Prizes, 69 Rhodes Scholarships, 65 Olympic medals and 208 fellowships to the Royal Society of Canada. The university has also educated three Canadian prime ministers, most recently Justin Trudeau, the incumbent.</p>",
+    "image": "assets/images/business/UBC.png",
+    "color": "green-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://www.ubc.ca/"
+    }]     
+}, {
+    "id": 408,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 4,
+    "name": "Vancouver English Centre",
+    "products": "",
+    "description": "<p>The primary goal of Vancouver English Centre is to provide English programs and services that fulfill the needs of students from diverse backgrounds and of different abilities. Our conscious effort to offer the best possible overall educational experience is reflected throughout our programs. We ensure that all students learn efficiently, and at their own pace, by offering 15 levels of carefully designed curriculum. All of our teachers have recognized English language teaching credentials, as well as university degrees. Our English Only policy is a fundamental aspect of the school philosophy. </p><p>Students do not have unlimited time or resources ­ we provide our students with the tools to learn intensively and efficiently. Our courses, schedules and fees are carefully designed to benefit our students as much as possible. We do everything possible to maintain an environment that supports our classroom instruction. In 2002, we built our new campus in Yaletown, in downtown Vancouver. We have 47 classrooms, four computer labs, iBT TOEFL lab, 3D Multimedia room, and a coffee shop, all in one modern, attractive building.</p>",
+    "image": "assets/images/business/vanenglishcentre.jpg",
+    "color": "blue-flat"
+}, {
+    "id": 500,
+    "detailMaster":"business",
+    "type": "nonprofit",
+    "plaza_id": 5,
+    "name": "BC Nurses' Union",
+    "products": "Nursing Advocate",
+    "description": "<p>BC Nurses' Union is the largest nursing organization in BC, and the only union to offer services to nurses related to all four domains of nursing: research, clinical practice, leadership, and education. BCNU is committed to defending nurses' individual rights as well as the nursing profession, and they are the only health care union that has a long and successful track record of gains in wages and working conditions. Their four equity caucus groups include the Aboriginal Leadership Circle, the LGBT Caucus, the Mosaic of Colour Caucus, and the Workers with Disabilities Caucus. They were established according to the same principles of the Human Rights Code of BC. They recognize the need to support members who may feel less welcome and find participation more difficult, by giving them a space to speak freely about issues that matter to them. As a result, these members are empowered and often become more active in the union.</p>",
+    "image": "assets/images/business/BC-Nurses-Union.jpg",
+    "color": "blue-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://www.bcnu.org/"
+    }]   
+}, {
+    "id": 501,
+    "detailMaster":"business",
+    "type": "nonprofit",
+    "plaza_id": 5,
+    "name": "Return­It ­ Encorp Pacific",
+    "products": "Beverage Container Recycling",
+    "description": "<p>Protecting the Environment Through Recycling. Return­It depot pursues contracts with large housing complexes, restaurants and other businesses that produce high volumes of returnable containers. The depots pick up the returnable, sort them in­depot, and ensure that the products collected are recycled in a manner that protects the environment as well as worker's health and safety. Return­It Express concept allows customers to create a Return­It Express account online and then simply drop off their bagged returnable containers at a Return­It Express depot with no muss and no fuss. Although British Columbians do a fine job of recycling beverage containers in their homes, when it comes to large events and festivals Return­depot can be there to make it easier for everyone to recycle their containers. Look out for their Return­It Man, Kick ‘N Sort at Carnaval del Sol 2016!</p>",
+    "image": "assets/images/business/Return-It.jpg",
+    "color": "green-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://www.return­it.ca/"
+    }]     
+}, {
+    "id": 502,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 5,
+    "name": "Bubble Ball",
+    "products": "Human­Sized Bubbles for Games",
+    "description": "<p><strong>Bubble Ball is here in Vancouver!</strong>Bubble ball is a hilarious alternative to soccer where players get an amazing work­out no matter what their skill level. The zorb­like inflatable bubble suits keep players safe as they roll around, flip right over and collide with each other ­ all while trying to score goals. <strong>Are you ready for Bubble Soccer?</strong> This new popular sport is very similar to classic soccer. The rules hardly differ from the ones of soccer, the gameplay however, may surprise you! In Bubble Soccer, the objective is still to score as many goals as possible, except that the players from each team compete in a large transparent inflatable bubble (which protects them from head to knees). The feet are then free to defy opponents and grab the ball. The bubbles will make you experience a game out of the ordinary and a totally delusional experience! Laughter and fun are guaranteed! Bubble Ball Soccer is a sport for everyone and it requires no special skills other than a desire to have a good time so come on out to Carnaval del Sol on July 9 and 10 for a <strong>rolling good time!</strong></p>",
+    "image": "assets/images/business/bubble-ball-game.jpg",
+    "color": "red-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.bubbleballvancouver.ca/"
+    }]     
+}, {
+    "id": 503,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 5,
+    "name": "Dog Taxi Daycare",
+    "products": "Daycare and Training for Dogs",
+    "description": "<p><strong>Dog­Taxi Daycare</strong> is a family­run, family­oriented team of dog lovers and experts. With over 25 years combined experience on the team, they understand dogs and their needs. They’re the daycare with a difference because they focus on Dog Behaviour and Pack Mentality, and they will work with you to help you better understand your furry friend’s dog­perspective. Dog­Taxi Daycare encourages healthy interaction and promotes interaction leading to play behaviour ­ play behaviour that is an ideal solution for understanding canine psychology. During the day your dog plays and learns from the Dog­Taxi Daycare family and their fellow canine friends while improving focus with commands and agility, learning about boundaries and respect, and learning to play with safety and confidence. Dog­Taxi could not possibly express it better than one of their clients did. “Thanks to Dog Taxi Daycare, our dog is well socialized, fit and happy!”</p>",
+    "image": "assets/images/business/Dog-Taxi-Daycare.jpg",
+    "color": "blue-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.dogtaxidaycare.com/"
+    }] 
+}, {
+    "id": 504,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 5,
+    "name": "TD Bank",
+    "products": "Financial Services",
+    "description": "<p><strong>TD Canada Trust</strong> is the personal, small business and commercial banking operation of the Toronto­Dominion Bank (TD) in Canada. TD Canada Trust offers a range of financial services and products to more than 10 million Canadian customers through more than 1,100 branches and 2,600 'Green Machine' ATMs.</p><p>TD Canada Trust prides itself as having longer hours than any other major bank. Most branches are open 8 ­ 6pm Monday to Wednesday (some until 8 pm), 8 ­ 8pm Thursday and Friday, and 8 ­ 4pm on Saturday, with some exceptions for very low­traffic branches. Over 300 branches are open 11 ­ 4pm on Sundays. </p><p>TD Customers are able to do online banking through TD's EasyWeb system. EasyWeb allows users to perform transactions, manage bills, update personal information, manage investments, and view banking histories. With TD Canada Trust’s mobile banking app for iOS, Android, and BlackBerry platforms, clients can perform many of the same transactions that are available through EasyWeb online banking. The enhanced Visa Debit/Interac Flash Access Card allows customers to use it via phone/online and at international merchants.</p>",
+    "image": "assets/images/business/TD_Bank.svg_.png",
+    "color": "yellow-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://www.tdcanadatrust.com/products­services/banking/index­ banking.jsp"
+    }] 
+
+
+}, {
+    "id": 600,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 6,
+    "name": "BC Dance",
+    "products": "",
+    "description": "<p><strong>BC Dance</strong> is the company that gave Vancouver its salsa Mojo! Owner Nestor De La Zerda, creator of the 1st and 2nd World Salsa Congress in Vancouver, has over 23 years dance experience and has traveled to over 60 countries. He has been the instructor for many of the BC dance champions as well as a 2­time world champion.</p>",
+    "image": "assets/images/business/BcDance.jpg",
+    "color": "blue-flat"        
+}, {
+    "id": 601,
+    "detailMaster":"business",
+    "type": "nonprofit",
+    "plaza_id": 6,
+    "name": "Canada",
+    "products": "",
+    "description": "<p><strong>Canadian Heritage</strong> and its portfolio organizations play a vital role in the cultural, civic and economic life of Canadians. Arts, culture and heritage represent $54.6 billion in the Canadian economy and more than 630,000 jobs in sectors such as film and video, broadcasting, music, publishing, archives, performing arts, heritage institutions, festivals and celebrations.</p>",
+    "image": "assets/images/business/Canada.jpg",
+    "color": "red-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://www.canada.ca/en/canadian­heritage.html"
+    }] 
+}, {
+    "id": 602,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 6,
+    "name": "Inner Circle Jewellery",
+    "products": "",
+    "description": "<p><strong>Inner Circle Jewellery</strong> is a small family run business, based right here in British Columbia. They have a love and passion for crystals of all shapes and forms and they take pride every product they offer. Inner Circle believes in crafting jewelry with a purpose from Geodes to Jewelry to Carved crystals and gemstones, Inner Circle, is your go­to for the highest quality crystal pieces.</p>",
+    "image": "assets/images/business/Inner-Circle-Jewellery.jpg",
+    "color": "yellow-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.shopinnercircle.ca"
+    }]        
+}, {
+    "id": 603,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 6,
+    "name": "Jungle Shack",
+    "products": "",
+    "description": "<p>Canadian couple who launched their small business by purchasing directly with the makers of our unique handmade clothing,accessories, and home decor. Their products include tank tops, purses, Thai pants, tablecloth/runner, jewellery, and other accessories.</p>",
+    "image": "assets/images/business/Jungle-Shack.jpg",
+    "color": "green-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://www.facebook.com/jungleshack/"
+    }]        
+}, {
+    "id": 604,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 6,
+    "name": "South Hill's Jewellery’s",
+    "products": "",
+    "description": "<p><strong>South Hill's Jewellery’s</strong> impressive success is due most of all to their Independent Artists. Their commitment is astonishing, and their enthusiasm is contagious! Wear what you love and live how you like is the motto of South Hills and their mission to make life beautiful extends to Touching Little Lives through Make­A­Wish® Arizona where they are helping to make life beautiful for children with life­threatening illnesses..</p>",
+    "image": "assets/images/business/South-Hills-Jewellery’s.jpg",
+    "color": "blue-flat"
+}, {
+    "id": 605,
+    "detailMaster":"business",
+    "type": "nonprofit",
+    "plaza_id": 6,
+    "name": "Tara Canada Books",
+    "products": "",
+    "description": "<p><strong>Tara Canada</strong> is a non­profit society established in 1986 to make known the presence of Maitreya, the World Teacher, and to create a climate of hope and expectancy into which He can emerge. We work with other volunteer groups throughout the world in providing free information on related topics of interest, including Transmission Meditation and the principle of sharing as a direct means of saving our planet. We work closely with, and are under the umbrella of, our sister organization, Share International, which has its centre in London, England.</p>",
+    "image": "assets/images/business/taracanadalogo.jpg",
+    "color": "red-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://share­international.ca/"
+    }] 
+}, {
+    "id": 606,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 6,
+    "name": "Tom Lee Music",
+    "products": "",
+    "description": "<p><strong>Tom Lee Music</strong> has proudly been supporting music making within the Greater Vancouver and Vancouver Island communities since 1969. Since our humble beginnings as a small piano retailer in Vancouver, BC, we have grown into one of the largest full­line musical instrument retailers in North America. We provide the very best in musical instruments, equipment, services, and education throughout our eight retail locations and our website. We are well known for supporting the local music community and have received numerous awards in recognition of our dedication to music excellence and support of many community organizations. At Tom Lee Music, customer satisfaction has always been our number one priority. Our goal is to provide every customer with an enjoyable experience by delivering quality products at competitive prices with exceptional service and an inspiring retail environment. Our website offers the same incredible selection, low prices, and personalized customer service that our retail store locations have been providing since our establishment in 1969.</p>",
+    "image": "assets/images/business/tomleemusic.jpg",
+    "color": "yellow-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://tomleemusic.ca"
+    }]   
+}, {
+    "id": 607,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 6,
+    "name": "Vancouver Latin Film Festival",
+    "products": "",
+    "description": "<p><strong>Vancouver Latin Film Festival</strong> is a not­for­profit, charitable organization with the mission to provide a forum for the promotion and exhibition of Latin American cinema in Vancouver. This annual festival encourages dialogue among cultures, and explores and celebrates the art of contemporary Latin American and Latino­Canadian filmmaking. VLAFF encourages and promotes an appreciation for motion pictures to be a medium of art, information and education and takes pride in providing audiences with the unique opportunity to watch inspiring films and interact with guest filmmakers from across Latin America and the diaspora.</p><p><strong>Vancouver Latin Film Festival</strong> conducts film festivals for the purpose of educating and advancing the public’s understanding and appreciation of Latin American cinema, provide a forum for the promotion and exhibition of Latin American cinema in Canada, and to aide independent media artists with the opportunity to present and discuss their works with an engaged audience. By showcasing the work of Latin­Canadian artists and filmmakers they can generate a network between the Canadian and Latin American film industries and forge an artistic alliance between the two.</p>",
+    "image": "assets/images/business/Vancouver-Latin-American-Film-Festival.jpg",
+    "color": "green-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://www.vlaff.org/"
+    }] 
+}, {
+    "id": 700,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 7,
+    "name": "Mistura and Fento",
+    "products": "Watches and Sunglasses",
+    "description": "<p><strong>Mistura and Fento</strong> watches and glasses ART ALLIANCE WITH NATURE is their approach to the dedication of creating awareness of the planet’s widespread environmental negligence through their handcrafted products using exotic woods and organic materials that radiate comfort couture and personify “Green” luxury. Mistura and Fento is the epitome of understated elegance that moves with the demands of today’s lifestyle. Their primary focus is to preserve and take care of the natural resources that provide the raw materials used in the creation of their timepieces and sunglasses.</p>",
+    "image": "assets/images/business/mistura_fento.png",
+    "color": "blue-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "http://misturacanada.com"
+    }] 
+}, {
+    "id": 701,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 7,
+    "name": "Nerium Optimera Skin Care",
+    "products": "Beauty Products",
+    "description": "<p><strong>Nerium International Skincare</strong> beauty products are rooted in nature, science, and high-impact ingredients. Their products help to improve the appearance of lines, wrinkles and discoloration allowing your skin to glow again. Start your journey to a daily anti­aging regimen for the face, body and mind with one of their product packs. Love your skin with Nerium beauty products!</p>",
+    "image": "assets/images/business/neriuminternational.jpg",
+    "color": "green-flat"
+}, {
+    "id": 702,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 7,
+    "name": "Jeans and Jeans",
+    "products": "Colombian Jeans and Corsets",
+    "description": "<p><strong>Jeans and Jeans</strong> ­ Colombian cut jeans achieve the most flattering outline by lifting your bum while hugging the waist, stomach and thighs and Colombian Corsets gives you that perfect hourglass figure to enhance your hips and reduce your waist.</p>",
+    "image": "assets/images/business/jeansandjeanslogo.jpg",
+    "color": "yellow-flat"
+}, {
+    "id": 703,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 7,
+    "name": "Investor Group",
+    "products": "Financial Services",
+    "description": "<p><strong>Investor Group Financial Services</strong> believes your life is rich and varied and your financial life should be too! They focus on six areas of your finances so you can get more out of life, experts will be in the Family Plaza to answer your questions and guide you with investments, retirement, mortgage, estate planning, tax planning and insurances.</p>",
+    "image": "assets/images/business/investorsgroup.jpg",
+    "color": "red-flat"
+}, {
+    "id": 704,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 7,
+    "name": "Primerica Financial Services",
+    "products": "Financial Services",
+    "description": "<p><strong>Primerica Financial Services</strong>  helps people from all walks of life to live their dreams, live on their own terms and to live a life of freedom. Whether they want to earn a little extra money working part­time, or start a business, Primerica offers them the freedom to make their own decisions. Big or little dream Primerica will guide you to your road of freedom.</p>",
+    "image": "assets/images/business/primeamericalogo.jpg",
+    "color": "blue-flat"
+}, {
+    "id": 705,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 7,
+    "name": "Sun Life Financial Services",
+    "products": "Financial Services",
+    "description": "<p><strong>Sun Life Financial Services</strong> helps you through every stage of your life’s journey from starting out to retirement. Sun Life Financial is a leading Canadian­based international financial services company, offering a wide range of insurance and investment products. Our mission is to help customers achieve lifetime financial security. Sun Life Financial services vision is to be an international leader in protection and wealth management and their values are built on the foundation of their day­to­day business operations. Integrity, engagement, customer focus, excellence, value and innovation are what they are about.</p>",
+    "image": "assets/images/business/sunlifefinancial.jpg",
+    "color": "green-flat"    
+}, {
+    "id": 706,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 7,
+    "name": "Tangerine Financial Services",
+    "products": "Financial Services",
+    "description": "<p><strong>Tangerine Financial Services</strong>is proud to be known as the bank that helps Canadians save their money, and all of the Accounts they offer reflect this. Their simple products, along with award­winning Client service have helped close to 2 million Canadians grow their savings and live better lives. Tangerine believes that your money should be able to work as hard as you do, which is why they won't nickel and dime you with unfair fees, and they have no minimum balances. Banking with Tangerine is easy and convenient, with simple tools for your busy lifestyle..</p>",
+    "image": "assets/images/business/tangerine.jpg",
+    "color": "yellow-flat"      
+}, {
+    "id": 707,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 7,
+    "name": "Telus Optik TV",
+    "products": "Entertainment",
+    "description": "<p><strong>Telus Optik TV</strong> – Communications Optik TV® has the largest On Demand library, so you can enjoy new releases, catch­up on favourites, or sample FREE On Demand episodes to discover new programs and series. Stay connected to all your communication needs with Telus Optik TV, choose from hundreds of channels and watch them when, and where you want.</p>",
+    "image": "assets/images/business/Telus-Optik-TV.jpg",
+    "color": "red-flat"      
+}, {
+    "id": 708,
+    "detailMaster":"business",
+    "type": "products",
+    "plaza_id": 7,    
+    "name": "Violet Hill",
+    "products": "Mobile Fashion Shop",
+    "description": "<p>In 2013, John and Bernadette were presented with the unique opportunity to take over <strong>Violet Hill Clothing</strong>, the only women’s boutique of its kind in the heart of Steveston Village. However, this wasn’t their first connection with the boutique. In 2010, as a well­ established general contractor, John worked with the original owner to design and build the boutique to her specifications. “A lot of things came into play,” explains John. “When I build something, I really give it a piece of myself and my wife always dreamed of having her own boutique, so in 2013, when the original owner was looking for a change, we took a leap and decided to buy it.” Continuing Violet Hill Clothing’s legacy as the Best Boutique in Richmond in their very first year of operation, John and Bernadette clearly hit the ground running to bring great style to the women of Steveston.</p>",
+    "image": "assets/images/business/violethill.jpg",
+    "color": "red-flat",
+    "links": [{
+        "name": "Facebook: ",
+        "icon": "ion-social-facebook",
+        "href": "https://www.facebook.com/violethillfashionboutique"
+    }]       
+}, {
+    "id": 709,
+    "detailMaster":"business",
+    "type": "nonprofit",
+    "plaza_id": 7,    
+    "name": "Latino Canadian Chamber of Commerce",
+    "products": "Business Liaison",
+    "description": "<p>Founded in 2009, the Latino Canadian Chamber of Commerce is a non­profit organization whose mission is to represent the Latino business community, and to create a bridge where the cultural and economic ties of the Latino community can be united and strengthened. They enhance and promote the interest of the Latino business community through various mixers, seminars, and advocacy programs throughout the year. One of the most important responsibilities of their organization is to connect Latino businesses in order to network and achieve economic growth in the community.</p>",
+    "image": "assets/images/business/latinocanadianlogo.jpg",
+    "color": "blue-flat"   
+}, {
+    "id": 710,
+    "detailMaster":"business",
+    "type": "nonprofit",
+    "plaza_id": 7,    
+    "name": "Liberal Party of Canada",
+    "products": "Federal Government",
+    "description": "<p>The Liberal Party of Canada, colloquially known as the Grits, is the oldest federal political party in Canada. The party espouses the principles of liberalism, and generally sits at the centre of the Canadian political spectrum. The Liberal Party is positioned to the left of the Conservative Party of Canada and to the right of the New Democratic Party (NDP). The party has dominated federal politics for much of Canada's history, holding power for almost 69 years in the 20th century — more than any other party in a developed country — and as a result, it is sometimes referred to as Canada's ‘natural governing party’. The Liberals' signature policies and legislative decisions include universal health care, the Canada Pension Plan, Canada Student Loans, peacekeeping, multilateralism, official bilingualism, official multiculturalism, patriating the Canadian constitution and the entrenchment of Canada's Charter of Rights and Freedoms, the Clarity Act, restoring balanced budgets in the 1990s, and making same­sex marriage legal nationwide.</p>",
+    "image": "assets/images/business/liberal.png",
+    "color": "green-flat",
+    "links": [{
+        "name": "Website: ",
+        "icon": "ion-link",
+        "href": "https://www.liberal.ca/"
+    }]  
+}, {
+    "id": 710,
+    "detailMaster":"business",
+    "type": "nonprofit",
+    "plaza_id": 7,    
+    "name": "Multi­Material BC Non­Profit Society",
+    "products": "Recycling",
+    "description": "<p>Multi­Material BC Non­Profit Society (MMBC) is a non­profit organization that is fully financed by industry to manage residential packaging and printed paper recycling programs in BC, either directly or by working with local governments, First Nations, private companies, and other non­profit organizations. MMBC’s program is an example of extended producer responsibility (EPR). Over the past two decades, BC has introduced EPR programs for beverage containers, electronics, paint, used oil, tires, batteries, and now packaging and printed­paper. In each of these programs, industry assumes responsibility for end­of­life management including collection and recycling of these materials.</p>",
+    "image": "assets/images/business/multimaterialbc.jpg",
+    "color": "yellow-flat"          
+}]
