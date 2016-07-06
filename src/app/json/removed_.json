@@ -14,3 +14,16 @@
         "icon": "ion-link",
         "href": "http://www.zipcar.ca/vancouver"
     }]    
+
+
+//removed from vendors
+    },{
+        "id": 501,
+        "detailMaster":"vendors",
+        "type":"",
+        "plaza_id": 5,
+        "name": "Bubble Soccer",
+        "products": "",
+        "description": "<p><strong>Are you ready for Bubble Soccer?</strong>This new popular sport is very similar to classic soccer. The rules hardly differ from the ones of soccer, the gameplay however, may surprise you! In Bubble Soccer, the objective is still to score as many goals as possible, except that the players from each team compete in a large transparent inflatable bubble (which protects them from head to knees). The feet are then free to defy opponents and grab the ball. The bubbles will make you experience a game out of the ordinary and a totally delusional experience!</p><p>Laughter and fun are guaranteed! Bubble Ball Soccer is a sport for everyone and it requires no special skills other than a desire to have a good time so come on out to Carnaval del Sol on July 9 and 10 for a <strong>rolling good time!</strong></p>",
+        "image": "assets/images/vendors/bubble-ball-game.jpg",
+        "color": "blue-flat"      

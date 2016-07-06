@@ -142,22 +142,7 @@
         "name": "Website: ",
         "icon": "ion-link",
         "href": "https://www.return­it.ca/"
-    }]     
-}, {
-    "id": 502,
-    "detailMaster":"business",
-    "type": "products",
-    "plaza_id": 5,
-    "name": "Bubble Ball",
-    "products": "Human­Sized Bubbles for Games",
-    "description": "<p><strong>Bubble Ball is here in Vancouver!</strong>Bubble ball is a hilarious alternative to soccer where players get an amazing work­out no matter what their skill level. The zorb­like inflatable bubble suits keep players safe as they roll around, flip right over and collide with each other ­ all while trying to score goals. <strong>Are you ready for Bubble Soccer?</strong> This new popular sport is very similar to classic soccer. The rules hardly differ from the ones of soccer, the gameplay however, may surprise you! In Bubble Soccer, the objective is still to score as many goals as possible, except that the players from each team compete in a large transparent inflatable bubble (which protects them from head to knees). The feet are then free to defy opponents and grab the ball. The bubbles will make you experience a game out of the ordinary and a totally delusional experience! Laughter and fun are guaranteed! Bubble Ball Soccer is a sport for everyone and it requires no special skills other than a desire to have a good time so come on out to Carnaval del Sol on July 9 and 10 for a <strong>rolling good time!</strong></p>",
-    "image": "assets/images/business/bubble-ball-game.jpg",
-    "color": "red-flat",
-    "links": [{
-        "name": "Website: ",
-        "icon": "ion-link",
-        "href": "http://www.bubbleballvancouver.ca/"
-    }]     
+    }]        
 }, {
     "id": 503,
     "detailMaster":"business",
@@ -253,7 +238,7 @@
     "name": "South Hill's Jewellery’s",
     "products": "",
     "description": "<p><strong>South Hill's Jewellery’s</strong> impressive success is due most of all to their Independent Artists. Their commitment is astonishing, and their enthusiasm is contagious! Wear what you love and live how you like is the motto of South Hills and their mission to make life beautiful extends to Touching Little Lives through Make­A­Wish® Arizona where they are helping to make life beautiful for children with life­threatening illnesses..</p>",
-    "image": "assets/images/business/South-Hills-Jewellery’s.jpg",
+    "image": "assets/images/business/South-Hills-Jewellerys.jpg",
     "color": "blue-flat"
 }, {
     "id": 605,
