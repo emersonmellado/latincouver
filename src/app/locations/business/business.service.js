@@ -1,4 +1,4 @@
-class BusinessController {
+class BusinessService {
     constructor($http, API) {
       Object.assign(this, {$http, API });
     }
@@ -7,5 +7,5 @@ class BusinessController {
     }
 }
 
-BusinessController.$inject = ['$http', 'API'];
-export default BusinessController;
+BusinessService.$inject = ['$http', 'API'];
+export default BusinessService;

@@ -1,7 +1,9 @@
 {
   "name": "Latin-CouverApp",
   "version": "1.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "del": "^2.2.1"
+  },
   "scripts": {
     "test": "gulp test"
   },

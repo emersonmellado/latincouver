@@ -259,7 +259,7 @@
         "name": "Sol-Cerveza",
         "products": "",
         "description": "<p>The legend of the name of this beer is that one morning in 1899, inside a small brewery near Mexico City a German brewdetailMaster noted a ray of sunshine falling on the cooking pot; the phenomenon caught his attention and in honour of that experience, and in honour of the working class people whose symbol was that of the sun, the name Sol was born. Sol-Cerveza is a light refreshing lager that honours its true Mexican heritage, and is still loved by all across the world especially those of you with free spirits and adventurous souls.</p>",
-        "image": "assets/images/vendors/El-cocal.jpg",
+        "image": "assets/images/vendors/carnavaldelsol-solbeer-1.jpg",
         "color": "blue-flat"
     }, {
         "id": 301,
@@ -331,38 +331,23 @@
         "description": "<p><strong>We are looking for twelve teams of 6 players each representing different countries. Soccer Team Information</strong><p><ul><li>● All teams must fill out the registration form and pay the fee by June 30th, 2016</li><li>● The registration fee per team is CAD $200. (Min. 6 players)</li><li>● The Prizes will be:<ul><li>○ Winning Team ­ $1000 CAD</li><li>○ Second Prize ­ Tickets and T­Shirts from Whitecaps FC</li><li>○ Third Prize ­ 16 tickets for Salsa Cruise http://salsacruises.com/</li></ul><li>● Payment can be made through credit card, check or cash</li><li>● 18 years and older</li></ul></p>",
         "image": "assets/images/vendors/soccer_tournament-poster.jpg",
         "color": "green-flat"  
+ 
+    }, {
+        "id": 700,
+        "detailMaster":"vendors",
+        "type":"products",
+        "plaza_id": 7,
+        "name": "Mercedes-Benz Boundary Vans Centre",
+        "products": "",
+        "description": "<p>Whether it's moving people or cargo, Mercedes Benz remains the leader when it comes to taking your family or business to another level, and Canadians love it with the Benz Vans showing no sign of slowing down. Demand for the newly introduced Metris and the Sprinter 4x4 helped Mercedes-Benz Vans maintain a strong sales pace, with April sales exceeding last year's results by 17.4% for an overall increase of 14.9% in 2016. These versatile vans continue to set the benchmark in technology, safety, fuel efficiency and performance around the globe. The 4x4 variant, to both the cargo and passenger versions, of the Mercedes-Benz Sprinter and the introduction of the Mercedes-Benz Metris will undoubtedly continue to raise the bar and establish new thresholds in Canada.</p>",
+        "image": "assets/images/vendors/Mercedes_logo-3.jpg",
+        "color": "blue-flat",
+        "links": [{
+            "name": "Website: ",
+            "icon": "ion-link",
+            "href": "http://vancouver.mercedes-benz-vans.ca/en/"
+        }]          
 
-    },{
-        "id": 502,
-        "detailMaster":"vendors",
-        "type":"",
-        "plaza_id": 5,
-        "name": "Whitecaps Football Club",
-        "products": "",
-        "description": "<p>Be it on the pitch or off, the Vancouver Whitecaps Football Club is committed to making an impact in the community through a variety of programs and initiatives. From mental health to youth programs and community clinics, The Whitecaps organisation and its players donate their time and energy without reservation. An example is the The ‘Caps annual #BuckUp for Mental Health campaign which helps Covenant House Vancouver provide sanctuary for about 1,400 at­risk and homeless youth every year, many of whom struggle with mental illness. The Whitecaps FC have also teamed up with BCIT to present the Community Captains scholarship program. Community Captains recognizes teens in Vancouver who have made exemplary contributions in their communities. 'Whitecaps FC are proud to partner with BCIT to support teens who are engaged with and give back to their communities,' said Whitecaps FC President Bob Lenarduzzi in a statement. 'We are looking for applicants whose personal endeavours mirror the qualities of the club by being a champion on and off the pitch.' This spring, Whitecaps FC will run community clinics in Metro Vancouver that will introduce soccer skills to youth ages 7 through 10. These Community Clinics are free to all participants. Players must register in advance and print their ticket to attend.</p>",
-        "image": "assets/images/vendors/whitecaps-150x150.jpg",
-        "color": "red-flat",
-        "links": [{
-            "name": "Website: ",
-            "icon": "ion-link",
-            "href": "http://whitecapsfc.com/"
-        }]  
-    },{
-        "id": 502,
-        "detailMaster":"vendors",
-        "type":"",
-        "plaza_id": 5,
-        "name": "VCC Fashion Graduates Shape Of The Colours Collection",
-        "products": "",
-        "description": "<p>In celebration of this year’s Carnaval del Sol, VCC’s aspiring fashion designers have created a show to remember. </p><p>Reflecting the vibrant summer colours of our Carnaval del Sol’s logo, the fashion show will highlight and bring to life the striking beauty of Latin America's’ hues. VCC Fashion graduates will bring to us two days of pure art in motion, fashion that will strut from the runway to the sidewalk effortlessly. Sexy, whimsical, bold, vibrant, and complex, the essences of these designs are from the very core of each designer. The stage will be transformed to an exotic locale as the models strut, sway and dance their way down the catwalk. </p><p>Feel the vibe, feel the heat, fall in love with the seductive love affair between the colours of Latin America and the exciting, sexy and uninhibited music of samba and salsa! </p><p><strong>VCC Fashion Arts Programs</strong> has been one of the best in B.C. for over 25 years and was designed only for the chosen ones with a passion for fashion. Led by industry­experienced instructors, their reputation is built on developing excellent technical skills while fostering individual creativity. To date many graduates have gone on to do great shows on the runways of the fashion industry. VCC Fashion Arts Program will guide you in your journey as you define your art from vision to sketching to the day you see your art come alive right before your eyes. Whether nature or visual effects inspire you, or neutral or bold palettes, or the contrasts and combinations of colors, values, and textures VCC fashion arts program is waiting for you.</p>",
-        "image": "assets/images/vendors/whitecaps-150x150.jpg",
-        "color": "red-flat",
-        "links": [{
-            "name": "Website: ",
-            "icon": "ion-link",
-            "href": "http://whitecapsfc.com/"
-        }]  
-  
     }, {
         "id": 701,
         "detailMaster":"vendors",
@@ -392,7 +377,7 @@
         "name": "GMR Marketing",
         "products": "",
         "description": "<p>With a highly visible footprint this activation helps mom reconnect with her youthful inner self in an atmosphere where she can kick back, relax, get pampered and chat. Four distinct areas include the Milk Bar, Lounge, Nail Salon, and KidZone all designed to evoke the feel of a 90’s bedroom to help mom get back to a time and place where the ultimate night was a sleepover with her best friends, staying up late, gossiping, snacking and painting each other’s nails.</p><ul><li><strong>● Milk Bar</strong> - The experience begins and ends with Milk. From the moment moms are greeted they are offered a specialty iced milk beverage, featuring healthful flavouring, with their choice of toppings.</li><li><strong>● The Lounge</strong> - Out front, there will be a caféstyle space for mom to hang out and wait for her treatment. We’ll provide high tables with women’s magazines and custom adult colouring books to make this space fun.</li><li><strong> ● Nail Salon</strong> - She’ll be invited inside the salon area to relax and get pampered with a Hand Massage or Nail Polish Change.</li><li><strong> ● KidZone</strong> With a robust selection of 90’s toys and games including retro video games and custom colouring books, every kid will easily be entertained.</p>",
-        "image": "assets/images/vendors/VCC.jpg",
+        "image": "assets/images/vendors/GMR.jpg",
         "color": "blue-flat",
         "links": [{
             "name": "Website: ",
@@ -485,4 +470,6 @@
             "href": "http://www.cupacorn.ca/"
         }]                                
     } 
+
+
 ]

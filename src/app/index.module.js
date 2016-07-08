@@ -25,6 +25,7 @@ import VendorsService from './locations/vendors/vendors.service';
 import ScheduleService from './locations/schedule/schedule.service';
 import DetailService from './locations/detail/detail.service';
 import BusinessService from './locations/business/business.service';
+import SponsorsService from './locations/sponsors/sponsors.service';
 
 angular.module('latincouver', ['ionic', 'ui.router', 'ngCordova'])
     .config(config)
@@ -58,4 +59,5 @@ angular.module('latincouver', ['ionic', 'ui.router', 'ngCordova'])
     .service('DetailService', DetailService)
     .service('ScheduleService', ScheduleService)
     .service('VendorsService', VendorsService)
+    .service('SponsorsService', SponsorsService)
     .service('BusinessService', BusinessService);

@@ -14,12 +14,12 @@
                 <input type="text" placeholder="Search" ng-model="vendorSearch">
               </label>
             </div>                
-            <div class="list">
-                <a class="item item-thumbnail-left" href="#" data-ng-repeat="v in sponsors.fullList | filter:vendorSearch"  ui-sref="detailMaster({section:v.detailMaster, id:v.id})">
-                    <img class="plaza-image" data-ng-src="{{v.image}}" data-ng-show="v.image">
+            <div class="list"> 
+                <div class="item text-center" data-ng-repeat="v in sponsors.fullList | filter:vendorSearch">
+                    <img class="plaza-image" style="max-width: 250px;" data-ng-src="{{v.image}}" data-ng-show="v.image">
                     <h2>{{v.name}}</h2>
-                    <p>{{v.products}}</p>
-                </a>    
+                    <h5>{{v.plaza}}</h5>
+                </div>                   
             </div>
         </div>
     </ion-content>

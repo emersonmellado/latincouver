@@ -13,6 +13,7 @@
         <div ui-view>
             <div class="plaza-content">
                 <div class="list">
+                    <span ng-bind-html='detail.selected.datetime'></span>
                     <span ng-bind-html='detail.selected.description'></span>
                     <span ng-bind-html='detail.selected.products'></span>
                     <button class="button plaza-map-button button-positive green-flat" ui-sref="map">

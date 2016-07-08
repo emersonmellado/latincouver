@@ -65,7 +65,7 @@ class MapController {
 
     }
     initMap() {
-        var latLng = new google.maps.LatLng(49.276308, -123.104591)        
+        var latLng = new google.maps.LatLng(49.271608, -123.104591)        
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 18,
             center: latLng,
@@ -77,8 +77,9 @@ class MapController {
             mapTypeId: google.maps.MapTypeId.ROADMAP
         });
 
-        var Item_1 = new google.maps.LatLng(49.275356, -123.107949);
-        var Item_2 = new google.maps.LatLng(49.277624, -123.102284);
+        var Item_1 = new google.maps.LatLng(49.274049, -123.109029);
+                                          //49.275041, -123.108357
+        var Item_2 = new google.maps.LatLng(49.278102, -123.101318);
 
         var bounds = new google.maps.LatLngBounds(Item_1, Item_2);
 
@@ -90,8 +91,8 @@ class MapController {
         overlay = new USGSOverlay(bounds, srcImage, map);
 
         var bounds2 = new google.maps.LatLngBounds();
-        var bound_1 = new google.maps.LatLng(49.275795, -123.106538);
-        var bound_2 = new google.maps.LatLng(49.277377, -123.102783);        
+        var bound_1 = new google.maps.LatLng(49.276908, -123.106538);
+        var bound_2 = new google.maps.LatLng(49.274377, -123.102783);        
         bounds2.extend(bound_2);
         bounds2.extend(bound_1);
         map.fitBounds(bounds2);

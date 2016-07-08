@@ -19,7 +19,7 @@ class EventController {
             //this.slider.images = response.data;
             this.vendorsList = response.data;
             this.slider.images.sort();
-            console.log("this.slider.images", this.slider.images);
+            //console.log("this.slider.images", this.slider.images);
         });
 
         //some options to pass to our slider

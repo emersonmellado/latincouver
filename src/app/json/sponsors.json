@@ -1,0 +1,75 @@
+[
+    {
+        "id": 100,
+        "name": "City of Vancouver",
+        "image": "assets/images/sponsors/city-of-vancouver.jpg"
+    }, {
+        "id": 101,
+        "name": "Concord Pacific",
+        "image": "assets/images/sponsors/Concord_Pacific.jpg"
+    }, {
+        "id": 102,
+        "name": "Dos Equis",
+        "image": "assets/images/vendors/dosequislogo.jpg",
+        "plaza": "Sol Beer Plaza"
+    }, {
+        "id": 103,
+        "name": "Douglas College",
+        "image": "assets/images/sponsors/DC-Black-on-white-640x338.jpg",
+        "plaza": "Main Stage"
+    }, {
+        "id": 104,
+        "name": "Government of British Columbia",
+        "image": "assets/images/sponsors/BCGovLogo.jpg"                        
+    }, {
+        "id": 105,
+        "name": "Government of Canada",
+        "image": "assets/images/sponsors/Canwordmark_colour.jpg"         
+    }, {
+        "id": 106,
+        "name": "La Taqueria",
+        "image": "assets/images/vendors/lataqueriapinchetaco.jpg",
+        "plaza": "Chefs del Sol"                      
+    }, {
+        "id": 107,
+        "name": "Mercedes Benz Boundary Van Centre",
+        "image": "assets/images/vendors/Mercedes_logo-3.jpg",
+        "plaza": "Mercedes Benz Van Family Plaza"       
+    }, {
+        "id": 108,
+        "name": "Mirrai International",
+        "image": "assets/images/vendors/mirrailogo.jpg"
+    }, {
+        "id": 109,
+        "name": "Sol-Cerveza",
+        "image": "assets/images/vendors/carnavaldelsol-solbeer-1.jpg",
+        "plaza": "Sol Beer Plaza"             
+    }, {
+        "id": 110,
+        "name": "Strongbow",
+        "image": "assets/images/vendors/carnavaldelsol-strongbow.jpg",
+        "plaza": "Sol Beer Plaza"                          
+    }, {
+        "id": 111,
+        "name": "TD Bank",
+        "image": "assets/images/business/TD_Bank.svg_.png"
+    }, {
+        "id": 112,
+        "name": "Tom Lee Music",
+        "image": "assets/images/vendors/tomlee.jpg"
+    }, {
+        "id": 113,
+        "name": "WestPark",
+        "image": "assets/images/vendors/westparklogo.jpg"
+    }, {
+        "id": 114,
+        "name": "Whitecaps Football Club",
+        "image": "assets/images/vendors/whitecaps.jpg",
+        "plaza": "Sports Plaza"                  
+    }, {
+        "id": 115,
+        "name": "Vancouver Airport Authority",
+        "image": "assets/images/business/yvr.jpg",
+        "plaza": "YVR Plaza"                                       
+    }
+]
