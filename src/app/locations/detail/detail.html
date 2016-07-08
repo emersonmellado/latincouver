@@ -23,10 +23,11 @@
                 </div>            
                 <div class="list" data-ng-hide="!detail.selected.links.length">
                     <p>More info: </p>
-                    <div class="row" ng-repeat="x in detail.selected.links" ng-if="$index % 3 == 0" ng-init="index = $index">
-                        <div ng-repeat="i in [0,1,2]" ng-if="(index + i)<detail.selected.links.length" class="col-33">
-                            <div class="button plaza-map-button button-positive blue-flat" data-ng-click="detail.launch(detail.selected.links[index+i].href)">
-                                <i class="ion {{detail.selected.links[index+i].icon}}" style="font-size: 30px; margin-top: 10px;"></i>
+
+                    <div class="row" ng-repeat="x in detail.selected.links">
+                        <div>
+                            <div>
+                                {{x.name}}: {{x.href}}
                             </div>                            
                         </div>
                     </div>
